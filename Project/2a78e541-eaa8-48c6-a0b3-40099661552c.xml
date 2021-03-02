@@ -4,6 +4,15 @@ _EN=Variables
 ++D=LREAL	N=C2	G=VAR
 ++D=LREAL	N=S2	G=VAR
 ++D=LREAL	N=lrPos_Y	G=VAR
+++D=LREAL	N=X2Y2	G=VAR
+++D=LREAL	N=SumLenSqrd	G=VAR
+++D=LREAL	N=ProdOfLens	G=VAR
+++D=LREAL	N=Bcos	G=VAR
+++D=LREAL	N=DifLenSqrd	G=VAR
+++D=LREAL	N=Bangle	G=VAR
+++D=LREAL	N=AplusC	G=VAR
+++D=LREAL	N=Aangle	G=VAR
+++D=LREAL	N=Cangle	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
 ++D=LREAL	N=I_lrPos_X	Ord=1	G=VAR_INPUT

@@ -47,6 +47,8 @@ _EN=Variables
 ++D=MC_MoveVelocity	N=VEL_MANDRINO	G=VAR
 ++D=LREAL	N=rVelMandrino	G=VAR
 ++D=BOOL	N=xStartMandrino	G=VAR
+++D=MC_Home	N=J1_HOME	Ord=1	G=VAR	AOE=1
+++D=MC_Home	N=J2_HOME	Ord=2	G=VAR	AOE=1
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=BOOL	N=I_xPB_RESET	G=VAR_EXTERNAL
 ++D=BOOL	N=Q_xSAFETY_RESET	G=VAR_EXTERNAL
