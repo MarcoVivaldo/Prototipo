@@ -1676,7 +1676,7 @@
       <Options />
     </NexAxisDriverAlarmResetTimeValue2>
     <NexAxisMaxPositiveTorqueLimit>
-      <CurrentValue>300</CurrentValue>
+      <CurrentValue>100</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>300.0</DefaultValue>
@@ -1690,7 +1690,7 @@
       <Options />
     </NexAxisMaxPositiveTorqueLimitValue2>
     <NexAxisMaxNegativeTorqueLimit>
-      <CurrentValue>300</CurrentValue>
+      <CurrentValue>100</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>300.0</DefaultValue>

@@ -1,6 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <NexCpuEipTcpIp>
+    <NexCpuEipTcpIpIPAddressSetting>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipTcpIpIPAddressSetting>
+    <NexCpuEipTcpIpIPAddressSettingSettingOptions>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+        <Option>EnumElement3</Option>
+      </Options>
+    </NexCpuEipTcpIpIPAddressSettingSettingOptions>
+    <NexCpuEipTcpIpIPAddressSettingIPAddress>
+      <CurrentValue>192.168.250.1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>192.168.250.1</DefaultValue>
+      <Options />
+    </NexCpuEipTcpIpIPAddressSettingIPAddress>
+    <NexCpuEipTcpIpIPAddressSettingSubnetMask>
+      <CurrentValue>255.255.255.0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>255.255.255.0</DefaultValue>
+      <Options />
+    </NexCpuEipTcpIpIPAddressSettingSubnetMask>
+    <NexCpuEipTcpIpIPAddressSettingDefaultGateway>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipTcpIpIPAddressSettingDefaultGateway>
     <NexCpuEipTcpIpConflictDetectionUseSetting>
       <CurrentValue>EnumElement1</CurrentValue>
       <IsEnabled>true</IsEnabled>
@@ -377,45 +416,6 @@
       <DefaultValue></DefaultValue>
       <Options />
     </NexCpuEipTcpIpRouterTableItem7IPAddressMask>
-    <NexCpuEipTcpIpIPAddressSettingSubnetMask>
-      <CurrentValue>255.255.255.0</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>255.255.255.0</DefaultValue>
-      <Options />
-    </NexCpuEipTcpIpIPAddressSettingSubnetMask>
-    <NexCpuEipTcpIpIPAddressSettingDefaultGateway>
-      <CurrentValue></CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue></DefaultValue>
-      <Options />
-    </NexCpuEipTcpIpIPAddressSettingDefaultGateway>
-    <NexCpuEipTcpIpIPAddressSetting>
-      <CurrentValue></CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue></DefaultValue>
-      <Options />
-    </NexCpuEipTcpIpIPAddressSetting>
-    <NexCpuEipTcpIpIPAddressSettingIPAddress>
-      <CurrentValue>192.168.250.1</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>192.168.250.1</DefaultValue>
-      <Options />
-    </NexCpuEipTcpIpIPAddressSettingIPAddress>
-    <NexCpuEipTcpIpIPAddressSettingSettingOptions>
-      <CurrentValue>EnumElement1</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>EnumElement1</DefaultValue>
-      <Options>
-        <Option>EnumElement1</Option>
-        <Option>EnumElement2</Option>
-        <Option>EnumElement3</Option>
-      </Options>
-    </NexCpuEipTcpIpIPAddressSettingSettingOptions>
   </NexCpuEipTcpIp>
   <NexCpuEipLinkSetting>
     <NexCpuEipLink>
