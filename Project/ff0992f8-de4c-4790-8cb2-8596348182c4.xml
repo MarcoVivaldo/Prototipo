@@ -9,6 +9,7 @@ _EN=Variables
 ++D=MC_SyncMoveAbsolute	N=SYNC_J1	G=VAR
 ++D=MC_SyncMoveAbsolute	N=SYNC_J2	G=VAR
 ++D=MC_SyncMoveAbsolute	N=SYNC_J3	G=VAR
+++D=MC_SyncMoveAbsolute	N=SYNC_J4	G=VAR
 ++D=MC_Power	N=POWER_X	G=VAR
 ++D=MC_Power	N=POWER_Y	G=VAR
 ++D=MC_Power	N=POWER_Z	G=VAR
@@ -35,6 +36,8 @@ _EN=Variables
 ++D=MC_Stop	N=DISABLE_J2	G=VAR
 ++D=MC_Stop	N=DISABLE_J3	G=VAR
 ++D=MC_GroupStop	N=STOP_XY	G=VAR
+++D=MC_MoveAbsolute	N=GANTRY_MOVE_J3	G=VAR
+++D=MC_MoveAbsolute	N=GANTRY_MOVE_J4	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=_sAXIS_REF	N=IQ_stJ1	Ord=0	Const=1	G=VAR_IN_OUT
 ++D=_sAXIS_REF	N=IQ_stJ2	Ord=1	Const=1	G=VAR_IN_OUT
