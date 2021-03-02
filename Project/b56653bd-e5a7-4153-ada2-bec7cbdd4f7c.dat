@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module VenderID="1" ProductCode="10498816" Revision="16842752" IONodeID="e350cc80-5e13-46f9-8fe2-f99bb06377a3" DeviceName="N1" SerialNo="0" IsEnabled="1">
+  <Feature Values="SupportFbViewProtection, SupportFbChangeProtection" />
+  <PdoM PMIndex="6656" PMN="TxSlaves" PMIOD="I">
+    <Pdo PID="493301ab-b36b-4358-b292-55a70eb5c5dd" Index="24576" SIndex="1" Name="NexECAT1" DSC="" PBit="56" PD="I" PV="H" PBO="0" BTBL="56" LEMI="4" SPId="aa269259-6920-4a7d-a08d-aec9516eb07e" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="c72166bc-7ff2-4950-a95d-76864cd2349d" Index="24576" SIndex="2" Name="NexECAT2" DSC="" PBit="56" PD="I" PV="H" PBO="56" BTBL="56" LEMI="5" SPId="ebb2efd6-14f1-4e05-ba1a-22af954ee743" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="a33438b5-b6bc-4414-945a-76ae128511fe" Index="24576" SIndex="3" Name="NexECAT3" DSC="" PBit="56" PD="I" PV="H" PBO="112" BTBL="56" LEMI="6" SPId="5d054036-3bce-46b6-9385-41e3d2d4b29e" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="90c66694-64e1-43b2-af88-b4f4f79e59e5" Index="24576" SIndex="4" Name="NexECAT4" DSC="" PBit="56" PD="I" PV="H" PBO="168" BTBL="56" LEMI="7" SPId="4e58e770-5350-498b-ad1f-8cf3c4a36986" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="d539fe3b-e6f4-456f-b812-95d17dc74779" Index="24576" SIndex="5" Name="NexECAT5" DSC="" PBit="56" PD="I" PV="H" PBO="224" BTBL="56" LEMI="8" SPId="0ca8a956-8d57-432f-a863-453d764422b1" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="62a7c82b-d162-4969-9469-3572bb4f7a93" Index="24576" SIndex="6" Name="NexECAT0" DSC="" PBit="56" PD="I" PV="H" PBO="280" BTBL="56" LEMI="3" SPId="7ab1db7c-1198-4a90-925f-a4ba5f8cfd48" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="b442d344-de00-4e51-9e0f-1fa77228dc63" Index="24576" SIndex="7" Name="NexECAT6" DSC="" PBit="56" PD="I" PV="H" PBO="336" BTBL="56" LEMI="9" SPId="0bae617c-5202-4097-bac8-31d07858cd48" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="6aca7be2-54b9-417e-8479-5cb609b4d218" Index="24576" SIndex="8" Name="NexECAT7" DSC="" PBit="56" PD="I" PV="H" PBO="392" BTBL="56" LEMI="10" SPId="e7834295-51f9-41f6-8209-b41510a4a8b5" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="6fcdc2ee-21ad-4f69-a79f-34a477d694c8" Index="24576" SIndex="9" Name="NexECAT8" DSC="" PBit="56" PD="I" PV="H" PBO="448" BTBL="56" LEMI="11" SPId="83e13428-6eee-4996-b521-08b396ffc356" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="ec349d9b-af29-40dc-a649-98ec6bc17765" Index="24576" SIndex="10" Name="NexECAT9" DSC="" PBit="56" PD="I" PV="H" PBO="504" BTBL="56" LEMI="12" SPId="deedfd18-cece-48b6-8e3c-948103a0009a" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="10a69b05-22c2-400f-903b-c9a16bf577ea" Index="24576" SIndex="11" Name="NexECAT10" DSC="" PBit="56" PD="I" PV="H" PBO="560" BTBL="56" LEMI="13" SPId="a21c0964-97c8-43ac-88e1-ef4b403bc06e" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="cf0a9917-f938-42c9-8412-9ad3228dfeba" Index="24576" SIndex="12" Name="NXUnit0" DSC="" PBit="56" PD="I" PV="H" PBO="616" BTBL="56" LEMI="1" SPId="6cea7948-06a3-4ee0-ad92-bd4d7d83c5a5" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="930957a3-ad53-443c-aeae-92a733daf60e" Index="24576" SIndex="13" Name="NXUnit1" DSC="" PBit="48" PD="I" PV="H" PBO="672" BTBL="48" LEMI="2" SPId="da8d4693-51e8-4d65-ac6c-54684408753a" PDT="ARRAY [0..5] OF BYTE" CipType="None" />
+  </PdoM>
+  <PdoM PMIndex="5632" PMN="RxSlaves" PMIOD="O">
+    <Pdo PID="b8bc24c3-b092-4066-b641-64349ca0a420" Index="28672" SIndex="1" Name="NexECAT1" DSC="" PBit="56" PD="O" PV="H" PBO="0" BTBL="56" LEMI="4" SPId="348e7b1d-236c-4b2f-ad03-f34dca5f1617" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="e77e0c89-d44a-47e7-a754-dc0994532863" Index="28672" SIndex="2" Name="NexECAT2" DSC="" PBit="56" PD="O" PV="H" PBO="56" BTBL="56" LEMI="5" SPId="e88c0a8f-a966-4fbb-aab3-ed6e85d4e7cc" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="466f2a81-2fb9-406a-80a6-825e034faf84" Index="28672" SIndex="3" Name="NexECAT3" DSC="" PBit="56" PD="O" PV="H" PBO="112" BTBL="56" LEMI="6" SPId="1899bc9e-217a-4a81-9694-8358b72eeac0" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="534eefd4-8cf7-49ef-b5ce-4e5d2b99560f" Index="28672" SIndex="4" Name="NexECAT4" DSC="" PBit="56" PD="O" PV="H" PBO="168" BTBL="56" LEMI="7" SPId="4ea00225-1774-49ff-9cd3-9362c063daee" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="dd40e784-1396-4cbf-9079-771ca69dec2e" Index="28672" SIndex="5" Name="NexECAT5" DSC="" PBit="56" PD="O" PV="H" PBO="224" BTBL="56" LEMI="8" SPId="66309323-1baa-4c10-983e-81b236e8e51a" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="f7e74dc7-e48f-4de6-a759-84d221c0c8d7" Index="28672" SIndex="6" Name="NexECAT0" DSC="" PBit="56" PD="O" PV="H" PBO="280" BTBL="56" LEMI="3" SPId="c886f826-01e5-4c22-9d6b-0f99d601c1ae" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="23b44c44-00d2-43be-b879-d21f14859dcc" Index="28672" SIndex="7" Name="NexECAT6" DSC="" PBit="56" PD="O" PV="H" PBO="336" BTBL="56" LEMI="9" SPId="7ac658a4-b829-4faf-a034-1d51ff19c27c" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="46ff4656-23e3-4afb-9345-937dc6d5686c" Index="28672" SIndex="8" Name="NexECAT7" DSC="" PBit="56" PD="O" PV="H" PBO="392" BTBL="56" LEMI="10" SPId="b324b49f-7f9f-4aed-90c2-b116927b543a" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="eef81a54-bff0-467d-988a-248a0d464fd9" Index="28672" SIndex="9" Name="NexECAT8" DSC="" PBit="56" PD="O" PV="H" PBO="448" BTBL="56" LEMI="11" SPId="2236da8b-3a9d-4fbb-9cb4-bf8f6fcf2e71" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="b9316297-1ee8-475f-b8a8-2f6a4e970741" Index="28672" SIndex="10" Name="NexECAT9" DSC="" PBit="56" PD="O" PV="H" PBO="504" BTBL="56" LEMI="12" SPId="277adcdb-7b2d-40b7-ad48-058ba6d5f86e" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="bb727288-3548-49d8-8d85-bf6875da68b2" Index="28672" SIndex="11" Name="NexECAT10" DSC="" PBit="56" PD="O" PV="H" PBO="560" BTBL="56" LEMI="13" SPId="6a61aa4f-d229-4e92-849f-addba3532bc4" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="8461e656-ef52-408d-9112-fd4784aba8da" Index="28672" SIndex="12" Name="NXUnit0" DSC="" PBit="56" PD="O" PV="H" PBO="616" BTBL="56" LEMI="1" SPId="7b8db084-c97b-4aac-af44-54117c2130fd" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
+    <Pdo PID="4401a6cc-de8c-47c2-99d0-d14aca95fc3e" Index="28672" SIndex="13" Name="NXUnit1" DSC="" PBit="48" PD="O" PV="H" PBO="672" BTBL="48" LEMI="2" SPId="f8f0746b-a8a5-4108-a42b-781b7ab614a4" PDT="ARRAY [0..5] OF BYTE" CipType="None" />
+  </PdoM>
+  <PdoM PMIndex="6657" PMN="TxVariables" PMIOD="I">
+    <Pdo PID="c1c2fe84-b611-4ee7-b637-6db046390765" Index="24580" SIndex="1" Name="Safety CPU Status" DSC="Status of Safety CPU Unit for monitoring" PBit="16" PD="I" PV="V" PBO="720" BTBL="16" LEMI="2147483648" SPId="00000000-0000-0000-0000-000000000000" PDT="UINT" CipType="None">
+      <SubPort PID="1d481cd9-8ed3-455e-8392-be68687c21b6" Name="Normal Operating" DSC="Safety program is running without any fault and all safety master connections are established" Offset="0" PD="I" BTBL="1" PDT="BOOL" PV="V" />
+      <SubPort PID="47ada103-4415-4663-8023-a126bdaa30ef" Name="Program Operating" DSC="Safety program is running" Offset="1" PD="I" BTBL="1" PDT="BOOL" PV="V" />
+      <SubPort PID="0f13fdd9-79a3-4a77-8423-05fe9fdd7788" Name="Program No Fault" DSC="No system event more than minor fault occurs" Offset="2" PD="I" BTBL="1" PDT="BOOL" PV="V" />
+      <SubPort PID="69783cc6-ebce-4efd-bc0c-7286af05f454" Name="Safety Master Connection Status" DSC="All safety master connections are established" Offset="3" PD="I" BTBL="1" PDT="BOOL" PV="V" />
+      <SubPort PID="d0055975-0061-40af-89f5-33e07e949fa5" Name="Reserved" DSC="" Offset="4" PD="I" BTBL="12" PDT="BOOL" PV="H" />
+    </Pdo>
+    <Pdo PID="66455b89-6cb9-4524-b5b4-4cf16eba99d8" Index="24577" SIndex="2" Name="Q_xEmergencyOK" DSC="" PBit="8" PD="I" PV="V" PBO="736" BTBL="1" LEMI="15" SPId="00000000-0000-0000-0000-000000000000" PDT="BOOL" CipType="None" />
+    <Pdo PID="4b052bd5-1b57-4c08-9acb-1165fb94f24f" Index="24577" SIndex="3" Name="Padding" DSC="" PBit="8" PD="I" PV="H" PBO="744" BTBL="8" LEMI="0" SPId="00000000-0000-0000-0000-000000000000" PDT="ARRAY [0..0] OF BYTE" CipType="None" />
+  </PdoM>
+  <PdoM PMIndex="5633" PMN="RxVariables" PMIOD="O">
+    <Pdo PID="0e337a80-2837-4538-bb09-540dcf88aa44" Index="28673" SIndex="1" Name="I_xReset" DSC="" PBit="8" PD="O" PV="V" PBO="720" BTBL="1" LEMI="14" SPId="00000000-0000-0000-0000-000000000000" PDT="BOOL" CipType="None" />
+    <Pdo PID="6d7b7bc1-3967-42ab-97f6-067b615d38f5" Index="28673" SIndex="2" Name="Padding" DSC="" PBit="8" PD="O" PV="H" PBO="728" BTBL="8" LEMI="0" SPId="00000000-0000-0000-0000-000000000000" PDT="ARRAY [0..0] OF BYTE" CipType="None" />
+  </PdoM>
+</Module>

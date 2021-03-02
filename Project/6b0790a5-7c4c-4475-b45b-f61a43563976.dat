@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module VenderID="1" ProductCode="1266262" Revision="16777216" IONodeID="42bc90b4-3ef2-447b-a81d-f9fd03f2c395" DeviceName="N12" SerialNo="0" IsEnabled="1">
+  <Parameter Index="20498" SubIndex="1" Value="0" />
+  <IOPort IOPortID="6efb2e40-23af-413d-8c43-a2658a22a506" Index="28674" SubIndex="1">
+    <SubIOPort IOPortID="bcd66ab6-3905-44b4-98a0-d0251fca4432" />
+    <SubIOPort IOPortID="99b48c65-a60d-4284-8964-a9e99885c7f5" />
+    <SubIOPort IOPortID="143b71f8-439f-48dc-9142-1f81a8108822" />
+    <SubIOPort IOPortID="690f3827-2f1e-4d79-8e6e-5d8f4a5fb829" />
+    <SubIOPort IOPortID="9c50b6a4-5e1d-4b0c-8873-99c0f9d10790" />
+    <SubIOPort IOPortID="58f37390-31c2-4a60-a2ec-70059ceb8230" />
+    <SubIOPort IOPortID="6d4cafbf-e74f-4bf2-a222-6d2903a4cd04" />
+    <SubIOPort IOPortID="628d3222-15ca-486d-ba73-767292bc16cf" />
+    <SubIOPort IOPortID="2028fd23-5948-4bda-b264-c025ca3dfaab" />
+    <SubIOPort IOPortID="534a9979-5462-4b0e-9282-2fd4e11877ac" />
+    <SubIOPort IOPortID="19d1e3ba-5b5d-45cd-bede-1dfe506c70aa" />
+    <SubIOPort IOPortID="35a5d074-ad77-438a-b82c-446a39ef4647" />
+    <SubIOPort IOPortID="665185d7-df28-4c5e-ae19-5227d9c305af" />
+    <SubIOPort IOPortID="f2cd1338-fdc9-4ee9-a4aa-f948efcff273" />
+    <SubIOPort IOPortID="a70ad5f4-0cde-4fd7-9533-d5a2f663d3e0" />
+    <SubIOPort IOPortID="b506feee-b4bc-4b26-8da7-878ff2b91355" />
+  </IOPort>
+  <IOAllocation Index="5632">
+    <IOEntry>
+      <IOPortReference IOPortID="6efb2e40-23af-413d-8c43-a2658a22a506" />
+    </IOEntry>
+  </IOAllocation>
+</Module>

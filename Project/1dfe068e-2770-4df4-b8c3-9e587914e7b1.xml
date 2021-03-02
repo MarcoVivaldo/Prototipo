@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <GeneralSettingsData TaskExecutionCondition="2000" ExecutionPriority="4" CycleTimeOverDetection="Warning" TimeOutValue="10000" VariableAccessTimeRatio="3">
+    <ExecutionConditionVariable VariableName="" Condition="" Constant="" />
+    <ExecutionConditionCJUnit ExternalInputUnit="">
+      <ExecutionConditionInterruptionUnit UnitNumber="" InputContact="" EdgeDetection="" />
+      <ExecutionConditionSiouCpuUnit CJUnitTaskNo="" />
+    </ExecutionConditionCJUnit>
+  </GeneralSettingsData>
+  <Programs>
+    <AssociatedProgramData ProgramName="PRG_MAIN" InstanceName="PRG_MAIN" IniFileTrackingId="fafb3afcd9d448f3aed803266399a88d" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
+  </Programs>
+  <RefreshUnitIds>
+    <RefreshUnitId RefreshUnitId="4dadd434-10d0-46f0-a161-3ebea3874466" />
+    <RefreshUnitId RefreshUnitId="e5169bd0-b675-45ad-b570-a76c6940e776" />
+    <RefreshUnitId RefreshUnitId="3c93ebac-fa65-4bcd-b6ea-fe4a904b2968" />
+    <RefreshUnitId RefreshUnitId="7fd31dae-44d1-4926-9b57-12cfe6b1ca5d" />
+    <RefreshUnitId RefreshUnitId="66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3" />
+    <RefreshUnitId RefreshUnitId="5a3adc0b-479f-4d09-b4d3-7e1f238f89d1" />
+    <RefreshUnitId RefreshUnitId="360fe258-8f53-4625-bfd7-2458f1fea0c5" />
+    <RefreshUnitId RefreshUnitId="22c35f44-ee41-446e-a3f0-af508d30c34f" />
+    <RefreshUnitId RefreshUnitId="8da2b129-cccc-4f07-8cf2-5d672e2f77f8" />
+    <RefreshUnitId RefreshUnitId="f2bcf64c-5c90-4fe8-a05d-140937d477b2" />
+    <RefreshUnitId RefreshUnitId="f5798181-d705-4974-a4ab-1752e3f01dfe" />
+    <RefreshUnitId RefreshUnitId="196b2262-771e-492d-abe8-902b62aac156" />
+    <RefreshUnitId RefreshUnitId="85ffb33f-752d-494d-809a-f6ad91b1ec06" />
+  </RefreshUnitIds>
+  <TaskInterfaceVariables version="1" />
+</data>

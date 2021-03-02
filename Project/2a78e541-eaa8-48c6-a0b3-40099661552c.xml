@@ -1,0 +1,18 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=LREAL	N=C2	G=VAR
+++D=LREAL	N=S2	G=VAR
+++D=LREAL	N=lrPos_Y	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=LREAL	N=I_lrPos_X	Ord=1	G=VAR_INPUT
+++D=LREAL	N=I_lrPos_Y	Ord=2	G=VAR_INPUT
+++D=LREAL	N=I_lrL1	Ord=3	G=VAR_INPUT
+++D=LREAL	N=I_lrL2	Ord=4	G=VAR_INPUT
+++D=LREAL	N=I_lrOffsetY	Ord=5	G=VAR_INPUT
+++D=LREAL	N=Q_lrPos_J1	Ord=6	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrPos_J2	Ord=7	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=BOOL	N=FC_SCARA_INV	G=RETURN

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter index="2200.00" value="1" />
+  <parameter index="3000.01" value="0" />
+  <parameter index="3001.01" value="71" />
+  <parameter index="3011.03" value="0" />
+  <parameter index="3011.04" value="376" />
+  <parameter index="3041.02" value="2" />
+  <parameter index="3041.10" value="1" />
+  <parameter index="3120.10" value="1" />
+  <parameter index="3120.11" value="376" />
+  <parameter index="3213.01" value="79" />
+  <parameter index="3214.01" value="79" />
+  <parameter index="3223.01" value="376" />
+  <parameter index="3223.02" value="91" />
+  <parameter index="3224.01" value="376" />
+  <parameter index="3224.02" value="91" />
+  <parameter index="3233.02" value="2632" />
+  <parameter index="3234.02" value="2632" />
+  <parameter index="3310.01" value="2666" />
+  <parameter index="3310.02" value="74" />
+  <parameter index="3310.03" value="139" />
+  <parameter index="3310.04" value="139" />
+  <parameter index="3B80.01" value="0" />
+  <parameter index="4602.01" value="4294967295" />
+  <parameter index="4630.01" value="0" />
+  <parameter index="4631.01" value="0" />
+  <parameter index="4632.01" value="0" />
+  <parameter index="4633.01" value="0" />
+  <parameter index="4634.01" value="0" />
+  <parameter index="4637.01" value="0" />
+  <parameter index="4638.01" value="0" />
+  <parameter index="4639.01" value="0" />
+  <parameter index="4651.01" value="0" />
+  <parameter index="465C.01" value="0" />
+  <parameter index="465D.01" value="0" />
+</parameters>

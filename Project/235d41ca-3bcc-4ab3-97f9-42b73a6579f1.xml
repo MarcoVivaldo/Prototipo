@@ -1,0 +1,11 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>lrPos_Y:=I_lrPos_Y-I_lrOffsetY;&#xD;
+Q_lrPos_J2:=-acos((I_lrPos_X**2+lrPos_Y**2-I_lrL1**2-I_lrL2**2)/(2*(I_lrL1*I_lrL2)));&#xD;
+C2:=cos(Q_lrPos_J2);&#xD;
+S2:=sin(Q_lrPos_J2);&#xD;
+Q_lrPos_J1:=asin((lrPos_Y*(I_lrL2*C2+I_lrL1)-(I_lrL2*I_lrPos_X*S2))/((I_lrL1+I_lrL2*C2)**2+((I_lrL2**2)*(S2**2))));&#xD;
+&#xD;
+Q_lrPos_J2:=Q_lrPos_J2(*+Q_lrPos_J1*);&#xD;
+&#xD;
+Q_lrPos_J1:=RadToDeg(Q_lrPos_J1);&#xD;
+Q_lrPos_J2:=RadToDeg(Q_lrPos_J2);&#xD;
+</Text></StructuredTextModel>

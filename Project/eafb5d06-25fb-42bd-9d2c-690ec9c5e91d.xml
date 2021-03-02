@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutomaticProgrammingSettings ResetVariableName="I_xReset" FileVersion="1.0">
+  <InputSetting Id="44619f3e-6a7b-4064-ab45-aefe2f9100f7" VariableName="SI_xEMG_1" ResetType="Auto" FunctionBlockName="SF_EmergencyStop" />
+  <InputSetting Id="e15b1281-6f3e-4c36-88c4-07f31d18e313" VariableName="SI_xEMG_2" ResetType="Auto" FunctionBlockName="SF_EmergencyStop" />
+  <OutputSetting Id="bf37aa0e-849b-4b62-8c41-28b8bc92cbe7" VariableName="STO_DRIVE_1" UseEdm="true" />
+  <OutputSetting Id="90614164-651d-4209-a6e8-8aca93a77a4e" VariableName="STO_DRIVE_2" UseEdm="true" />
+  <OutputSetting Id="d6f2ee97-5d27-42d6-9390-c7eba749f4a1" VariableName="STO_DRIVE_3" UseEdm="true" />
+  <OutputSetting Id="50190467-1165-45dc-a1a6-877c864c523d" VariableName="STO_DRIVE_4" UseEdm="true" />
+  <OutputSetting Id="6f6949d9-33a5-4a08-acdf-7eb65add6871" VariableName="STO_DRIVE_5" UseEdm="true" />
+  <OutputSetting Id="e5f956eb-4502-4553-8b99-6d3a0196d2f4" VariableName="STO_DRIVE_6" UseEdm="true" />
+  <OutputSetting Id="c89dcc3c-de2a-4f5b-a75b-4e041e13ce92" VariableName="STO_DRIVE_7" UseEdm="true" />
+  <OutputSetting Id="444edf3d-64ce-4f99-ade0-2b8f930dc7cb" VariableName="STO_DRIVE_8" UseEdm="true" />
+  <OutputSetting Id="74f90dd4-a6cc-4807-b66a-73afc8cb4ccd" VariableName="STO_DRIVE_9" UseEdm="true" />
+  <OutputSetting Id="95b16dce-24ad-4eb1-8d02-eda167114584" VariableName="STO_DRIVE_10" UseEdm="true" />
+  <ExpectedValueSetting InputSettingId="44619f3e-6a7b-4064-ab45-aefe2f9100f7" OutputSettingId="bf37aa0e-849b-4b62-8c41-28b8bc92cbe7" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="e15b1281-6f3e-4c36-88c4-07f31d18e313" OutputSettingId="bf37aa0e-849b-4b62-8c41-28b8bc92cbe7" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="44619f3e-6a7b-4064-ab45-aefe2f9100f7" OutputSettingId="90614164-651d-4209-a6e8-8aca93a77a4e" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="e15b1281-6f3e-4c36-88c4-07f31d18e313" OutputSettingId="90614164-651d-4209-a6e8-8aca93a77a4e" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="44619f3e-6a7b-4064-ab45-aefe2f9100f7" OutputSettingId="d6f2ee97-5d27-42d6-9390-c7eba749f4a1" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="e15b1281-6f3e-4c36-88c4-07f31d18e313" OutputSettingId="d6f2ee97-5d27-42d6-9390-c7eba749f4a1" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="44619f3e-6a7b-4064-ab45-aefe2f9100f7" OutputSettingId="50190467-1165-45dc-a1a6-877c864c523d" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="e15b1281-6f3e-4c36-88c4-07f31d18e313" OutputSettingId="50190467-1165-45dc-a1a6-877c864c523d" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="44619f3e-6a7b-4064-ab45-aefe2f9100f7" OutputSettingId="6f6949d9-33a5-4a08-acdf-7eb65add6871" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="e15b1281-6f3e-4c36-88c4-07f31d18e313" OutputSettingId="6f6949d9-33a5-4a08-acdf-7eb65add6871" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="44619f3e-6a7b-4064-ab45-aefe2f9100f7" OutputSettingId="e5f956eb-4502-4553-8b99-6d3a0196d2f4" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="e15b1281-6f3e-4c36-88c4-07f31d18e313" OutputSettingId="e5f956eb-4502-4553-8b99-6d3a0196d2f4" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="44619f3e-6a7b-4064-ab45-aefe2f9100f7" OutputSettingId="c89dcc3c-de2a-4f5b-a75b-4e041e13ce92" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="e15b1281-6f3e-4c36-88c4-07f31d18e313" OutputSettingId="c89dcc3c-de2a-4f5b-a75b-4e041e13ce92" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="44619f3e-6a7b-4064-ab45-aefe2f9100f7" OutputSettingId="444edf3d-64ce-4f99-ade0-2b8f930dc7cb" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="e15b1281-6f3e-4c36-88c4-07f31d18e313" OutputSettingId="444edf3d-64ce-4f99-ade0-2b8f930dc7cb" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="44619f3e-6a7b-4064-ab45-aefe2f9100f7" OutputSettingId="74f90dd4-a6cc-4807-b66a-73afc8cb4ccd" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="e15b1281-6f3e-4c36-88c4-07f31d18e313" OutputSettingId="74f90dd4-a6cc-4807-b66a-73afc8cb4ccd" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="44619f3e-6a7b-4064-ab45-aefe2f9100f7" OutputSettingId="95b16dce-24ad-4eb1-8d02-eda167114584" ExpectedValue="Zero" />
+  <ExpectedValueSetting InputSettingId="e15b1281-6f3e-4c36-88c4-07f31d18e313" OutputSettingId="95b16dce-24ad-4eb1-8d02-eda167114584" ExpectedValue="Zero" />
+</AutomaticProgrammingSettings>

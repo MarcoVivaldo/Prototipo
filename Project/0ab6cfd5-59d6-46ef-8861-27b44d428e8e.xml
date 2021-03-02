@@ -1,0 +1,651 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR_GLOBAL	GVT=GlobalNamespaceGroup
+++D=BYTE	N=E002_Sysmac_Error_Status	AT=ECAT://node#50/Sysmac Error Status	G=VAR_GLOBAL
+++D=ARRAY[0..63] OF BOOL	N=E002_NX_Unit_Registration_Status_63	AT=ECAT://node#50/NX Unit Registration Status 63	G=VAR_GLOBAL
+++D=ARRAY[0..63] OF BOOL	N=E002_NX_Unit_I_O_Data_Active_Status_63	AT=ECAT://node#50/NX Unit I/O Data Active Status 63	G=VAR_GLOBAL
+++D=BOOL	N=E002_Observation	AT=ECAT://node#50/Sysmac Error Status/Observation	G=VAR_GLOBAL
+++D=BOOL	N=E002_Minor_Fault	AT=ECAT://node#50/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
+++D=BOOL	N=E002_Partial_Fault	AT=ECAT://node#50/Sysmac Error Status/Partial Fault	G=VAR_GLOBAL
+++D=BOOL	N=E002_Major_Fault	AT=ECAT://node#50/Sysmac Error Status/Major Fault	G=VAR_GLOBAL
+++D=UINT	N=N1_Safety_CPU_Status	AT=ECAT://node#[50,1]/Safety CPU Status	G=VAR_GLOBAL
+++D=BOOL	N=N1_Normal_Operating	AT=ECAT://node#[50,1]/Normal Operating	G=VAR_GLOBAL
+++D=BOOL	N=N1_Program_Operating	AT=ECAT://node#[50,1]/Program Operating	G=VAR_GLOBAL
+++D=BOOL	N=N1_Program_No_Fault	AT=ECAT://node#[50,1]/Program No Fault	G=VAR_GLOBAL
+++D=BOOL	N=N1_Safety_Master_Connection_Status	AT=ECAT://node#[50,1]/Safety Master Connection Status	G=VAR_GLOBAL
+++D=WORD	N=N2_Standard_Input_1st_Word	AT=ECAT://node#[50,2]/Standard Input 1st Word	G=VAR_GLOBAL
+++D=BYTE	N=N2_Standard_Input_2nd_Byte	AT=ECAT://node#[50,2]/Standard Input 2nd Byte	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si00_Logical_Value	AT=ECAT://node#[50,2]/Standard Input 1st Word/Si00 Logical Value	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si01_Logical_Value	AT=ECAT://node#[50,2]/Standard Input 1st Word/Si01 Logical Value	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si02_Logical_Value	AT=ECAT://node#[50,2]/Standard Input 1st Word/Si02 Logical Value	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si03_Logical_Value	AT=ECAT://node#[50,2]/Standard Input 1st Word/Si03 Logical Value	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si04_Logical_Value	AT=ECAT://node#[50,2]/Standard Input 1st Word/Si04 Logical Value	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si05_Logical_Value	AT=ECAT://node#[50,2]/Standard Input 1st Word/Si05 Logical Value	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si06_Logical_Value	AT=ECAT://node#[50,2]/Standard Input 1st Word/Si06 Logical Value	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si07_Logical_Value	AT=ECAT://node#[50,2]/Standard Input 1st Word/Si07 Logical Value	G=VAR_GLOBAL
+++D=BOOL	N=N2_Safety_Connection_Status	AT=ECAT://node#[50,2]/Standard Input 1st Word/Safety Connection Status	G=VAR_GLOBAL
+++D=BOOL	N=N2_Safety_Input_Terminal_Status	AT=ECAT://node#[50,2]/Standard Input 1st Word/Safety Input Terminal Status	G=VAR_GLOBAL
+++D=BOOL	N=N2_Unit_Normal_Status	AT=ECAT://node#[50,2]/Standard Input 1st Word/Unit Normal Status	G=VAR_GLOBAL
+++D=BOOL	N=N2_IO_Power_Supply_Error_Flag	AT=ECAT://node#[50,2]/Standard Input 1st Word/IO Power Supply Error Flag	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si00_Status	AT=ECAT://node#[50,2]/Standard Input 2nd Byte/Si00 Status	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si01_Status	AT=ECAT://node#[50,2]/Standard Input 2nd Byte/Si01 Status	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si02_Status	AT=ECAT://node#[50,2]/Standard Input 2nd Byte/Si02 Status	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si03_Status	AT=ECAT://node#[50,2]/Standard Input 2nd Byte/Si03 Status	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si04_Status	AT=ECAT://node#[50,2]/Standard Input 2nd Byte/Si04 Status	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si05_Status	AT=ECAT://node#[50,2]/Standard Input 2nd Byte/Si05 Status	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si06_Status	AT=ECAT://node#[50,2]/Standard Input 2nd Byte/Si06 Status	G=VAR_GLOBAL
+++D=BOOL	N=N2_Si07_Status	AT=ECAT://node#[50,2]/Standard Input 2nd Byte/Si07 Status	G=VAR_GLOBAL
+++D=BYTE	N=N3_Standard_Input_1st_Byte	AT=ECAT://node#[50,3]/Standard Input 1st Byte	G=VAR_GLOBAL
+++D=BYTE	N=N3_Standard_Input_2nd_Byte	AT=ECAT://node#[50,3]/Standard Input 2nd Byte	G=VAR_GLOBAL
+++D=BOOL	N=N3_So00_Monitor_Value	AT=ECAT://node#[50,3]/Standard Input 1st Byte/So00 Monitor Value	G=VAR_GLOBAL
+++D=BOOL	N=N3_So01_Monitor_Value	AT=ECAT://node#[50,3]/Standard Input 1st Byte/So01 Monitor Value	G=VAR_GLOBAL
+++D=BOOL	N=N3_So02_Monitor_Value	AT=ECAT://node#[50,3]/Standard Input 1st Byte/So02 Monitor Value	G=VAR_GLOBAL
+++D=BOOL	N=N3_So03_Monitor_Value	AT=ECAT://node#[50,3]/Standard Input 1st Byte/So03 Monitor Value	G=VAR_GLOBAL
+++D=BOOL	N=N3_Safety_Connection_Status	AT=ECAT://node#[50,3]/Standard Input 1st Byte/Safety Connection Status	G=VAR_GLOBAL
+++D=BOOL	N=N3_Safety_Output_Terminal_Status	AT=ECAT://node#[50,3]/Standard Input 1st Byte/Safety Output Terminal Status	G=VAR_GLOBAL
+++D=BOOL	N=N3_Unit_Normal_Status	AT=ECAT://node#[50,3]/Standard Input 1st Byte/Unit Normal Status	G=VAR_GLOBAL
+++D=BOOL	N=N3_IO_Power_Supply_Error_Flag	AT=ECAT://node#[50,3]/Standard Input 1st Byte/IO Power Supply Error Flag	G=VAR_GLOBAL
+++D=BOOL	N=N3_So00_Status	AT=ECAT://node#[50,3]/Standard Input 2nd Byte/So00 Status	G=VAR_GLOBAL
+++D=BOOL	N=N3_So01_Status	AT=ECAT://node#[50,3]/Standard Input 2nd Byte/So01 Status	G=VAR_GLOBAL
+++D=BOOL	N=N3_So02_Status	AT=ECAT://node#[50,3]/Standard Input 2nd Byte/So02 Status	G=VAR_GLOBAL
+++D=BOOL	N=N3_So03_Status	AT=ECAT://node#[50,3]/Standard Input 2nd Byte/So03 Status	G=VAR_GLOBAL
+++D=WORD	N=N4_I_O_Port_Status	AT=ECAT://node#[50,4]/I/O Port Status	G=VAR_GLOBAL
+++D=WORD	N=N4_Port1_2_I_O_Port_Error_Status	AT=ECAT://node#[50,4]/Port1_2 I/O Port Error Status	G=VAR_GLOBAL
+++D=WORD	N=N4_Port3_4_I_O_Port_Error_Status	AT=ECAT://node#[50,4]/Port3_4 I/O Port Error Status	G=VAR_GLOBAL
+++D=WORD	N=N4_Digital_Input_Data	AT=ECAT://node#[50,4]/Digital Input Data	G=VAR_GLOBAL
+++D=WORD	N=N4_Digital_Output_Data	AT=ECAT://node#[50,4]/Digital Output Data	G=VAR_GLOBAL
+++D=ARRAY[0..1] OF BYTE	N=N4_Port1_Input_Data01	AT=ECAT://node#[50,4]/Port1 Input Data01	G=VAR_GLOBAL
+++D=ARRAY[0..1] OF BYTE	N=N4_Port1_Output_Data01	AT=ECAT://node#[50,4]/Port1 Output Data01	G=VAR_GLOBAL
+++D=ARRAY[0..1] OF BYTE	N=N4_Port2_Input_Data01	AT=ECAT://node#[50,4]/Port2 Input Data01	G=VAR_GLOBAL
+++D=ARRAY[0..1] OF BYTE	N=N4_Port2_Output_Data01	AT=ECAT://node#[50,4]/Port2 Output Data01	G=VAR_GLOBAL
+++D=ARRAY[0..1] OF BYTE	N=N4_Port3_Input_Data01	AT=ECAT://node#[50,4]/Port3 Input Data01	G=VAR_GLOBAL
+++D=ARRAY[0..1] OF BYTE	N=N4_Port3_Output_Data01	AT=ECAT://node#[50,4]/Port3 Output Data01	G=VAR_GLOBAL
+++D=ARRAY[0..1] OF BYTE	N=N4_Port4_Input_Data01	AT=ECAT://node#[50,4]/Port4 Input Data01	G=VAR_GLOBAL
+++D=ARRAY[0..1] OF BYTE	N=N4_Port4_Output_Data01	AT=ECAT://node#[50,4]/Port4 Output Data01	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port1_IN_Data_Enable	AT=ECAT://node#[50,4]/I/O Port Status/Port1 IN Data Enable	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port2_IN_Data_Enable	AT=ECAT://node#[50,4]/I/O Port Status/Port2 IN Data Enable	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port3_IN_Data_Enable	AT=ECAT://node#[50,4]/I/O Port Status/Port3 IN Data Enable	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port4_IN_Data_Enable	AT=ECAT://node#[50,4]/I/O Port Status/Port4 IN Data Enable	G=VAR_GLOBAL
+++D=BOOL	N=N4_Communication_Module_Error	AT=ECAT://node#[50,4]/I/O Port Status/Communication Module Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_IO_Pwr_On	AT=ECAT://node#[50,4]/I/O Port Status/IO Pwr On	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port1_Communication_Error	AT=ECAT://node#[50,4]/Port1_2 I/O Port Error Status/Port1 Communication Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port1_Short_Error	AT=ECAT://node#[50,4]/Port1_2 I/O Port Error Status/Port1 Short Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port1_Compare_Error	AT=ECAT://node#[50,4]/Port1_2 I/O Port Error Status/Port1 Compare Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port1_Device_IO_Size_Error	AT=ECAT://node#[50,4]/Port1_2 I/O Port Error Status/Port1 Device IO Size Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port1_Device_Error	AT=ECAT://node#[50,4]/Port1_2 I/O Port Error Status/Port1 Device Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port1_Device_Information	AT=ECAT://node#[50,4]/Port1_2 I/O Port Error Status/Port1 Device Information	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port1_PDO_Error	AT=ECAT://node#[50,4]/Port1_2 I/O Port Error Status/Port1 PDO Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port2_Communication_Error	AT=ECAT://node#[50,4]/Port1_2 I/O Port Error Status/Port2 Communication Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port2_Short_Error	AT=ECAT://node#[50,4]/Port1_2 I/O Port Error Status/Port2 Short Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port2_Compare_Error	AT=ECAT://node#[50,4]/Port1_2 I/O Port Error Status/Port2 Compare Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port2_Device_IO_Size_Error	AT=ECAT://node#[50,4]/Port1_2 I/O Port Error Status/Port2 Device IO Size Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port2_Device_Error	AT=ECAT://node#[50,4]/Port1_2 I/O Port Error Status/Port2 Device Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port2_Device_Information	AT=ECAT://node#[50,4]/Port1_2 I/O Port Error Status/Port2 Device Information	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port2_PDO_Error	AT=ECAT://node#[50,4]/Port1_2 I/O Port Error Status/Port2 PDO Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port3_Communication_Error	AT=ECAT://node#[50,4]/Port3_4 I/O Port Error Status/Port3 Communication Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port3_Short_Error	AT=ECAT://node#[50,4]/Port3_4 I/O Port Error Status/Port3 Short Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port3_Compare_Error	AT=ECAT://node#[50,4]/Port3_4 I/O Port Error Status/Port3 Compare Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port3_Device_IO_Size_Error	AT=ECAT://node#[50,4]/Port3_4 I/O Port Error Status/Port3 Device IO Size Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port3_Device_Error	AT=ECAT://node#[50,4]/Port3_4 I/O Port Error Status/Port3 Device Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port3_Device_Information	AT=ECAT://node#[50,4]/Port3_4 I/O Port Error Status/Port3 Device Information	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port3_PDO_Error	AT=ECAT://node#[50,4]/Port3_4 I/O Port Error Status/Port3 PDO Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port4_Communication_Error	AT=ECAT://node#[50,4]/Port3_4 I/O Port Error Status/Port4 Communication Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port4_Short_Error	AT=ECAT://node#[50,4]/Port3_4 I/O Port Error Status/Port4 Short Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port4_Compare_Error	AT=ECAT://node#[50,4]/Port3_4 I/O Port Error Status/Port4 Compare Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port4_Device_IO_Size_Error	AT=ECAT://node#[50,4]/Port3_4 I/O Port Error Status/Port4 Device IO Size Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port4_Device_Error	AT=ECAT://node#[50,4]/Port3_4 I/O Port Error Status/Port4 Device Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port4_Device_Information	AT=ECAT://node#[50,4]/Port3_4 I/O Port Error Status/Port4 Device Information	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port4_PDO_Error	AT=ECAT://node#[50,4]/Port3_4 I/O Port Error Status/Port4 PDO Error	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port1_Digital_Input_Bit	AT=ECAT://node#[50,4]/Digital Input Data/Port1 Digital Input Bit	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port2_Digital_Input_Bit	AT=ECAT://node#[50,4]/Digital Input Data/Port2 Digital Input Bit	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port3_Digital_Input_Bit	AT=ECAT://node#[50,4]/Digital Input Data/Port3 Digital Input Bit	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port4_Digital_Input_Bit	AT=ECAT://node#[50,4]/Digital Input Data/Port4 Digital Input Bit	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port1_Digital_Output_Bit	AT=ECAT://node#[50,4]/Digital Output Data/Port1 Digital Output Bit	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port2_Digital_Output_Bit	AT=ECAT://node#[50,4]/Digital Output Data/Port2 Digital Output Bit	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port3_Digital_Output_Bit	AT=ECAT://node#[50,4]/Digital Output Data/Port3 Digital Output Bit	G=VAR_GLOBAL
+++D=BOOL	N=N4_Port4_Digital_Output_Bit	AT=ECAT://node#[50,4]/Digital Output Data/Port4 Digital Output Bit	G=VAR_GLOBAL
+++D=WORD	N=N6_Input_Bit_16_bits	AT=ECAT://node#[50,6]/Input Bit 16 bits	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_00	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 00	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_01	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 01	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_02	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 02	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_03	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 03	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_04	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 04	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_05	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 05	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_06	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 06	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_07	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 07	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_08	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 08	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_09	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 09	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_10	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 10	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_11	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 11	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_12	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 12	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_13	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 13	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_14	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 14	G=VAR_GLOBAL
+++D=BOOL	N=N6_Input_Bit_15	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 15	G=VAR_GLOBAL
+++D=WORD	N=N7_Input_Bit_16_bits	AT=ECAT://node#[50,7]/Input Bit 16 bits	G=VAR_GLOBAL
+++D=BOOL	N=N7_Input_Bit_00	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 00	G=VAR_GLOBAL
+++D=BOOL	N=N7_Input_Bit_01	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 01	G=VAR_GLOBAL
+++D=BOOL	N=N7_Input_Bit_02	G=VAR_GLOBAL
+++D=BOOL	N=I_xPB_RESET	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 02	G=VAR_GLOBAL	Com=Reset Push Button
+++D=BOOL	N=N7_Input_Bit_04	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 04	G=VAR_GLOBAL
+++D=BOOL	N=N7_Input_Bit_05	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 05	G=VAR_GLOBAL
+++D=BOOL	N=N7_Input_Bit_06	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 06	G=VAR_GLOBAL
+++D=BOOL	N=N7_Input_Bit_07	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 07	G=VAR_GLOBAL
+++D=BOOL	N=N7_Input_Bit_08	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 08	G=VAR_GLOBAL
+++D=BOOL	N=N7_Input_Bit_09	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 09	G=VAR_GLOBAL
+++D=BOOL	N=N7_Input_Bit_10	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 10	G=VAR_GLOBAL
+++D=BOOL	N=N7_Input_Bit_11	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 11	G=VAR_GLOBAL
+++D=BOOL	N=N7_Input_Bit_12	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 12	G=VAR_GLOBAL
+++D=BOOL	N=N7_Input_Bit_13	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 13	G=VAR_GLOBAL
+++D=BOOL	N=N7_Input_Bit_14	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 14	G=VAR_GLOBAL
+++D=BOOL	N=N7_Input_Bit_15	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 15	G=VAR_GLOBAL
+++D=WORD	N=N8_Input_Bit_16_bits	AT=ECAT://node#[50,8]/Input Bit 16 bits	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_00	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 00	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_01	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 01	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_02	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 02	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_03	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 03	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_04	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 04	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_05	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 05	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_06	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 06	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_07	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 07	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_08	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 08	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_09	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 09	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_10	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 10	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_11	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 11	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_12	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 12	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_13	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 13	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_14	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 14	G=VAR_GLOBAL
+++D=BOOL	N=N8_Input_Bit_15	AT=ECAT://node#[50,8]/Input Bit 16 bits/Input Bit 15	G=VAR_GLOBAL
+++D=WORD	N=N9_Input_Bit_16_bits	AT=ECAT://node#[50,9]/Input Bit 16 bits	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_00	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 00	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_01	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 01	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_02	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 02	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_03	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 03	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_04	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 04	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_05	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 05	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_06	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 06	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_07	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 07	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_08	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 08	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_09	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 09	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_10	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 10	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_11	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 11	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_12	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 12	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_13	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 13	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_14	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 14	G=VAR_GLOBAL
+++D=BOOL	N=N9_Input_Bit_15	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 15	G=VAR_GLOBAL
+++D=WORD	N=N10_Output_Bit_16_bits	AT=ECAT://node#[50,10]/Output Bit 16 bits	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_00	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 00	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_01	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 01	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_02	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 02	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_03	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 03	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_04	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 04	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_05	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 05	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_06	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 06	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_07	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 07	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_08	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 08	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_09	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 09	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_10	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 10	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_11	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 11	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_12	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 12	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_13	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 13	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_14	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 14	G=VAR_GLOBAL
+++D=BOOL	N=N10_Output_Bit_15	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 15	G=VAR_GLOBAL
+++D=WORD	N=N12_Output_Bit_16_bits	AT=ECAT://node#[50,12]/Output Bit 16 bits	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_00	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 00	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_01	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 01	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_02	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 02	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_03	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 03	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_04	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 04	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_05	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 05	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_06	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 06	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_07	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 07	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_08	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 08	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_09	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 09	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_10	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 10	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_11	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 11	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_12	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 12	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_13	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 13	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_14	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 14	G=VAR_GLOBAL
+++D=BOOL	N=N12_Output_Bit_15	AT=ECAT://node#[50,12]/Output Bit 16 bits/Output Bit 15	G=VAR_GLOBAL
+++D=WORD	N=N13_Output_Bit_16_bits	AT=ECAT://node#[50,13]/Output Bit 16 bits	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_00	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 00	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_01	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 01	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_02	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 02	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_03	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 03	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_04	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 04	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_05	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 05	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_06	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 06	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_07	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 07	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_08	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 08	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_09	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 09	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_10	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 10	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_11	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 11	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_12	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 12	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_13	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 13	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_14	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 14	G=VAR_GLOBAL
+++D=BOOL	N=N13_Output_Bit_15	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 15	G=VAR_GLOBAL
+++D=WORD	N=E003_Controlword	G=VAR_GLOBAL
+++D=DINT	N=E003_Target_position	G=VAR_GLOBAL
+++D=DINT	N=E003_Target_velocity	G=VAR_GLOBAL
+++D=INT	N=E003_Target_torque	G=VAR_GLOBAL
+++D=SINT	N=E003_Modes_of_operation	G=VAR_GLOBAL
+++D=WORD	N=E003_Touch_probe_function	G=VAR_GLOBAL
+++D=UDINT	N=E003_Max_profile_velocity	G=VAR_GLOBAL
+++D=UINT	N=E003_Positive_torque_limit_value	G=VAR_GLOBAL
+++D=UINT	N=E003_Negative_torque_limit_value	G=VAR_GLOBAL
+++D=WORD	N=E003_Error_code	AT=ECAT://node#6/Error code	G=VAR_GLOBAL
+++D=WORD	N=E003_Statusword	AT=ECAT://node#6/Statusword	G=VAR_GLOBAL
+++D=DINT	N=E003_Position_actual_value	AT=ECAT://node#6/Position actual value	G=VAR_GLOBAL
+++D=INT	N=E003_Torque_actual_value	AT=ECAT://node#6/Torque actual value	G=VAR_GLOBAL
+++D=SINT	N=E003_Modes_of_operation_display	AT=ECAT://node#6/Modes of operation display	G=VAR_GLOBAL
+++D=WORD	N=E003_Touch_probe_status	AT=ECAT://node#6/Touch probe status	G=VAR_GLOBAL
+++D=DINT	N=E003_Touch_probe_pos1_pos_value	AT=ECAT://node#6/Touch probe pos1 pos value	G=VAR_GLOBAL
+++D=DINT	N=E003_Touch_probe_pos2_pos_value	AT=ECAT://node#6/Touch probe pos2 pos value	G=VAR_GLOBAL
+++D=DWORD	N=E003_Digital_inputs	AT=ECAT://node#6/Digital inputs	G=VAR_GLOBAL
+++D=BYTE	N=E003_Sysmac_Error_Status	AT=ECAT://node#6/Sysmac Error Status	G=VAR_GLOBAL
+++D=BOOL	N=E003_NOT	AT=ECAT://node#6/Digital inputs/NOT	G=VAR_GLOBAL
+++D=BOOL	N=E003_POT	AT=ECAT://node#6/Digital inputs/POT	G=VAR_GLOBAL
+++D=BOOL	N=E003_DEC	AT=ECAT://node#6/Digital inputs/DEC	G=VAR_GLOBAL
+++D=BOOL	N=E003_PC	AT=ECAT://node#6/Digital inputs/PC	G=VAR_GLOBAL
+++D=BOOL	N=E003_EXT1	AT=ECAT://node#6/Digital inputs/EXT1	G=VAR_GLOBAL
+++D=BOOL	N=E003_EXT2	AT=ECAT://node#6/Digital inputs/EXT2	G=VAR_GLOBAL
+++D=BOOL	N=E003_MON1	AT=ECAT://node#6/Digital inputs/MON1	G=VAR_GLOBAL
+++D=BOOL	N=E003_MON2	AT=ECAT://node#6/Digital inputs/MON2	G=VAR_GLOBAL
+++D=BOOL	N=E003_MON3	AT=ECAT://node#6/Digital inputs/MON3	G=VAR_GLOBAL
+++D=BOOL	N=E003_PCL	AT=ECAT://node#6/Digital inputs/PCL	G=VAR_GLOBAL
+++D=BOOL	N=E003_NCL	AT=ECAT://node#6/Digital inputs/NCL	G=VAR_GLOBAL
+++D=BOOL	N=E003_ESTP	AT=ECAT://node#6/Digital inputs/ESTP	G=VAR_GLOBAL
+++D=BOOL	N=E003_BKIR_MONITOR	AT=ECAT://node#6/Digital inputs/BKIR_MONITOR	G=VAR_GLOBAL
+++D=BOOL	N=E003_STO1	AT=ECAT://node#6/Digital inputs/STO1	G=VAR_GLOBAL
+++D=BOOL	N=E003_STO2	AT=ECAT://node#6/Digital inputs/STO2	G=VAR_GLOBAL
+++D=BOOL	N=E003_EDM	AT=ECAT://node#6/Digital inputs/EDM	G=VAR_GLOBAL
+++D=BOOL	N=E003_MON4	AT=ECAT://node#6/Digital inputs/MON4	G=VAR_GLOBAL
+++D=BOOL	N=E003_MON5	AT=ECAT://node#6/Digital inputs/MON5	G=VAR_GLOBAL
+++D=BOOL	N=E003_EventLog_Support	AT=ECAT://node#6/Sysmac Error Status/EventLog Support	G=VAR_GLOBAL
+++D=BOOL	N=E003_Unit_Type	AT=ECAT://node#6/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
+++D=BOOL	N=E003_Observation	AT=ECAT://node#6/Sysmac Error Status/Observation	G=VAR_GLOBAL
+++D=BOOL	N=E003_Minor_Fault	AT=ECAT://node#6/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
+++D=WORD	N=E004_Controlword	G=VAR_GLOBAL
+++D=DINT	N=E004_Target_position	G=VAR_GLOBAL
+++D=DINT	N=E004_Target_velocity	G=VAR_GLOBAL
+++D=INT	N=E004_Target_torque	G=VAR_GLOBAL
+++D=SINT	N=E004_Modes_of_operation	G=VAR_GLOBAL
+++D=WORD	N=E004_Touch_probe_function	G=VAR_GLOBAL
+++D=UDINT	N=E004_Max_profile_velocity	G=VAR_GLOBAL
+++D=UINT	N=E004_Positive_torque_limit_value	G=VAR_GLOBAL
+++D=UINT	N=E004_Negative_torque_limit_value	G=VAR_GLOBAL
+++D=WORD	N=E004_Error_code	AT=ECAT://node#1/Error code	G=VAR_GLOBAL
+++D=WORD	N=E004_Statusword	AT=ECAT://node#1/Statusword	G=VAR_GLOBAL
+++D=DINT	N=E004_Position_actual_value	AT=ECAT://node#1/Position actual value	G=VAR_GLOBAL
+++D=INT	N=E004_Torque_actual_value	AT=ECAT://node#1/Torque actual value	G=VAR_GLOBAL
+++D=SINT	N=E004_Modes_of_operation_display	AT=ECAT://node#1/Modes of operation display	G=VAR_GLOBAL
+++D=WORD	N=E004_Touch_probe_status	AT=ECAT://node#1/Touch probe status	G=VAR_GLOBAL
+++D=DINT	N=E004_Touch_probe_pos1_pos_value	AT=ECAT://node#1/Touch probe pos1 pos value	G=VAR_GLOBAL
+++D=DINT	N=E004_Touch_probe_pos2_pos_value	AT=ECAT://node#1/Touch probe pos2 pos value	G=VAR_GLOBAL
+++D=DWORD	N=E004_Digital_inputs	AT=ECAT://node#1/Digital inputs	G=VAR_GLOBAL
+++D=BYTE	N=E004_Sysmac_Error_Status	AT=ECAT://node#1/Sysmac Error Status	G=VAR_GLOBAL
+++D=BOOL	N=E004_NOT	AT=ECAT://node#1/Digital inputs/NOT	G=VAR_GLOBAL
+++D=BOOL	N=E004_POT	AT=ECAT://node#1/Digital inputs/POT	G=VAR_GLOBAL
+++D=BOOL	N=E004_DEC	AT=ECAT://node#1/Digital inputs/DEC	G=VAR_GLOBAL
+++D=BOOL	N=E004_PC	AT=ECAT://node#1/Digital inputs/PC	G=VAR_GLOBAL
+++D=BOOL	N=E004_EXT1	AT=ECAT://node#1/Digital inputs/EXT1	G=VAR_GLOBAL
+++D=BOOL	N=E004_EXT2	AT=ECAT://node#1/Digital inputs/EXT2	G=VAR_GLOBAL
+++D=BOOL	N=E004_MON1	AT=ECAT://node#1/Digital inputs/MON1	G=VAR_GLOBAL
+++D=BOOL	N=E004_MON2	AT=ECAT://node#1/Digital inputs/MON2	G=VAR_GLOBAL
+++D=BOOL	N=E004_MON3	AT=ECAT://node#1/Digital inputs/MON3	G=VAR_GLOBAL
+++D=BOOL	N=E004_PCL	AT=ECAT://node#1/Digital inputs/PCL	G=VAR_GLOBAL
+++D=BOOL	N=E004_NCL	AT=ECAT://node#1/Digital inputs/NCL	G=VAR_GLOBAL
+++D=BOOL	N=E004_ESTP	AT=ECAT://node#1/Digital inputs/ESTP	G=VAR_GLOBAL
+++D=BOOL	N=E004_BKIR_MONITOR	AT=ECAT://node#1/Digital inputs/BKIR_MONITOR	G=VAR_GLOBAL
+++D=BOOL	N=E004_STO1	AT=ECAT://node#1/Digital inputs/STO1	G=VAR_GLOBAL
+++D=BOOL	N=E004_STO2	AT=ECAT://node#1/Digital inputs/STO2	G=VAR_GLOBAL
+++D=BOOL	N=E004_EDM	AT=ECAT://node#1/Digital inputs/EDM	G=VAR_GLOBAL
+++D=BOOL	N=E004_MON4	AT=ECAT://node#1/Digital inputs/MON4	G=VAR_GLOBAL
+++D=BOOL	N=E004_MON5	AT=ECAT://node#1/Digital inputs/MON5	G=VAR_GLOBAL
+++D=BOOL	N=E004_EventLog_Support	AT=ECAT://node#1/Sysmac Error Status/EventLog Support	G=VAR_GLOBAL
+++D=BOOL	N=E004_Unit_Type	AT=ECAT://node#1/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
+++D=BOOL	N=E004_Observation	AT=ECAT://node#1/Sysmac Error Status/Observation	G=VAR_GLOBAL
+++D=BOOL	N=E004_Minor_Fault	AT=ECAT://node#1/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
+++D=WORD	N=E005_Controlword	G=VAR_GLOBAL
+++D=DINT	N=E005_Target_position	G=VAR_GLOBAL
+++D=DINT	N=E005_Target_velocity	G=VAR_GLOBAL
+++D=INT	N=E005_Target_torque	G=VAR_GLOBAL
+++D=SINT	N=E005_Modes_of_operation	G=VAR_GLOBAL
+++D=WORD	N=E005_Touch_probe_function	G=VAR_GLOBAL
+++D=UDINT	N=E005_Max_profile_velocity	G=VAR_GLOBAL
+++D=UINT	N=E005_Positive_torque_limit_value	G=VAR_GLOBAL
+++D=UINT	N=E005_Negative_torque_limit_value	G=VAR_GLOBAL
+++D=WORD	N=E005_Error_code	AT=ECAT://node#2/Error code	G=VAR_GLOBAL
+++D=WORD	N=E005_Statusword	AT=ECAT://node#2/Statusword	G=VAR_GLOBAL
+++D=DINT	N=E005_Position_actual_value	AT=ECAT://node#2/Position actual value	G=VAR_GLOBAL
+++D=INT	N=E005_Torque_actual_value	AT=ECAT://node#2/Torque actual value	G=VAR_GLOBAL
+++D=SINT	N=E005_Modes_of_operation_display	AT=ECAT://node#2/Modes of operation display	G=VAR_GLOBAL
+++D=WORD	N=E005_Touch_probe_status	AT=ECAT://node#2/Touch probe status	G=VAR_GLOBAL
+++D=DINT	N=E005_Touch_probe_pos1_pos_value	AT=ECAT://node#2/Touch probe pos1 pos value	G=VAR_GLOBAL
+++D=DINT	N=E005_Touch_probe_pos2_pos_value	AT=ECAT://node#2/Touch probe pos2 pos value	G=VAR_GLOBAL
+++D=DWORD	N=E005_Digital_inputs	AT=ECAT://node#2/Digital inputs	G=VAR_GLOBAL
+++D=BYTE	N=E005_Sysmac_Error_Status	AT=ECAT://node#2/Sysmac Error Status	G=VAR_GLOBAL
+++D=BOOL	N=E005_NOT	AT=ECAT://node#2/Digital inputs/NOT	G=VAR_GLOBAL
+++D=BOOL	N=E005_POT	AT=ECAT://node#2/Digital inputs/POT	G=VAR_GLOBAL
+++D=BOOL	N=E005_DEC	AT=ECAT://node#2/Digital inputs/DEC	G=VAR_GLOBAL
+++D=BOOL	N=E005_PC	AT=ECAT://node#2/Digital inputs/PC	G=VAR_GLOBAL
+++D=BOOL	N=E005_EXT1	AT=ECAT://node#2/Digital inputs/EXT1	G=VAR_GLOBAL
+++D=BOOL	N=E005_EXT2	AT=ECAT://node#2/Digital inputs/EXT2	G=VAR_GLOBAL
+++D=BOOL	N=E005_MON1	AT=ECAT://node#2/Digital inputs/MON1	G=VAR_GLOBAL
+++D=BOOL	N=E005_MON2	AT=ECAT://node#2/Digital inputs/MON2	G=VAR_GLOBAL
+++D=BOOL	N=E005_MON3	AT=ECAT://node#2/Digital inputs/MON3	G=VAR_GLOBAL
+++D=BOOL	N=E005_PCL	AT=ECAT://node#2/Digital inputs/PCL	G=VAR_GLOBAL
+++D=BOOL	N=E005_NCL	AT=ECAT://node#2/Digital inputs/NCL	G=VAR_GLOBAL
+++D=BOOL	N=E005_ESTP	AT=ECAT://node#2/Digital inputs/ESTP	G=VAR_GLOBAL
+++D=BOOL	N=E005_BKIR_MONITOR	AT=ECAT://node#2/Digital inputs/BKIR_MONITOR	G=VAR_GLOBAL
+++D=BOOL	N=E005_STO1	AT=ECAT://node#2/Digital inputs/STO1	G=VAR_GLOBAL
+++D=BOOL	N=E005_STO2	AT=ECAT://node#2/Digital inputs/STO2	G=VAR_GLOBAL
+++D=BOOL	N=E005_EDM	AT=ECAT://node#2/Digital inputs/EDM	G=VAR_GLOBAL
+++D=BOOL	N=E005_MON4	AT=ECAT://node#2/Digital inputs/MON4	G=VAR_GLOBAL
+++D=BOOL	N=E005_MON5	AT=ECAT://node#2/Digital inputs/MON5	G=VAR_GLOBAL
+++D=BOOL	N=E005_EventLog_Support	AT=ECAT://node#2/Sysmac Error Status/EventLog Support	G=VAR_GLOBAL
+++D=BOOL	N=E005_Unit_Type	AT=ECAT://node#2/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
+++D=BOOL	N=E005_Observation	AT=ECAT://node#2/Sysmac Error Status/Observation	G=VAR_GLOBAL
+++D=BOOL	N=E005_Minor_Fault	AT=ECAT://node#2/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
+++D=WORD	N=E006_Controlword	G=VAR_GLOBAL
+++D=DINT	N=E006_Target_position	G=VAR_GLOBAL
+++D=DINT	N=E006_Target_velocity	G=VAR_GLOBAL
+++D=INT	N=E006_Target_torque	G=VAR_GLOBAL
+++D=SINT	N=E006_Modes_of_operation	G=VAR_GLOBAL
+++D=WORD	N=E006_Touch_probe_function	G=VAR_GLOBAL
+++D=UDINT	N=E006_Max_profile_velocity	G=VAR_GLOBAL
+++D=UINT	N=E006_Positive_torque_limit_value	G=VAR_GLOBAL
+++D=UINT	N=E006_Negative_torque_limit_value	G=VAR_GLOBAL
+++D=WORD	N=E006_Error_code	AT=ECAT://node#3/Error code	G=VAR_GLOBAL
+++D=WORD	N=E006_Statusword	AT=ECAT://node#3/Statusword	G=VAR_GLOBAL
+++D=DINT	N=E006_Position_actual_value	AT=ECAT://node#3/Position actual value	G=VAR_GLOBAL
+++D=INT	N=E006_Torque_actual_value	AT=ECAT://node#3/Torque actual value	G=VAR_GLOBAL
+++D=SINT	N=E006_Modes_of_operation_display	AT=ECAT://node#3/Modes of operation display	G=VAR_GLOBAL
+++D=WORD	N=E006_Touch_probe_status	AT=ECAT://node#3/Touch probe status	G=VAR_GLOBAL
+++D=DINT	N=E006_Touch_probe_pos1_pos_value	AT=ECAT://node#3/Touch probe pos1 pos value	G=VAR_GLOBAL
+++D=DINT	N=E006_Touch_probe_pos2_pos_value	AT=ECAT://node#3/Touch probe pos2 pos value	G=VAR_GLOBAL
+++D=DWORD	N=E006_Digital_inputs	AT=ECAT://node#3/Digital inputs	G=VAR_GLOBAL
+++D=BYTE	N=E006_Sysmac_Error_Status	AT=ECAT://node#3/Sysmac Error Status	G=VAR_GLOBAL
+++D=BOOL	N=E006_NOT	AT=ECAT://node#3/Digital inputs/NOT	G=VAR_GLOBAL
+++D=BOOL	N=E006_POT	AT=ECAT://node#3/Digital inputs/POT	G=VAR_GLOBAL
+++D=BOOL	N=E006_DEC	AT=ECAT://node#3/Digital inputs/DEC	G=VAR_GLOBAL
+++D=BOOL	N=E006_PC	AT=ECAT://node#3/Digital inputs/PC	G=VAR_GLOBAL
+++D=BOOL	N=E006_EXT1	AT=ECAT://node#3/Digital inputs/EXT1	G=VAR_GLOBAL
+++D=BOOL	N=E006_EXT2	AT=ECAT://node#3/Digital inputs/EXT2	G=VAR_GLOBAL
+++D=BOOL	N=E006_MON1	AT=ECAT://node#3/Digital inputs/MON1	G=VAR_GLOBAL
+++D=BOOL	N=E006_MON2	AT=ECAT://node#3/Digital inputs/MON2	G=VAR_GLOBAL
+++D=BOOL	N=E006_MON3	AT=ECAT://node#3/Digital inputs/MON3	G=VAR_GLOBAL
+++D=BOOL	N=E006_PCL	AT=ECAT://node#3/Digital inputs/PCL	G=VAR_GLOBAL
+++D=BOOL	N=E006_NCL	AT=ECAT://node#3/Digital inputs/NCL	G=VAR_GLOBAL
+++D=BOOL	N=E006_ESTP	AT=ECAT://node#3/Digital inputs/ESTP	G=VAR_GLOBAL
+++D=BOOL	N=E006_BKIR_MONITOR	AT=ECAT://node#3/Digital inputs/BKIR_MONITOR	G=VAR_GLOBAL
+++D=BOOL	N=E006_STO1	AT=ECAT://node#3/Digital inputs/STO1	G=VAR_GLOBAL
+++D=BOOL	N=E006_STO2	AT=ECAT://node#3/Digital inputs/STO2	G=VAR_GLOBAL
+++D=BOOL	N=E006_EDM	AT=ECAT://node#3/Digital inputs/EDM	G=VAR_GLOBAL
+++D=BOOL	N=E006_MON4	AT=ECAT://node#3/Digital inputs/MON4	G=VAR_GLOBAL
+++D=BOOL	N=E006_MON5	AT=ECAT://node#3/Digital inputs/MON5	G=VAR_GLOBAL
+++D=BOOL	N=E006_EventLog_Support	AT=ECAT://node#3/Sysmac Error Status/EventLog Support	G=VAR_GLOBAL
+++D=BOOL	N=E006_Unit_Type	AT=ECAT://node#3/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
+++D=BOOL	N=E006_Observation	AT=ECAT://node#3/Sysmac Error Status/Observation	G=VAR_GLOBAL
+++D=BOOL	N=E006_Minor_Fault	AT=ECAT://node#3/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
+++D=WORD	N=E007_Controlword	G=VAR_GLOBAL
+++D=DINT	N=E007_Target_position	G=VAR_GLOBAL
+++D=DINT	N=E007_Target_velocity	G=VAR_GLOBAL
+++D=INT	N=E007_Target_torque	G=VAR_GLOBAL
+++D=SINT	N=E007_Modes_of_operation	G=VAR_GLOBAL
+++D=WORD	N=E007_Touch_probe_function	G=VAR_GLOBAL
+++D=UDINT	N=E007_Max_profile_velocity	G=VAR_GLOBAL
+++D=UINT	N=E007_Positive_torque_limit_value	G=VAR_GLOBAL
+++D=UINT	N=E007_Negative_torque_limit_value	G=VAR_GLOBAL
+++D=WORD	N=E007_Error_code	AT=ECAT://node#4/Error code	G=VAR_GLOBAL
+++D=WORD	N=E007_Statusword	AT=ECAT://node#4/Statusword	G=VAR_GLOBAL
+++D=DINT	N=E007_Position_actual_value	AT=ECAT://node#4/Position actual value	G=VAR_GLOBAL
+++D=INT	N=E007_Torque_actual_value	AT=ECAT://node#4/Torque actual value	G=VAR_GLOBAL
+++D=SINT	N=E007_Modes_of_operation_display	AT=ECAT://node#4/Modes of operation display	G=VAR_GLOBAL
+++D=WORD	N=E007_Touch_probe_status	AT=ECAT://node#4/Touch probe status	G=VAR_GLOBAL
+++D=DINT	N=E007_Touch_probe_pos1_pos_value	AT=ECAT://node#4/Touch probe pos1 pos value	G=VAR_GLOBAL
+++D=DINT	N=E007_Touch_probe_pos2_pos_value	AT=ECAT://node#4/Touch probe pos2 pos value	G=VAR_GLOBAL
+++D=DWORD	N=E007_Digital_inputs	AT=ECAT://node#4/Digital inputs	G=VAR_GLOBAL
+++D=BYTE	N=E007_Sysmac_Error_Status	AT=ECAT://node#4/Sysmac Error Status	G=VAR_GLOBAL
+++D=BOOL	N=E007_NOT	AT=ECAT://node#4/Digital inputs/NOT	G=VAR_GLOBAL
+++D=BOOL	N=E007_POT	AT=ECAT://node#4/Digital inputs/POT	G=VAR_GLOBAL
+++D=BOOL	N=E007_DEC	AT=ECAT://node#4/Digital inputs/DEC	G=VAR_GLOBAL
+++D=BOOL	N=E007_PC	AT=ECAT://node#4/Digital inputs/PC	G=VAR_GLOBAL
+++D=BOOL	N=E007_EXT1	AT=ECAT://node#4/Digital inputs/EXT1	G=VAR_GLOBAL
+++D=BOOL	N=E007_EXT2	AT=ECAT://node#4/Digital inputs/EXT2	G=VAR_GLOBAL
+++D=BOOL	N=E007_MON1	AT=ECAT://node#4/Digital inputs/MON1	G=VAR_GLOBAL
+++D=BOOL	N=E007_MON2	AT=ECAT://node#4/Digital inputs/MON2	G=VAR_GLOBAL
+++D=BOOL	N=E007_MON3	AT=ECAT://node#4/Digital inputs/MON3	G=VAR_GLOBAL
+++D=BOOL	N=E007_PCL	AT=ECAT://node#4/Digital inputs/PCL	G=VAR_GLOBAL
+++D=BOOL	N=E007_NCL	AT=ECAT://node#4/Digital inputs/NCL	G=VAR_GLOBAL
+++D=BOOL	N=E007_ESTP	AT=ECAT://node#4/Digital inputs/ESTP	G=VAR_GLOBAL
+++D=BOOL	N=E007_BKIR_MONITOR	AT=ECAT://node#4/Digital inputs/BKIR_MONITOR	G=VAR_GLOBAL
+++D=BOOL	N=E007_STO1	AT=ECAT://node#4/Digital inputs/STO1	G=VAR_GLOBAL
+++D=BOOL	N=E007_STO2	AT=ECAT://node#4/Digital inputs/STO2	G=VAR_GLOBAL
+++D=BOOL	N=E007_EDM	AT=ECAT://node#4/Digital inputs/EDM	G=VAR_GLOBAL
+++D=BOOL	N=E007_MON4	AT=ECAT://node#4/Digital inputs/MON4	G=VAR_GLOBAL
+++D=BOOL	N=E007_MON5	AT=ECAT://node#4/Digital inputs/MON5	G=VAR_GLOBAL
+++D=BOOL	N=E007_EventLog_Support	AT=ECAT://node#4/Sysmac Error Status/EventLog Support	G=VAR_GLOBAL
+++D=BOOL	N=E007_Unit_Type	AT=ECAT://node#4/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
+++D=BOOL	N=E007_Observation	AT=ECAT://node#4/Sysmac Error Status/Observation	G=VAR_GLOBAL
+++D=BOOL	N=E007_Minor_Fault	AT=ECAT://node#4/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
+++D=WORD	N=E008_Controlword	G=VAR_GLOBAL
+++D=DINT	N=E008_Target_position	G=VAR_GLOBAL
+++D=DINT	N=E008_Target_velocity	G=VAR_GLOBAL
+++D=INT	N=E008_Target_torque	G=VAR_GLOBAL
+++D=SINT	N=E008_Modes_of_operation	G=VAR_GLOBAL
+++D=WORD	N=E008_Touch_probe_function	G=VAR_GLOBAL
+++D=UDINT	N=E008_Max_profile_velocity	G=VAR_GLOBAL
+++D=UINT	N=E008_Positive_torque_limit_value	G=VAR_GLOBAL
+++D=UINT	N=E008_Negative_torque_limit_value	G=VAR_GLOBAL
+++D=WORD	N=E008_Error_code	AT=ECAT://node#5/Error code	G=VAR_GLOBAL
+++D=WORD	N=E008_Statusword	AT=ECAT://node#5/Statusword	G=VAR_GLOBAL
+++D=DINT	N=E008_Position_actual_value	AT=ECAT://node#5/Position actual value	G=VAR_GLOBAL
+++D=INT	N=E008_Torque_actual_value	AT=ECAT://node#5/Torque actual value	G=VAR_GLOBAL
+++D=SINT	N=E008_Modes_of_operation_display	AT=ECAT://node#5/Modes of operation display	G=VAR_GLOBAL
+++D=WORD	N=E008_Touch_probe_status	AT=ECAT://node#5/Touch probe status	G=VAR_GLOBAL
+++D=DINT	N=E008_Touch_probe_pos1_pos_value	AT=ECAT://node#5/Touch probe pos1 pos value	G=VAR_GLOBAL
+++D=DINT	N=E008_Touch_probe_pos2_pos_value	AT=ECAT://node#5/Touch probe pos2 pos value	G=VAR_GLOBAL
+++D=DWORD	N=E008_Digital_inputs	AT=ECAT://node#5/Digital inputs	G=VAR_GLOBAL
+++D=BYTE	N=E008_Sysmac_Error_Status	AT=ECAT://node#5/Sysmac Error Status	G=VAR_GLOBAL
+++D=BOOL	N=E008_NOT	AT=ECAT://node#5/Digital inputs/NOT	G=VAR_GLOBAL
+++D=BOOL	N=E008_POT	AT=ECAT://node#5/Digital inputs/POT	G=VAR_GLOBAL
+++D=BOOL	N=E008_DEC	AT=ECAT://node#5/Digital inputs/DEC	G=VAR_GLOBAL
+++D=BOOL	N=E008_PC	AT=ECAT://node#5/Digital inputs/PC	G=VAR_GLOBAL
+++D=BOOL	N=E008_EXT1	AT=ECAT://node#5/Digital inputs/EXT1	G=VAR_GLOBAL
+++D=BOOL	N=E008_EXT2	AT=ECAT://node#5/Digital inputs/EXT2	G=VAR_GLOBAL
+++D=BOOL	N=E008_MON1	AT=ECAT://node#5/Digital inputs/MON1	G=VAR_GLOBAL
+++D=BOOL	N=E008_MON2	AT=ECAT://node#5/Digital inputs/MON2	G=VAR_GLOBAL
+++D=BOOL	N=E008_MON3	AT=ECAT://node#5/Digital inputs/MON3	G=VAR_GLOBAL
+++D=BOOL	N=E008_PCL	AT=ECAT://node#5/Digital inputs/PCL	G=VAR_GLOBAL
+++D=BOOL	N=E008_NCL	AT=ECAT://node#5/Digital inputs/NCL	G=VAR_GLOBAL
+++D=BOOL	N=E008_ESTP	AT=ECAT://node#5/Digital inputs/ESTP	G=VAR_GLOBAL
+++D=BOOL	N=E008_BKIR_MONITOR	AT=ECAT://node#5/Digital inputs/BKIR_MONITOR	G=VAR_GLOBAL
+++D=BOOL	N=E008_STO1	AT=ECAT://node#5/Digital inputs/STO1	G=VAR_GLOBAL
+++D=BOOL	N=E008_STO2	AT=ECAT://node#5/Digital inputs/STO2	G=VAR_GLOBAL
+++D=BOOL	N=E008_EDM	AT=ECAT://node#5/Digital inputs/EDM	G=VAR_GLOBAL
+++D=BOOL	N=E008_MON4	AT=ECAT://node#5/Digital inputs/MON4	G=VAR_GLOBAL
+++D=BOOL	N=E008_MON5	AT=ECAT://node#5/Digital inputs/MON5	G=VAR_GLOBAL
+++D=BOOL	N=E008_EventLog_Support	AT=ECAT://node#5/Sysmac Error Status/EventLog Support	G=VAR_GLOBAL
+++D=BOOL	N=E008_Unit_Type	AT=ECAT://node#5/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
+++D=BOOL	N=E008_Observation	AT=ECAT://node#5/Sysmac Error Status/Observation	G=VAR_GLOBAL
+++D=BOOL	N=E008_Minor_Fault	AT=ECAT://node#5/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
+++D=WORD	N=E009_Controlword	G=VAR_GLOBAL
+++D=DINT	N=E009_Target_position	G=VAR_GLOBAL
+++D=DINT	N=E009_Target_velocity	G=VAR_GLOBAL
+++D=INT	N=E009_Target_torque	G=VAR_GLOBAL
+++D=SINT	N=E009_Modes_of_operation	G=VAR_GLOBAL
+++D=WORD	N=E009_Touch_probe_function	G=VAR_GLOBAL
+++D=UDINT	N=E009_Max_profile_velocity	G=VAR_GLOBAL
+++D=UINT	N=E009_Positive_torque_limit_value	G=VAR_GLOBAL
+++D=UINT	N=E009_Negative_torque_limit_value	G=VAR_GLOBAL
+++D=WORD	N=E009_Error_code	AT=ECAT://node#7/Error code	G=VAR_GLOBAL
+++D=WORD	N=E009_Statusword	AT=ECAT://node#7/Statusword	G=VAR_GLOBAL
+++D=DINT	N=E009_Position_actual_value	AT=ECAT://node#7/Position actual value	G=VAR_GLOBAL
+++D=INT	N=E009_Torque_actual_value	AT=ECAT://node#7/Torque actual value	G=VAR_GLOBAL
+++D=SINT	N=E009_Modes_of_operation_display	AT=ECAT://node#7/Modes of operation display	G=VAR_GLOBAL
+++D=WORD	N=E009_Touch_probe_status	AT=ECAT://node#7/Touch probe status	G=VAR_GLOBAL
+++D=DINT	N=E009_Touch_probe_pos1_pos_value	AT=ECAT://node#7/Touch probe pos1 pos value	G=VAR_GLOBAL
+++D=DINT	N=E009_Touch_probe_pos2_pos_value	AT=ECAT://node#7/Touch probe pos2 pos value	G=VAR_GLOBAL
+++D=DWORD	N=E009_Digital_inputs	AT=ECAT://node#7/Digital inputs	G=VAR_GLOBAL
+++D=BYTE	N=E009_Sysmac_Error_Status	AT=ECAT://node#7/Sysmac Error Status	G=VAR_GLOBAL
+++D=BOOL	N=E009_NOT	AT=ECAT://node#7/Digital inputs/NOT	G=VAR_GLOBAL
+++D=BOOL	N=E009_POT	AT=ECAT://node#7/Digital inputs/POT	G=VAR_GLOBAL
+++D=BOOL	N=E009_DEC	AT=ECAT://node#7/Digital inputs/DEC	G=VAR_GLOBAL
+++D=BOOL	N=E009_PC	AT=ECAT://node#7/Digital inputs/PC	G=VAR_GLOBAL
+++D=BOOL	N=E009_EXT1	AT=ECAT://node#7/Digital inputs/EXT1	G=VAR_GLOBAL
+++D=BOOL	N=E009_EXT2	AT=ECAT://node#7/Digital inputs/EXT2	G=VAR_GLOBAL
+++D=BOOL	N=E009_MON1	AT=ECAT://node#7/Digital inputs/MON1	G=VAR_GLOBAL
+++D=BOOL	N=E009_MON2	AT=ECAT://node#7/Digital inputs/MON2	G=VAR_GLOBAL
+++D=BOOL	N=E009_MON3	AT=ECAT://node#7/Digital inputs/MON3	G=VAR_GLOBAL
+++D=BOOL	N=E009_PCL	AT=ECAT://node#7/Digital inputs/PCL	G=VAR_GLOBAL
+++D=BOOL	N=E009_NCL	AT=ECAT://node#7/Digital inputs/NCL	G=VAR_GLOBAL
+++D=BOOL	N=E009_ESTP	AT=ECAT://node#7/Digital inputs/ESTP	G=VAR_GLOBAL
+++D=BOOL	N=E009_BKIR_MONITOR	AT=ECAT://node#7/Digital inputs/BKIR_MONITOR	G=VAR_GLOBAL
+++D=BOOL	N=E009_STO1	AT=ECAT://node#7/Digital inputs/STO1	G=VAR_GLOBAL
+++D=BOOL	N=E009_STO2	AT=ECAT://node#7/Digital inputs/STO2	G=VAR_GLOBAL
+++D=BOOL	N=E009_EDM	AT=ECAT://node#7/Digital inputs/EDM	G=VAR_GLOBAL
+++D=BOOL	N=E009_MON4	AT=ECAT://node#7/Digital inputs/MON4	G=VAR_GLOBAL
+++D=BOOL	N=E009_MON5	AT=ECAT://node#7/Digital inputs/MON5	G=VAR_GLOBAL
+++D=BOOL	N=E009_EventLog_Support	AT=ECAT://node#7/Sysmac Error Status/EventLog Support	G=VAR_GLOBAL
+++D=BOOL	N=E009_Unit_Type	AT=ECAT://node#7/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
+++D=BOOL	N=E009_Observation	AT=ECAT://node#7/Sysmac Error Status/Observation	G=VAR_GLOBAL
+++D=BOOL	N=E009_Minor_Fault	AT=ECAT://node#7/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
+++D=WORD	N=E010_Controlword	G=VAR_GLOBAL
+++D=DINT	N=E010_Target_position	G=VAR_GLOBAL
+++D=DINT	N=E010_Target_velocity	G=VAR_GLOBAL
+++D=INT	N=E010_Target_torque	G=VAR_GLOBAL
+++D=SINT	N=E010_Modes_of_operation	G=VAR_GLOBAL
+++D=WORD	N=E010_Touch_probe_function	G=VAR_GLOBAL
+++D=UDINT	N=E010_Max_profile_velocity	G=VAR_GLOBAL
+++D=UINT	N=E010_Positive_torque_limit_value	G=VAR_GLOBAL
+++D=UINT	N=E010_Negative_torque_limit_value	G=VAR_GLOBAL
+++D=WORD	N=E010_Error_code	AT=ECAT://node#8/Error code	G=VAR_GLOBAL
+++D=WORD	N=E010_Statusword	AT=ECAT://node#8/Statusword	G=VAR_GLOBAL
+++D=DINT	N=E010_Position_actual_value	AT=ECAT://node#8/Position actual value	G=VAR_GLOBAL
+++D=INT	N=E010_Torque_actual_value	AT=ECAT://node#8/Torque actual value	G=VAR_GLOBAL
+++D=SINT	N=E010_Modes_of_operation_display	AT=ECAT://node#8/Modes of operation display	G=VAR_GLOBAL
+++D=WORD	N=E010_Touch_probe_status	AT=ECAT://node#8/Touch probe status	G=VAR_GLOBAL
+++D=DINT	N=E010_Touch_probe_pos1_pos_value	AT=ECAT://node#8/Touch probe pos1 pos value	G=VAR_GLOBAL
+++D=DINT	N=E010_Touch_probe_pos2_pos_value	AT=ECAT://node#8/Touch probe pos2 pos value	G=VAR_GLOBAL
+++D=DWORD	N=E010_Digital_inputs	AT=ECAT://node#8/Digital inputs	G=VAR_GLOBAL
+++D=BYTE	N=E010_Sysmac_Error_Status	AT=ECAT://node#8/Sysmac Error Status	G=VAR_GLOBAL
+++D=BOOL	N=E010_NOT	AT=ECAT://node#8/Digital inputs/NOT	G=VAR_GLOBAL
+++D=BOOL	N=E010_POT	AT=ECAT://node#8/Digital inputs/POT	G=VAR_GLOBAL
+++D=BOOL	N=E010_DEC	AT=ECAT://node#8/Digital inputs/DEC	G=VAR_GLOBAL
+++D=BOOL	N=E010_PC	AT=ECAT://node#8/Digital inputs/PC	G=VAR_GLOBAL
+++D=BOOL	N=E010_EXT1	AT=ECAT://node#8/Digital inputs/EXT1	G=VAR_GLOBAL
+++D=BOOL	N=E010_EXT2	AT=ECAT://node#8/Digital inputs/EXT2	G=VAR_GLOBAL
+++D=BOOL	N=E010_MON1	AT=ECAT://node#8/Digital inputs/MON1	G=VAR_GLOBAL
+++D=BOOL	N=E010_MON2	AT=ECAT://node#8/Digital inputs/MON2	G=VAR_GLOBAL
+++D=BOOL	N=E010_MON3	AT=ECAT://node#8/Digital inputs/MON3	G=VAR_GLOBAL
+++D=BOOL	N=E010_PCL	AT=ECAT://node#8/Digital inputs/PCL	G=VAR_GLOBAL
+++D=BOOL	N=E010_NCL	AT=ECAT://node#8/Digital inputs/NCL	G=VAR_GLOBAL
+++D=BOOL	N=E010_ESTP	AT=ECAT://node#8/Digital inputs/ESTP	G=VAR_GLOBAL
+++D=BOOL	N=E010_BKIR_MONITOR	AT=ECAT://node#8/Digital inputs/BKIR_MONITOR	G=VAR_GLOBAL
+++D=BOOL	N=E010_STO1	AT=ECAT://node#8/Digital inputs/STO1	G=VAR_GLOBAL
+++D=BOOL	N=E010_STO2	AT=ECAT://node#8/Digital inputs/STO2	G=VAR_GLOBAL
+++D=BOOL	N=E010_EDM	AT=ECAT://node#8/Digital inputs/EDM	G=VAR_GLOBAL
+++D=BOOL	N=E010_MON4	AT=ECAT://node#8/Digital inputs/MON4	G=VAR_GLOBAL
+++D=BOOL	N=E010_MON5	AT=ECAT://node#8/Digital inputs/MON5	G=VAR_GLOBAL
+++D=BOOL	N=E010_EventLog_Support	AT=ECAT://node#8/Sysmac Error Status/EventLog Support	G=VAR_GLOBAL
+++D=BOOL	N=E010_Unit_Type	AT=ECAT://node#8/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
+++D=BOOL	N=E010_Observation	AT=ECAT://node#8/Sysmac Error Status/Observation	G=VAR_GLOBAL
+++D=BOOL	N=E010_Minor_Fault	AT=ECAT://node#8/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
+++D=WORD	N=E011_Controlword	G=VAR_GLOBAL
+++D=DINT	N=E011_Target_position	G=VAR_GLOBAL
+++D=DINT	N=E011_Target_velocity	G=VAR_GLOBAL
+++D=INT	N=E011_Target_torque	G=VAR_GLOBAL
+++D=SINT	N=E011_Modes_of_operation	G=VAR_GLOBAL
+++D=WORD	N=E011_Touch_probe_function	G=VAR_GLOBAL
+++D=UDINT	N=E011_Max_profile_velocity	G=VAR_GLOBAL
+++D=UINT	N=E011_Positive_torque_limit_value	G=VAR_GLOBAL
+++D=UINT	N=E011_Negative_torque_limit_value	G=VAR_GLOBAL
+++D=WORD	N=E011_Error_code	AT=ECAT://node#9/Error code	G=VAR_GLOBAL
+++D=WORD	N=E011_Statusword	AT=ECAT://node#9/Statusword	G=VAR_GLOBAL
+++D=DINT	N=E011_Position_actual_value	AT=ECAT://node#9/Position actual value	G=VAR_GLOBAL
+++D=INT	N=E011_Torque_actual_value	AT=ECAT://node#9/Torque actual value	G=VAR_GLOBAL
+++D=SINT	N=E011_Modes_of_operation_display	AT=ECAT://node#9/Modes of operation display	G=VAR_GLOBAL
+++D=WORD	N=E011_Touch_probe_status	AT=ECAT://node#9/Touch probe status	G=VAR_GLOBAL
+++D=DINT	N=E011_Touch_probe_pos1_pos_value	AT=ECAT://node#9/Touch probe pos1 pos value	G=VAR_GLOBAL
+++D=DINT	N=E011_Touch_probe_pos2_pos_value	AT=ECAT://node#9/Touch probe pos2 pos value	G=VAR_GLOBAL
+++D=DWORD	N=E011_Digital_inputs	AT=ECAT://node#9/Digital inputs	G=VAR_GLOBAL
+++D=BYTE	N=E011_Sysmac_Error_Status	AT=ECAT://node#9/Sysmac Error Status	G=VAR_GLOBAL
+++D=BOOL	N=E011_NOT	AT=ECAT://node#9/Digital inputs/NOT	G=VAR_GLOBAL
+++D=BOOL	N=E011_POT	AT=ECAT://node#9/Digital inputs/POT	G=VAR_GLOBAL
+++D=BOOL	N=E011_DEC	AT=ECAT://node#9/Digital inputs/DEC	G=VAR_GLOBAL
+++D=BOOL	N=E011_PC	AT=ECAT://node#9/Digital inputs/PC	G=VAR_GLOBAL
+++D=BOOL	N=E011_EXT1	AT=ECAT://node#9/Digital inputs/EXT1	G=VAR_GLOBAL
+++D=BOOL	N=E011_EXT2	AT=ECAT://node#9/Digital inputs/EXT2	G=VAR_GLOBAL
+++D=BOOL	N=E011_MON1	AT=ECAT://node#9/Digital inputs/MON1	G=VAR_GLOBAL
+++D=BOOL	N=E011_MON2	AT=ECAT://node#9/Digital inputs/MON2	G=VAR_GLOBAL
+++D=BOOL	N=E011_MON3	AT=ECAT://node#9/Digital inputs/MON3	G=VAR_GLOBAL
+++D=BOOL	N=E011_PCL	AT=ECAT://node#9/Digital inputs/PCL	G=VAR_GLOBAL
+++D=BOOL	N=E011_NCL	AT=ECAT://node#9/Digital inputs/NCL	G=VAR_GLOBAL
+++D=BOOL	N=E011_ESTP	AT=ECAT://node#9/Digital inputs/ESTP	G=VAR_GLOBAL
+++D=BOOL	N=E011_BKIR_MONITOR	AT=ECAT://node#9/Digital inputs/BKIR_MONITOR	G=VAR_GLOBAL
+++D=BOOL	N=E011_STO1	AT=ECAT://node#9/Digital inputs/STO1	G=VAR_GLOBAL
+++D=BOOL	N=E011_STO2	AT=ECAT://node#9/Digital inputs/STO2	G=VAR_GLOBAL
+++D=BOOL	N=E011_EDM	AT=ECAT://node#9/Digital inputs/EDM	G=VAR_GLOBAL
+++D=BOOL	N=E011_MON4	AT=ECAT://node#9/Digital inputs/MON4	G=VAR_GLOBAL
+++D=BOOL	N=E011_MON5	AT=ECAT://node#9/Digital inputs/MON5	G=VAR_GLOBAL
+++D=BOOL	N=E011_EventLog_Support	AT=ECAT://node#9/Sysmac Error Status/EventLog Support	G=VAR_GLOBAL
+++D=BOOL	N=E011_Unit_Type	AT=ECAT://node#9/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
+++D=BOOL	N=E011_Observation	AT=ECAT://node#9/Sysmac Error Status/Observation	G=VAR_GLOBAL
+++D=BOOL	N=E011_Minor_Fault	AT=ECAT://node#9/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
+++D=WORD	N=E012_Controlword	G=VAR_GLOBAL
+++D=DINT	N=E012_Target_position	G=VAR_GLOBAL
+++D=DINT	N=E012_Target_velocity	G=VAR_GLOBAL
+++D=INT	N=E012_Target_torque	G=VAR_GLOBAL
+++D=SINT	N=E012_Modes_of_operation	G=VAR_GLOBAL
+++D=WORD	N=E012_Touch_probe_function	G=VAR_GLOBAL
+++D=UDINT	N=E012_Max_profile_velocity	G=VAR_GLOBAL
+++D=UINT	N=E012_Positive_torque_limit_value	G=VAR_GLOBAL
+++D=UINT	N=E012_Negative_torque_limit_value	G=VAR_GLOBAL
+++D=WORD	N=E012_Error_code	AT=ECAT://node#10/Error code	G=VAR_GLOBAL
+++D=WORD	N=E012_Statusword	AT=ECAT://node#10/Statusword	G=VAR_GLOBAL
+++D=DINT	N=E012_Position_actual_value	AT=ECAT://node#10/Position actual value	G=VAR_GLOBAL
+++D=INT	N=E012_Torque_actual_value	AT=ECAT://node#10/Torque actual value	G=VAR_GLOBAL
+++D=SINT	N=E012_Modes_of_operation_display	AT=ECAT://node#10/Modes of operation display	G=VAR_GLOBAL
+++D=WORD	N=E012_Touch_probe_status	AT=ECAT://node#10/Touch probe status	G=VAR_GLOBAL
+++D=DINT	N=E012_Touch_probe_pos1_pos_value	AT=ECAT://node#10/Touch probe pos1 pos value	G=VAR_GLOBAL
+++D=DINT	N=E012_Touch_probe_pos2_pos_value	AT=ECAT://node#10/Touch probe pos2 pos value	G=VAR_GLOBAL
+++D=DWORD	N=E012_Digital_inputs	AT=ECAT://node#10/Digital inputs	G=VAR_GLOBAL
+++D=BYTE	N=E012_Sysmac_Error_Status	AT=ECAT://node#10/Sysmac Error Status	G=VAR_GLOBAL
+++D=BOOL	N=E012_NOT	AT=ECAT://node#10/Digital inputs/NOT	G=VAR_GLOBAL
+++D=BOOL	N=E012_POT	AT=ECAT://node#10/Digital inputs/POT	G=VAR_GLOBAL
+++D=BOOL	N=E012_DEC	AT=ECAT://node#10/Digital inputs/DEC	G=VAR_GLOBAL
+++D=BOOL	N=E012_PC	AT=ECAT://node#10/Digital inputs/PC	G=VAR_GLOBAL
+++D=BOOL	N=E012_EXT1	AT=ECAT://node#10/Digital inputs/EXT1	G=VAR_GLOBAL
+++D=BOOL	N=E012_EXT2	AT=ECAT://node#10/Digital inputs/EXT2	G=VAR_GLOBAL
+++D=BOOL	N=E012_MON1	AT=ECAT://node#10/Digital inputs/MON1	G=VAR_GLOBAL
+++D=BOOL	N=E012_MON2	AT=ECAT://node#10/Digital inputs/MON2	G=VAR_GLOBAL
+++D=BOOL	N=E012_MON3	AT=ECAT://node#10/Digital inputs/MON3	G=VAR_GLOBAL
+++D=BOOL	N=E012_PCL	AT=ECAT://node#10/Digital inputs/PCL	G=VAR_GLOBAL
+++D=BOOL	N=E012_NCL	AT=ECAT://node#10/Digital inputs/NCL	G=VAR_GLOBAL
+++D=BOOL	N=E012_ESTP	AT=ECAT://node#10/Digital inputs/ESTP	G=VAR_GLOBAL
+++D=BOOL	N=E012_BKIR_MONITOR	AT=ECAT://node#10/Digital inputs/BKIR_MONITOR	G=VAR_GLOBAL
+++D=BOOL	N=E012_STO1	AT=ECAT://node#10/Digital inputs/STO1	G=VAR_GLOBAL
+++D=BOOL	N=E012_STO2	AT=ECAT://node#10/Digital inputs/STO2	G=VAR_GLOBAL
+++D=BOOL	N=E012_EDM	AT=ECAT://node#10/Digital inputs/EDM	G=VAR_GLOBAL
+++D=BOOL	N=E012_MON4	AT=ECAT://node#10/Digital inputs/MON4	G=VAR_GLOBAL
+++D=BOOL	N=E012_MON5	AT=ECAT://node#10/Digital inputs/MON5	G=VAR_GLOBAL
+++D=BOOL	N=E012_EventLog_Support	AT=ECAT://node#10/Sysmac Error Status/EventLog Support	G=VAR_GLOBAL
+++D=BOOL	N=E012_Unit_Type	AT=ECAT://node#10/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
+++D=BOOL	N=E012_Observation	AT=ECAT://node#10/Sysmac Error Status/Observation	G=VAR_GLOBAL
+++D=BOOL	N=E012_Minor_Fault	AT=ECAT://node#10/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
+++D=BOOL	N=Q_xSAFETY_RESET	AT=ECAT://node#[50,1]/I_xReset	G=VAR_GLOBAL	Com=Soft Signal For Reset Safety App
+++D=_sAXIS_REF	N=MC_J1	AT=MC://_MC_AX[1]	RO=1	Const=1	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=MC_J2	AT=MC://_MC_AX[2]	RO=1	Const=1	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=MC_J3	AT=MC://_MC_AX[3]	RO=1	Const=1	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=MC_J4	AT=MC://_MC_AX[4]	RO=1	Const=1	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=MC_Axis004	AT=MC://_MC_AX[5]	RO=1	Const=1	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=MC_POLSO	AT=MC://_MC_AX[6]	RO=1	Const=1	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=MC_Axis006	AT=MC://_MC_AX[7]	RO=1	Const=1	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=MC_Axis007	AT=MC://_MC_AX[8]	RO=1	Const=1	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=MC_Axis008	AT=MC://_MC_AX[9]	RO=1	Const=1	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=MC_Axis009	AT=MC://_MC_AX[10]	RO=1	Const=1	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=MC_Axis010	AT=MC://_MC_AX[11]	RO=1	Const=1	G=VAR_GLOBAL
+++D=BOOL	N=I_xEmergencyOk	G=VAR_GLOBAL
+++D=_sGROUP_REF	N=MC_R1_XYZ	AT=MC://_MC_GRP[0]	RO=1	Const=1	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=MC_X	AT=MC://_MC_AX[12]	RO=1	Const=1	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=MC_Y	AT=MC://_MC_AX[13]	RO=1	Const=1	G=VAR_GLOBAL
