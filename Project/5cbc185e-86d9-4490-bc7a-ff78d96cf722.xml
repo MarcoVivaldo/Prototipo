@@ -2067,7 +2067,7 @@
       <Options />
     </NexAxisModuloMINPositionValue2>
     <NexAxisEncoderTypes>
-      <CurrentValue>NexAxisInc</CurrentValue>
+      <CurrentValue>NexAxisAbs</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexAxisInc</DefaultValue>

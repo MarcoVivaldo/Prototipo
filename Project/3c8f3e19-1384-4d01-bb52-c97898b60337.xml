@@ -2,7 +2,7 @@
 <data>
   <NexAxisGeneralSetting>
     <NexAxisAxisNumber>
-      <CurrentValue>2</CurrentValue>
+      <CurrentValue>14</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>0</DefaultValue>
@@ -20,7 +20,7 @@
       </Options>
     </NexAxisUseAxis>
     <NexAxisAxisType>
-      <CurrentValue>NexAxisServoType</CurrentValue>
+      <CurrentValue>NexAxisVirtualServoType</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexAxisVirtualServoType</DefaultValue>
@@ -40,7 +40,7 @@
     </UsedPDONumber>
     <NexAxisControlType>
       <CurrentValue>NexAxisWithoutControlLoop</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexAxisWithoutControlLoop</DefaultValue>
       <Options>
@@ -49,7 +49,7 @@
     </NexAxisControlType>
     <NexAxisInputDevice1>
       <CurrentValue></CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
@@ -90,14 +90,14 @@
       <Options />
     </NexAxisInputDevice3Channel>
     <NexAxisOutputDevice1>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </NexAxisOutputDevice1>
     <NexAxisOutputDevice1Channel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -105,7 +105,7 @@
     </NexAxisOutputDevice1Channel>
     <NexAxisOutputDevice2>
       <CurrentValue></CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
@@ -119,7 +119,7 @@
     </NexAxisOutputDevice2Channel>
     <NexAxisOutputDevice3>
       <CurrentValue></CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
@@ -140,13 +140,13 @@
     </NexAxisPdoAiosmapVersion>
     <NexAxisPDOMappingTable>
       <CurrentValue></CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </NexAxisPDOMappingTable>
     <PDO0PDOPathName>
-      <CurrentValue>0x6040:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -160,35 +160,35 @@
       <Options />
     </PDO0FunctionNumber>
     <PDO0ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO0ODBitLocation>
     <PDO0MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO0MappedDevice>
     <PDO0MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO0MappedChannel>
     <PDO0Indispensable>
-      <CurrentValue>True</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO0Indispensable>
     <PDO1PDOPathName>
-      <CurrentValue>0x607A:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -202,35 +202,35 @@
       <Options />
     </PDO1FunctionNumber>
     <PDO1ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO1ODBitLocation>
     <PDO1MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO1MappedDevice>
     <PDO1MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO1MappedChannel>
     <PDO1Indispensable>
-      <CurrentValue>True</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO1Indispensable>
     <PDO2PDOPathName>
-      <CurrentValue>0x60FF:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -244,35 +244,35 @@
       <Options />
     </PDO2FunctionNumber>
     <PDO2ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO2ODBitLocation>
     <PDO2MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO2MappedDevice>
     <PDO2MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO2MappedChannel>
     <PDO2Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO2Indispensable>
     <PDO3PDOPathName>
-      <CurrentValue>0x6071:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -286,35 +286,35 @@
       <Options />
     </PDO3FunctionNumber>
     <PDO3ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO3ODBitLocation>
     <PDO3MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO3MappedDevice>
     <PDO3MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO3MappedChannel>
     <PDO3Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO3Indispensable>
     <PDO4PDOPathName>
-      <CurrentValue>0x607F:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -328,35 +328,35 @@
       <Options />
     </PDO4FunctionNumber>
     <PDO4ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO4ODBitLocation>
     <PDO4MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO4MappedDevice>
     <PDO4MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO4MappedChannel>
     <PDO4Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO4Indispensable>
     <PDO5PDOPathName>
-      <CurrentValue>0x6060:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -370,35 +370,35 @@
       <Options />
     </PDO5FunctionNumber>
     <PDO5ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO5ODBitLocation>
     <PDO5MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO5MappedDevice>
     <PDO5MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO5MappedChannel>
     <PDO5Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO5Indispensable>
     <PDO6PDOPathName>
-      <CurrentValue>0x60E0:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -412,35 +412,35 @@
       <Options />
     </PDO6FunctionNumber>
     <PDO6ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO6ODBitLocation>
     <PDO6MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO6MappedDevice>
     <PDO6MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO6MappedChannel>
     <PDO6Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO6Indispensable>
     <PDO7PDOPathName>
-      <CurrentValue>0x60E1:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -454,35 +454,35 @@
       <Options />
     </PDO7FunctionNumber>
     <PDO7ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO7ODBitLocation>
     <PDO7MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO7MappedDevice>
     <PDO7MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO7MappedChannel>
     <PDO7Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO7Indispensable>
     <PDO8PDOPathName>
-      <CurrentValue>0x60B8:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -496,35 +496,35 @@
       <Options />
     </PDO8FunctionNumber>
     <PDO8ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO8ODBitLocation>
     <PDO8MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO8MappedDevice>
     <PDO8MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO8MappedChannel>
     <PDO8Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO8Indispensable>
     <PDO9PDOPathName>
-      <CurrentValue>0x6041:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -538,35 +538,35 @@
       <Options />
     </PDO9FunctionNumber>
     <PDO9ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO9ODBitLocation>
     <PDO9MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO9MappedDevice>
     <PDO9MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO9MappedChannel>
     <PDO9Indispensable>
-      <CurrentValue>True</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO9Indispensable>
     <PDO10PDOPathName>
-      <CurrentValue>0x6064:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -580,28 +580,28 @@
       <Options />
     </PDO10FunctionNumber>
     <PDO10ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO10ODBitLocation>
     <PDO10MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO10MappedDevice>
     <PDO10MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO10MappedChannel>
     <PDO10Indispensable>
-      <CurrentValue>True</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -643,14 +643,14 @@
       <Options />
     </PDO11MappedChannel>
     <PDO11Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO11Indispensable>
     <PDO12PDOPathName>
-      <CurrentValue>0x6077:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -664,35 +664,35 @@
       <Options />
     </PDO12FunctionNumber>
     <PDO12ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO12ODBitLocation>
     <PDO12MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO12MappedDevice>
     <PDO12MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO12MappedChannel>
     <PDO12Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO12Indispensable>
     <PDO13PDOPathName>
-      <CurrentValue>0x6061:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -706,35 +706,35 @@
       <Options />
     </PDO13FunctionNumber>
     <PDO13ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO13ODBitLocation>
     <PDO13MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO13MappedDevice>
     <PDO13MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO13MappedChannel>
     <PDO13Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO13Indispensable>
     <PDO14PDOPathName>
-      <CurrentValue>0x60FD:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -748,35 +748,35 @@
       <Options />
     </PDO14FunctionNumber>
     <PDO14ODBitLocation>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO14ODBitLocation>
     <PDO14MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO14MappedDevice>
     <PDO14MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO14MappedChannel>
     <PDO14Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO14Indispensable>
     <PDO15PDOPathName>
-      <CurrentValue>0x60FD:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -790,35 +790,35 @@
       <Options />
     </PDO15FunctionNumber>
     <PDO15ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO15ODBitLocation>
     <PDO15MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO15MappedDevice>
     <PDO15MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO15MappedChannel>
     <PDO15Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO15Indispensable>
     <PDO16PDOPathName>
-      <CurrentValue>0x60FD:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -832,35 +832,35 @@
       <Options />
     </PDO16FunctionNumber>
     <PDO16ODBitLocation>
-      <CurrentValue>25</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO16ODBitLocation>
     <PDO16MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO16MappedDevice>
     <PDO16MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO16MappedChannel>
     <PDO16Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO16Indispensable>
     <PDO17PDOPathName>
-      <CurrentValue>0x60FD:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -874,35 +874,35 @@
       <Options />
     </PDO17FunctionNumber>
     <PDO17ODBitLocation>
-      <CurrentValue>16</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO17ODBitLocation>
     <PDO17MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO17MappedDevice>
     <PDO17MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO17MappedChannel>
     <PDO17Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO17Indispensable>
     <PDO18PDOPathName>
-      <CurrentValue>0x60FD:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -916,35 +916,35 @@
       <Options />
     </PDO18FunctionNumber>
     <PDO18ODBitLocation>
-      <CurrentValue>2</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO18ODBitLocation>
     <PDO18MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO18MappedDevice>
     <PDO18MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO18MappedChannel>
     <PDO18Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO18Indispensable>
     <PDO19PDOPathName>
-      <CurrentValue>0x60FD:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -958,35 +958,35 @@
       <Options />
     </PDO19FunctionNumber>
     <PDO19ODBitLocation>
-      <CurrentValue>17</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO19ODBitLocation>
     <PDO19MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO19MappedDevice>
     <PDO19MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO19MappedChannel>
     <PDO19Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO19Indispensable>
     <PDO20PDOPathName>
-      <CurrentValue>0x60FD:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -1000,35 +1000,35 @@
       <Options />
     </PDO20FunctionNumber>
     <PDO20ODBitLocation>
-      <CurrentValue>18</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO20ODBitLocation>
     <PDO20MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO20MappedDevice>
     <PDO20MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO20MappedChannel>
     <PDO20Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO20Indispensable>
     <PDO21PDOPathName>
-      <CurrentValue>0x60B9:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -1042,35 +1042,35 @@
       <Options />
     </PDO21FunctionNumber>
     <PDO21ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO21ODBitLocation>
     <PDO21MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO21MappedDevice>
     <PDO21MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO21MappedChannel>
     <PDO21Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO21Indispensable>
     <PDO22PDOPathName>
-      <CurrentValue>0x60BA:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -1084,35 +1084,35 @@
       <Options />
     </PDO22FunctionNumber>
     <PDO22ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO22ODBitLocation>
     <PDO22MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO22MappedDevice>
     <PDO22MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO22MappedChannel>
     <PDO22Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO22Indispensable>
     <PDO23PDOPathName>
-      <CurrentValue>0x60BC:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -1126,35 +1126,35 @@
       <Options />
     </PDO23FunctionNumber>
     <PDO23ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO23ODBitLocation>
     <PDO23MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO23MappedDevice>
     <PDO23MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO23MappedChannel>
     <PDO23Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO23Indispensable>
     <PDO24PDOPathName>
-      <CurrentValue>0x603F:00</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -1168,28 +1168,28 @@
       <Options />
     </PDO24FunctionNumber>
     <PDO24ODBitLocation>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO24ODBitLocation>
     <PDO24MappedDevice>
-      <CurrentValue>66ca8cc3-531d-4ab0-ba2f-0b05cd2bceb3</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO24MappedDevice>
     <PDO24MappedChannel>
-      <CurrentValue>1</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </PDO24MappedChannel>
     <PDO24Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -1231,7 +1231,7 @@
       <Options />
     </PDO25MappedChannel>
     <PDO25Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -1273,7 +1273,7 @@
       <Options />
     </PDO26MappedChannel>
     <PDO26Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -1315,7 +1315,7 @@
       <Options />
     </PDO27MappedChannel>
     <PDO27Indispensable>
-      <CurrentValue>False</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -1338,7 +1338,7 @@
       </Options>
     </NexAxisUnitsConversion>
     <NexAxisUnitsNumerator>
-      <CurrentValue>8388608</CurrentValue>
+      <CurrentValue>10000</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>10000</DefaultValue>
@@ -1352,7 +1352,7 @@
       <Options />
     </NexAxisUnitsNumeratorValue2>
     <NexAxisReducerUse>
-      <CurrentValue>EnumElement2</CurrentValue>
+      <CurrentValue>EnumElement1</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>EnumElement1</DefaultValue>
@@ -1363,7 +1363,7 @@
     </NexAxisReducerUse>
     <NexAxisUnitsDenominator>
       <CurrentValue>10000</CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>10000</DefaultValue>
       <Options />
@@ -1390,8 +1390,8 @@
       <Options />
     </NexAxisPulseDenominatorValue2>
     <NexAxisTravelDistancePerWorkRotation>
-      <CurrentValue>360</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <CurrentValue>10000</CurrentValue>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>10000</DefaultValue>
       <Options />
@@ -1405,14 +1405,14 @@
     </NexAxisTravelDistancePerWorkRotationValue2>
     <NexAxisWorkGearRatio>
       <CurrentValue>1</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>1</DefaultValue>
       <Options />
     </NexAxisWorkGearRatio>
     <NexAxisMotorGearRatio>
-      <CurrentValue>89</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <CurrentValue>1</CurrentValue>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>1</DefaultValue>
       <Options />
@@ -1420,7 +1420,7 @@
   </NexAxisScaling>
   <NexAxisDynamics>
     <NexAxisMaxVelocity>
-      <CurrentValue>600</CurrentValue>
+      <CurrentValue>400000000</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>400000000</DefaultValue>
@@ -1462,7 +1462,7 @@
       <Options />
     </NexAxisStartVelocityValue2>
     <NexAxisMaxJogVelocity>
-      <CurrentValue>10</CurrentValue>
+      <CurrentValue>1000000</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>1000000</DefaultValue>
@@ -1676,7 +1676,7 @@
       <Options />
     </NexAxisDriverAlarmResetTimeValue2>
     <NexAxisMaxPositiveTorqueLimit>
-      <CurrentValue>100</CurrentValue>
+      <CurrentValue>300.0</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>300.0</DefaultValue>
@@ -1690,7 +1690,7 @@
       <Options />
     </NexAxisMaxPositiveTorqueLimitValue2>
     <NexAxisMaxNegativeTorqueLimit>
-      <CurrentValue>100</CurrentValue>
+      <CurrentValue>300.0</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>300.0</DefaultValue>
@@ -1705,7 +1705,7 @@
     </NexAxisMaxNegativeTorqueLimitValue2>
     <NexAxisImmediateStopInputLogicInversion>
       <CurrentValue>NexAxisInversionFalse</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexAxisInversionFalse</DefaultValue>
       <Options>
@@ -1715,7 +1715,7 @@
     </NexAxisImmediateStopInputLogicInversion>
     <NexAxisPositiveLimitInputLogicInversion>
       <CurrentValue>NexAxisInversionFalse</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexAxisInversionFalse</DefaultValue>
       <Options>
@@ -1725,7 +1725,7 @@
     </NexAxisPositiveLimitInputLogicInversion>
     <NexAxisNegativeLimitInputLogicInversion>
       <CurrentValue>NexAxisInversionFalse</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexAxisInversionFalse</DefaultValue>
       <Options>
@@ -1735,7 +1735,7 @@
     </NexAxisNegativeLimitInputLogicInversion>
     <NexAxisHomeProximityInputLogicInversion>
       <CurrentValue>NexAxisInversionFalse</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexAxisInversionFalse</DefaultValue>
       <Options>
@@ -1971,7 +1971,7 @@
       <Options />
     </NexAxisOriginInputMaskAmountValue2>
     <NexAxisOriginPositionOffset>
-      <CurrentValue>-90</CurrentValue>
+      <CurrentValue>0</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>0</DefaultValue>
@@ -2067,7 +2067,7 @@
       <Options />
     </NexAxisModuloMINPositionValue2>
     <NexAxisEncoderTypes>
-      <CurrentValue>NexAxisAbs</CurrentValue>
+      <CurrentValue>NexAxisInc</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexAxisInc</DefaultValue>
@@ -2108,7 +2108,7 @@
     </NexAxisServoDriverModuloMINPositionValue2>
     <PowerDriveSystemStateControlMethod>
       <CurrentValue>McPowerSwitchedOn</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>McPowerSwitchedOn</DefaultValue>
       <Options>
@@ -2119,7 +2119,7 @@
     </PowerDriveSystemStateControlMethod>
     <MainCircuitPowerObserveEnable>
       <CurrentValue>EnumElement1</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>EnumElement1</DefaultValue>
       <Options>

@@ -40,15 +40,18 @@ _EN=Variables
 ++D=USINT	N=usiSTATO	G=VAR
 ++D=BOOL	N=xStartCiclo	G=VAR
 ++D=ARRAY[1..10] OF MC_MoveLinearAbsolute	N=aIFB_MOVE	G=VAR
-++D=ARRAY[1..10] OF TYPE_POINT	N=astPOINTS	IV=[(alrLOC := [330, 210, 2(0.0)]), (alrLOC := [330, 100, 2(0.0)]), (alrLOC := [220, 100, 2(0.0)]), (alrLOC := [220, 210, 2(0.0)]), 6((alrLOC := [4(0.0)]))]	G=VAR
+++D=ARRAY[1..10] OF TYPE_POINT	N=astPOINTS	IV=[(alrLOC := [2(250), 25.0, 180]), (alrLOC := [250, 100, 25.0, 180]), (alrLOC := [200, 100, 50.0, 180]), (alrLOC := [200, 250, 50.0, 180]), 6((alrLOC := [4(0.0)]))]	G=VAR
 ++D=LREAL	N=rVel	IV=10	G=VAR
 ++D=LREAL	N=rACC	IV=100	G=VAR
 ++D=MC_Power	N=POWER_MANDRINO	G=VAR
 ++D=MC_MoveVelocity	N=VEL_MANDRINO	G=VAR
 ++D=LREAL	N=rVelMandrino	G=VAR
 ++D=BOOL	N=xStartMandrino	G=VAR
-++D=MC_Home	N=J1_HOME	Ord=1	G=VAR	AOE=1
-++D=MC_Home	N=J2_HOME	Ord=2	G=VAR	AOE=1
+++D=MC_Home	N=J1_HOME	G=VAR
+++D=MC_Home	N=J2_HOME	G=VAR
+++D=LREAL	N=lrA	G=VAR
+++D=LREAL	N=lrJ6	Ord=1	G=VAR	AOE=1
+++D=BOOL	N=xTestJump	Ord=2	G=VAR	AOE=1
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=BOOL	N=I_xPB_RESET	G=VAR_EXTERNAL
 ++D=BOOL	N=Q_xSAFETY_RESET	G=VAR_EXTERNAL
@@ -61,3 +64,5 @@ _EN=Variables
 ++D=BOOL	N=N7_Input_Bit_00	G=VAR_EXTERNAL
 ++D=BOOL	N=N7_Input_Bit_01	G=VAR_EXTERNAL
 ++D=_sAXIS_REF	N=MC_MANDRINO	Const=1	G=VAR_EXTERNAL
+++D=_sAXIS_REF	N=MC_POLSO	Const=1	G=VAR_EXTERNAL
+++D=_sAXIS_REF	N=MC_SLITTA	Const=1	G=VAR_EXTERNAL

@@ -19,7 +19,7 @@
       </Options>
     </NexAxisGroupGroupUse>
     <NexAxisGroupGroupType>
-      <CurrentValue>NexAxisGroup2Axes</CurrentValue>
+      <CurrentValue>NexAxisGroup4Axes</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexAxisGroup2Axes</DefaultValue>
@@ -44,14 +44,14 @@
       <Options />
     </NexAxisGroupGroupTypeNexAxisGroupAxisY>
     <NexAxisGroupGroupTypeNexAxisGroupAxisZ>
-      <CurrentValue></CurrentValue>
+      <CurrentValue>df84d5a4-aa3b-4df0-bc40-d632ae7b06ad</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </NexAxisGroupGroupTypeNexAxisGroupAxisZ>
     <NexAxisGroupGroupTypeNexAxisGroupAxisU>
-      <CurrentValue></CurrentValue>
+      <CurrentValue>5c957c8e-ffce-44f1-a17c-fbdfb10e45dd</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -67,7 +67,7 @@
       <Options />
     </NexAxisGroupMaxVelocity>
     <NexAxisGroupMaxVelocityValue2>
-      <CurrentValue>pulse/s</CurrentValue>
+      <CurrentValue>Command unit/s</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>Command unit/s</DefaultValue>
@@ -81,7 +81,7 @@
       <Options />
     </NexAxisGroupMaxAcceleration>
     <NexAxisGroupMaxAccelerationValue2>
-      <CurrentValue>pulse/s^2</CurrentValue>
+      <CurrentValue>Command unit/s^2</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>Command unit/s^2</DefaultValue>
@@ -95,7 +95,7 @@
       <Options />
     </NexAxisGroupMaxDeceleration>
     <NexAxisGroupMaxDecelerationValue2>
-      <CurrentValue>pulse/s^2</CurrentValue>
+      <CurrentValue>Command unit/s^2</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>Command unit/s^2</DefaultValue>

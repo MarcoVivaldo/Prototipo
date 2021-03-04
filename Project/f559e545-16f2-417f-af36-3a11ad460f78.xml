@@ -1411,7 +1411,7 @@
       <Options />
     </NexAxisWorkGearRatio>
     <NexAxisMotorGearRatio>
-      <CurrentValue>59</CurrentValue>
+      <CurrentValue>89</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>1</DefaultValue>

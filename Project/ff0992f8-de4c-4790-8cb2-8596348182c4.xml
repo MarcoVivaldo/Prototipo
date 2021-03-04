@@ -5,11 +5,13 @@ _EN=Variables
 ++D=MC_HomeWithParameter	N=SET_X	G=VAR
 ++D=MC_HomeWithParameter	N=SET_Y	G=VAR
 ++D=MC_HomeWithParameter	N=SET_Z	G=VAR
+++D=MC_HomeWithParameter	N=SET_A	G=VAR
 ++D=MC_GroupEnable	N=ENABLE_XYZ	G=VAR
 ++D=MC_SyncMoveAbsolute	N=SYNC_J1	G=VAR
 ++D=MC_SyncMoveAbsolute	N=SYNC_J2	G=VAR
 ++D=MC_SyncMoveAbsolute	N=SYNC_J3	G=VAR
 ++D=MC_SyncMoveAbsolute	N=SYNC_J4	G=VAR
+++D=MC_SyncMoveAbsolute	N=SYNC_J6	G=VAR
 ++D=MC_Power	N=POWER_X	G=VAR
 ++D=MC_Power	N=POWER_Y	G=VAR
 ++D=MC_Power	N=POWER_Z	G=VAR
@@ -17,6 +19,8 @@ _EN=Variables
 ++D=MC_Power	N=POWER_J2	G=VAR
 ++D=MC_Power	N=POWER_J3	G=VAR
 ++D=MC_Power	N=POWER_J4	G=VAR
+++D=MC_Power	N=POWER_J5	G=VAR
+++D=MC_Power	N=POWER_J6	G=VAR
 ++D=MC_MoveJog	N=JOG_X	G=VAR
 ++D=MC_MoveJog	N=JOG_Y	G=VAR
 ++D=MC_MoveJog	N=JOG_Z	G=VAR
@@ -31,37 +35,44 @@ _EN=Variables
 ++D=_sHOMING_REF	N=stHP_X	IV=(HomingMode := _mcHomePreset, HomeInput := _mcZPhase, StartDir := _mcPositiveDirection, HomeDir := _mcPositiveDirection, PosiLmtMode := _mcErrorStop, NegaLmtMode := _mcErrorStop, Vel := 0.0, ApproachVel := 0.0, Acc := 0.0, Dec := 0.0, Jerk := 0.0, Mask := 0.0, Offset := 0.0, PushTime := 0, Compensation := 0.0, CompensationVel := 0.0)	G=VAR
 ++D=_sHOMING_REF	N=stHP_Y	IV=(HomingMode := _mcHomePreset, HomeInput := _mcZPhase, StartDir := _mcPositiveDirection, HomeDir := _mcPositiveDirection, PosiLmtMode := _mcErrorStop, NegaLmtMode := _mcErrorStop, Vel := 0.0, ApproachVel := 0.0, Acc := 0.0, Dec := 0.0, Jerk := 0.0, Mask := 0.0, Offset := 0.0, PushTime := 0, Compensation := 0.0, CompensationVel := 0.0)	G=VAR
 ++D=_sHOMING_REF	N=stHP_Z	IV=(HomingMode := _mcHomePreset, HomeInput := _mcZPhase, StartDir := _mcPositiveDirection, HomeDir := _mcPositiveDirection, PosiLmtMode := _mcErrorStop, NegaLmtMode := _mcErrorStop, Vel := 0.0, ApproachVel := 0.0, Acc := 0.0, Dec := 0.0, Jerk := 0.0, Mask := 0.0, Offset := 0.0, PushTime := 0, Compensation := 0.0, CompensationVel := 0.0)	G=VAR
+++D=_sHOMING_REF	N=stHP_A	IV=(HomingMode := _mcHomePreset, HomeInput := _mcZPhase, StartDir := _mcPositiveDirection, HomeDir := _mcPositiveDirection, PosiLmtMode := _mcErrorStop, NegaLmtMode := _mcErrorStop, Vel := 0.0, ApproachVel := 0.0, Acc := 0.0, Dec := 0.0, Jerk := 0.0, Mask := 0.0, Offset := 0.0, PushTime := 0, Compensation := 0.0, CompensationVel := 0.0)	G=VAR
 ++D=MC_GroupDisable	N=DISABLE_XY	G=VAR
 ++D=MC_Stop	N=DISABLE_J1	G=VAR
 ++D=MC_Stop	N=DISABLE_J2	G=VAR
 ++D=MC_Stop	N=DISABLE_J3	G=VAR
+++D=MC_Stop	N=DISABLE_J4	G=VAR
+++D=MC_Stop	N=DISABLE_J6	G=VAR
 ++D=MC_GroupStop	N=STOP_XY	G=VAR
 ++D=MC_MoveAbsolute	N=GANTRY_MOVE_J3	G=VAR
 ++D=MC_MoveAbsolute	N=GANTRY_MOVE_J4	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
-++D=_sAXIS_REF	N=IQ_stJ1	Ord=0	Const=1	G=VAR_IN_OUT
-++D=_sAXIS_REF	N=IQ_stJ2	Ord=1	Const=1	G=VAR_IN_OUT
-++D=_sAXIS_REF	N=IQ_stJ3	Ord=2	Const=1	G=VAR_IN_OUT
-++D=_sAXIS_REF	N=IQ_stJ4	Ord=3	Const=1	G=VAR_IN_OUT
-++D=_sGROUP_REF	N=IQ_stMCSGroup	Ord=4	Const=1	G=VAR_IN_OUT
-++D=BOOL	N=I_xEnable	Ord=5	G=VAR_INPUT
-++D=BOOL	N=I_xAuto	Ord=6	G=VAR_INPUT
-++D=BOOL	N=I_xJogJoints	Ord=7	G=VAR_INPUT
-++D=LREAL	N=I_lrL1	Ord=8	G=VAR_INPUT
-++D=LREAL	N=I_lrL2	Ord=9	G=VAR_INPUT
-++D=LREAL	N=I_lrLOfssetY	Ord=10	G=VAR_INPUT
-++D=BOOL	N=I_xJogX_J1_FW	Ord=11	G=VAR_INPUT
-++D=BOOL	N=I_xJogX_J1_BW	Ord=12	G=VAR_INPUT
-++D=BOOL	N=I_xJogY_J2_FW	Ord=13	G=VAR_INPUT
-++D=BOOL	N=I_xJogY_J2_BW	Ord=14	G=VAR_INPUT
-++D=BOOL	N=Q_xActive	Ord=15	G=VAR_OUTPUT
-++D=BOOL	N=Q_xError	Ord=16	G=VAR_OUTPUT
-++D=BOOL	N=Q_xAuto	Ord=17	G=VAR_OUTPUT
-++D=STRING[80]	N=Q_sResult	Ord=18	G=VAR_OUTPUT
-++D=LREAL	N=Q_lrX	Ord=19	G=VAR_OUTPUT
-++D=LREAL	N=Q_lrY	Ord=20	G=VAR_OUTPUT
-++D=LREAL	N=Q_lrZ	Ord=21	G=VAR_OUTPUT
-++D=LREAL	N=Q_lrJ1	Ord=22	G=VAR_OUTPUT
-++D=LREAL	N=Q_lrJ2	Ord=23	G=VAR_OUTPUT
+++D=_sAXIS_REF	N=IQ_stJ1	Ord=0	Const=1	G=VAR_IN_OUT	Com=Asse Spalla Master
+++D=_sAXIS_REF	N=IQ_stJ2	Ord=1	Const=1	G=VAR_IN_OUT	Com=Asse  Gomito Master
+++D=_sAXIS_REF	N=IQ_stJ3	Ord=2	Const=1	G=VAR_IN_OUT	Com=Asse Spalla Slave
+++D=_sAXIS_REF	N=IQ_stJ4	Ord=3	Const=1	G=VAR_IN_OUT	Com=Asse Gomito Slave
+++D=_sAXIS_REF	N=IQ_stJ5	Ord=4	Const=1	G=VAR_IN_OUT	Com=Asse Slitta
+++D=_sAXIS_REF	N=IQ_stJ6	Ord=5	Const=1	G=VAR_IN_OUT	Com=Asse Polso
+++D=_sGROUP_REF	N=IQ_stMCSGroup	Ord=6	Const=1	G=VAR_IN_OUT
+++D=BOOL	N=I_xEnable	Ord=7	G=VAR_INPUT
+++D=BOOL	N=I_xAuto	Ord=8	G=VAR_INPUT
+++D=BOOL	N=I_xJogJoints	Ord=9	G=VAR_INPUT
+++D=LREAL	N=I_lrL1	Ord=10	G=VAR_INPUT
+++D=LREAL	N=I_lrL2	Ord=11	G=VAR_INPUT
+++D=LREAL	N=I_lrLOfssetY	Ord=12	G=VAR_INPUT
+++D=BOOL	N=I_xJogX_J1_FW	Ord=13	G=VAR_INPUT
+++D=BOOL	N=I_xJogX_J1_BW	Ord=14	G=VAR_INPUT
+++D=BOOL	N=I_xJogY_J2_FW	Ord=15	G=VAR_INPUT
+++D=BOOL	N=I_xJogY_J2_BW	Ord=16	G=VAR_INPUT
+++D=BOOL	N=Q_xActive	Ord=17	G=VAR_OUTPUT
+++D=BOOL	N=Q_xError	Ord=18	G=VAR_OUTPUT
+++D=BOOL	N=Q_xAuto	Ord=19	G=VAR_OUTPUT
+++D=STRING[80]	N=Q_sResult	Ord=20	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrX	Ord=21	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrY	Ord=22	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrZ	Ord=23	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrA	Ord=24	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrJ1	Ord=25	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrJ2	Ord=26	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrJ6	Ord=27	G=VAR_OUTPUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=ARRAY[0..63] OF _sAXIS_REF	N=_MC_AX	Const=1	G=VAR_EXTERNAL
