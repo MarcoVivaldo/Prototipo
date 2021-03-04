@@ -1,7 +1,8 @@
-<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>lrPos_J1:=DegToRad(I_lrPos_J1);&#xD;
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>//Conversione in Radianti Angoli Giunti&#xD;
+lrPos_J1:=DegToRad(I_lrPos_J1);&#xD;
 lrPos_J2:=DegToRad(I_lrPos_J2+I_lrPos_J1);&#xD;
-&#xD;
+//Calcolo Posizione Polso&#xD;
 Q_lrPos_X:=I_lrL1*cos(lrPos_J1)+I_lrL2*cos(lrPos_J2); //posizione polso&#xD;
-Q_lrPos_Y:=I_lrL1*sin(lrPos_J1)+I_lrL2*sin(lrPos_J2)+I_lrOffsetY;&#xD;
+Q_lrPos_Y:=I_lrL1*sin(lrPos_J1)+I_lrL2*sin(lrPos_J2);&#xD;
 &#xD;
 </Text></StructuredTextModel>

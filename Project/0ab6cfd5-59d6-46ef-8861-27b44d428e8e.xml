@@ -124,7 +124,6 @@ _EN=Variables
 ++D=WORD	N=N7_Input_Bit_16_bits	AT=ECAT://node#[50,7]/Input Bit 16 bits	G=VAR_GLOBAL
 ++D=BOOL	N=N7_Input_Bit_00	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 00	G=VAR_GLOBAL
 ++D=BOOL	N=N7_Input_Bit_01	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 01	G=VAR_GLOBAL
-++D=BOOL	N=N7_Input_Bit_02	G=VAR_GLOBAL
 ++D=BOOL	N=I_xPB_RESET	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 02	G=VAR_GLOBAL	Com=Reset Push Button
 ++D=BOOL	N=N7_Input_Bit_04	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 04	G=VAR_GLOBAL
 ++D=BOOL	N=N7_Input_Bit_05	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 05	G=VAR_GLOBAL
@@ -223,15 +222,6 @@ _EN=Variables
 ++D=BOOL	N=N13_Output_Bit_13	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 13	G=VAR_GLOBAL
 ++D=BOOL	N=N13_Output_Bit_14	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 14	G=VAR_GLOBAL
 ++D=BOOL	N=N13_Output_Bit_15	AT=ECAT://node#[50,13]/Output Bit 16 bits/Output Bit 15	G=VAR_GLOBAL
-++D=WORD	N=E003_Controlword	G=VAR_GLOBAL
-++D=DINT	N=E003_Target_position	G=VAR_GLOBAL
-++D=DINT	N=E003_Target_velocity	G=VAR_GLOBAL
-++D=INT	N=E003_Target_torque	G=VAR_GLOBAL
-++D=SINT	N=E003_Modes_of_operation	G=VAR_GLOBAL
-++D=WORD	N=E003_Touch_probe_function	G=VAR_GLOBAL
-++D=UDINT	N=E003_Max_profile_velocity	G=VAR_GLOBAL
-++D=UINT	N=E003_Positive_torque_limit_value	G=VAR_GLOBAL
-++D=UINT	N=E003_Negative_torque_limit_value	G=VAR_GLOBAL
 ++D=WORD	N=E003_Error_code	AT=ECAT://node#6/Error code	G=VAR_GLOBAL
 ++D=WORD	N=E003_Statusword	AT=ECAT://node#6/Statusword	G=VAR_GLOBAL
 ++D=DINT	N=E003_Position_actual_value	AT=ECAT://node#6/Position actual value	G=VAR_GLOBAL
@@ -264,15 +254,6 @@ _EN=Variables
 ++D=BOOL	N=E003_Unit_Type	AT=ECAT://node#6/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
 ++D=BOOL	N=E003_Observation	AT=ECAT://node#6/Sysmac Error Status/Observation	G=VAR_GLOBAL
 ++D=BOOL	N=E003_Minor_Fault	AT=ECAT://node#6/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
-++D=WORD	N=E004_Controlword	G=VAR_GLOBAL
-++D=DINT	N=E004_Target_position	G=VAR_GLOBAL
-++D=DINT	N=E004_Target_velocity	G=VAR_GLOBAL
-++D=INT	N=E004_Target_torque	G=VAR_GLOBAL
-++D=SINT	N=E004_Modes_of_operation	G=VAR_GLOBAL
-++D=WORD	N=E004_Touch_probe_function	G=VAR_GLOBAL
-++D=UDINT	N=E004_Max_profile_velocity	G=VAR_GLOBAL
-++D=UINT	N=E004_Positive_torque_limit_value	G=VAR_GLOBAL
-++D=UINT	N=E004_Negative_torque_limit_value	G=VAR_GLOBAL
 ++D=WORD	N=E004_Error_code	AT=ECAT://node#1/Error code	G=VAR_GLOBAL
 ++D=WORD	N=E004_Statusword	AT=ECAT://node#1/Statusword	G=VAR_GLOBAL
 ++D=DINT	N=E004_Position_actual_value	AT=ECAT://node#1/Position actual value	G=VAR_GLOBAL
@@ -305,15 +286,6 @@ _EN=Variables
 ++D=BOOL	N=E004_Unit_Type	AT=ECAT://node#1/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
 ++D=BOOL	N=E004_Observation	AT=ECAT://node#1/Sysmac Error Status/Observation	G=VAR_GLOBAL
 ++D=BOOL	N=E004_Minor_Fault	AT=ECAT://node#1/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
-++D=WORD	N=E005_Controlword	G=VAR_GLOBAL
-++D=DINT	N=E005_Target_position	G=VAR_GLOBAL
-++D=DINT	N=E005_Target_velocity	G=VAR_GLOBAL
-++D=INT	N=E005_Target_torque	G=VAR_GLOBAL
-++D=SINT	N=E005_Modes_of_operation	G=VAR_GLOBAL
-++D=WORD	N=E005_Touch_probe_function	G=VAR_GLOBAL
-++D=UDINT	N=E005_Max_profile_velocity	G=VAR_GLOBAL
-++D=UINT	N=E005_Positive_torque_limit_value	G=VAR_GLOBAL
-++D=UINT	N=E005_Negative_torque_limit_value	G=VAR_GLOBAL
 ++D=WORD	N=E005_Error_code	AT=ECAT://node#2/Error code	G=VAR_GLOBAL
 ++D=WORD	N=E005_Statusword	AT=ECAT://node#2/Statusword	G=VAR_GLOBAL
 ++D=DINT	N=E005_Position_actual_value	AT=ECAT://node#2/Position actual value	G=VAR_GLOBAL
@@ -346,15 +318,6 @@ _EN=Variables
 ++D=BOOL	N=E005_Unit_Type	AT=ECAT://node#2/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
 ++D=BOOL	N=E005_Observation	AT=ECAT://node#2/Sysmac Error Status/Observation	G=VAR_GLOBAL
 ++D=BOOL	N=E005_Minor_Fault	AT=ECAT://node#2/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
-++D=WORD	N=E006_Controlword	G=VAR_GLOBAL
-++D=DINT	N=E006_Target_position	G=VAR_GLOBAL
-++D=DINT	N=E006_Target_velocity	G=VAR_GLOBAL
-++D=INT	N=E006_Target_torque	G=VAR_GLOBAL
-++D=SINT	N=E006_Modes_of_operation	G=VAR_GLOBAL
-++D=WORD	N=E006_Touch_probe_function	G=VAR_GLOBAL
-++D=UDINT	N=E006_Max_profile_velocity	G=VAR_GLOBAL
-++D=UINT	N=E006_Positive_torque_limit_value	G=VAR_GLOBAL
-++D=UINT	N=E006_Negative_torque_limit_value	G=VAR_GLOBAL
 ++D=WORD	N=E006_Error_code	AT=ECAT://node#3/Error code	G=VAR_GLOBAL
 ++D=WORD	N=E006_Statusword	AT=ECAT://node#3/Statusword	G=VAR_GLOBAL
 ++D=DINT	N=E006_Position_actual_value	AT=ECAT://node#3/Position actual value	G=VAR_GLOBAL
@@ -387,15 +350,6 @@ _EN=Variables
 ++D=BOOL	N=E006_Unit_Type	AT=ECAT://node#3/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
 ++D=BOOL	N=E006_Observation	AT=ECAT://node#3/Sysmac Error Status/Observation	G=VAR_GLOBAL
 ++D=BOOL	N=E006_Minor_Fault	AT=ECAT://node#3/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
-++D=WORD	N=E007_Controlword	G=VAR_GLOBAL
-++D=DINT	N=E007_Target_position	G=VAR_GLOBAL
-++D=DINT	N=E007_Target_velocity	G=VAR_GLOBAL
-++D=INT	N=E007_Target_torque	G=VAR_GLOBAL
-++D=SINT	N=E007_Modes_of_operation	G=VAR_GLOBAL
-++D=WORD	N=E007_Touch_probe_function	G=VAR_GLOBAL
-++D=UDINT	N=E007_Max_profile_velocity	G=VAR_GLOBAL
-++D=UINT	N=E007_Positive_torque_limit_value	G=VAR_GLOBAL
-++D=UINT	N=E007_Negative_torque_limit_value	G=VAR_GLOBAL
 ++D=WORD	N=E007_Error_code	AT=ECAT://node#4/Error code	G=VAR_GLOBAL
 ++D=WORD	N=E007_Statusword	AT=ECAT://node#4/Statusword	G=VAR_GLOBAL
 ++D=DINT	N=E007_Position_actual_value	AT=ECAT://node#4/Position actual value	G=VAR_GLOBAL
@@ -428,15 +382,6 @@ _EN=Variables
 ++D=BOOL	N=E007_Unit_Type	AT=ECAT://node#4/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
 ++D=BOOL	N=E007_Observation	AT=ECAT://node#4/Sysmac Error Status/Observation	G=VAR_GLOBAL
 ++D=BOOL	N=E007_Minor_Fault	AT=ECAT://node#4/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
-++D=WORD	N=E008_Controlword	G=VAR_GLOBAL
-++D=DINT	N=E008_Target_position	G=VAR_GLOBAL
-++D=DINT	N=E008_Target_velocity	G=VAR_GLOBAL
-++D=INT	N=E008_Target_torque	G=VAR_GLOBAL
-++D=SINT	N=E008_Modes_of_operation	G=VAR_GLOBAL
-++D=WORD	N=E008_Touch_probe_function	G=VAR_GLOBAL
-++D=UDINT	N=E008_Max_profile_velocity	G=VAR_GLOBAL
-++D=UINT	N=E008_Positive_torque_limit_value	G=VAR_GLOBAL
-++D=UINT	N=E008_Negative_torque_limit_value	G=VAR_GLOBAL
 ++D=WORD	N=E008_Error_code	AT=ECAT://node#5/Error code	G=VAR_GLOBAL
 ++D=WORD	N=E008_Statusword	AT=ECAT://node#5/Statusword	G=VAR_GLOBAL
 ++D=DINT	N=E008_Position_actual_value	AT=ECAT://node#5/Position actual value	G=VAR_GLOBAL
@@ -469,15 +414,6 @@ _EN=Variables
 ++D=BOOL	N=E008_Unit_Type	AT=ECAT://node#5/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
 ++D=BOOL	N=E008_Observation	AT=ECAT://node#5/Sysmac Error Status/Observation	G=VAR_GLOBAL
 ++D=BOOL	N=E008_Minor_Fault	AT=ECAT://node#5/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
-++D=WORD	N=E009_Controlword	G=VAR_GLOBAL
-++D=DINT	N=E009_Target_position	G=VAR_GLOBAL
-++D=DINT	N=E009_Target_velocity	G=VAR_GLOBAL
-++D=INT	N=E009_Target_torque	G=VAR_GLOBAL
-++D=SINT	N=E009_Modes_of_operation	G=VAR_GLOBAL
-++D=WORD	N=E009_Touch_probe_function	G=VAR_GLOBAL
-++D=UDINT	N=E009_Max_profile_velocity	G=VAR_GLOBAL
-++D=UINT	N=E009_Positive_torque_limit_value	G=VAR_GLOBAL
-++D=UINT	N=E009_Negative_torque_limit_value	G=VAR_GLOBAL
 ++D=WORD	N=E009_Error_code	AT=ECAT://node#7/Error code	G=VAR_GLOBAL
 ++D=WORD	N=E009_Statusword	AT=ECAT://node#7/Statusword	G=VAR_GLOBAL
 ++D=DINT	N=E009_Position_actual_value	AT=ECAT://node#7/Position actual value	G=VAR_GLOBAL
@@ -510,15 +446,6 @@ _EN=Variables
 ++D=BOOL	N=E009_Unit_Type	AT=ECAT://node#7/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
 ++D=BOOL	N=E009_Observation	AT=ECAT://node#7/Sysmac Error Status/Observation	G=VAR_GLOBAL
 ++D=BOOL	N=E009_Minor_Fault	AT=ECAT://node#7/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
-++D=WORD	N=E010_Controlword	G=VAR_GLOBAL
-++D=DINT	N=E010_Target_position	G=VAR_GLOBAL
-++D=DINT	N=E010_Target_velocity	G=VAR_GLOBAL
-++D=INT	N=E010_Target_torque	G=VAR_GLOBAL
-++D=SINT	N=E010_Modes_of_operation	G=VAR_GLOBAL
-++D=WORD	N=E010_Touch_probe_function	G=VAR_GLOBAL
-++D=UDINT	N=E010_Max_profile_velocity	G=VAR_GLOBAL
-++D=UINT	N=E010_Positive_torque_limit_value	G=VAR_GLOBAL
-++D=UINT	N=E010_Negative_torque_limit_value	G=VAR_GLOBAL
 ++D=WORD	N=E010_Error_code	AT=ECAT://node#8/Error code	G=VAR_GLOBAL
 ++D=WORD	N=E010_Statusword	AT=ECAT://node#8/Statusword	G=VAR_GLOBAL
 ++D=DINT	N=E010_Position_actual_value	AT=ECAT://node#8/Position actual value	G=VAR_GLOBAL
@@ -551,15 +478,6 @@ _EN=Variables
 ++D=BOOL	N=E010_Unit_Type	AT=ECAT://node#8/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
 ++D=BOOL	N=E010_Observation	AT=ECAT://node#8/Sysmac Error Status/Observation	G=VAR_GLOBAL
 ++D=BOOL	N=E010_Minor_Fault	AT=ECAT://node#8/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
-++D=WORD	N=E011_Controlword	G=VAR_GLOBAL
-++D=DINT	N=E011_Target_position	G=VAR_GLOBAL
-++D=DINT	N=E011_Target_velocity	G=VAR_GLOBAL
-++D=INT	N=E011_Target_torque	G=VAR_GLOBAL
-++D=SINT	N=E011_Modes_of_operation	G=VAR_GLOBAL
-++D=WORD	N=E011_Touch_probe_function	G=VAR_GLOBAL
-++D=UDINT	N=E011_Max_profile_velocity	G=VAR_GLOBAL
-++D=UINT	N=E011_Positive_torque_limit_value	G=VAR_GLOBAL
-++D=UINT	N=E011_Negative_torque_limit_value	G=VAR_GLOBAL
 ++D=WORD	N=E011_Error_code	AT=ECAT://node#9/Error code	G=VAR_GLOBAL
 ++D=WORD	N=E011_Statusword	AT=ECAT://node#9/Statusword	G=VAR_GLOBAL
 ++D=DINT	N=E011_Position_actual_value	AT=ECAT://node#9/Position actual value	G=VAR_GLOBAL
@@ -592,15 +510,6 @@ _EN=Variables
 ++D=BOOL	N=E011_Unit_Type	AT=ECAT://node#9/Sysmac Error Status/Unit Type	G=VAR_GLOBAL
 ++D=BOOL	N=E011_Observation	AT=ECAT://node#9/Sysmac Error Status/Observation	G=VAR_GLOBAL
 ++D=BOOL	N=E011_Minor_Fault	AT=ECAT://node#9/Sysmac Error Status/Minor Fault	G=VAR_GLOBAL
-++D=WORD	N=E012_Controlword	G=VAR_GLOBAL
-++D=DINT	N=E012_Target_position	G=VAR_GLOBAL
-++D=DINT	N=E012_Target_velocity	G=VAR_GLOBAL
-++D=INT	N=E012_Target_torque	G=VAR_GLOBAL
-++D=SINT	N=E012_Modes_of_operation	G=VAR_GLOBAL
-++D=WORD	N=E012_Touch_probe_function	G=VAR_GLOBAL
-++D=UDINT	N=E012_Max_profile_velocity	G=VAR_GLOBAL
-++D=UINT	N=E012_Positive_torque_limit_value	G=VAR_GLOBAL
-++D=UINT	N=E012_Negative_torque_limit_value	G=VAR_GLOBAL
 ++D=WORD	N=E012_Error_code	AT=ECAT://node#10/Error code	G=VAR_GLOBAL
 ++D=WORD	N=E012_Statusword	AT=ECAT://node#10/Statusword	G=VAR_GLOBAL
 ++D=DINT	N=E012_Position_actual_value	AT=ECAT://node#10/Position actual value	G=VAR_GLOBAL
