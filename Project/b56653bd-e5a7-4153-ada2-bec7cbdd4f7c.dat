@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Module VenderID="1" ProductCode="10498816" Revision="16842752" IONodeID="e350cc80-5e13-46f9-8fe2-f99bb06377a3" DeviceName="N1" SerialNo="0" IsEnabled="1">
-  <Feature Values="SupportFbViewProtection, SupportFbChangeProtection" />
+  <Feature Values="None" />
   <PdoM PMIndex="6656" PMN="TxSlaves" PMIOD="I">
     <Pdo PID="493301ab-b36b-4358-b292-55a70eb5c5dd" Index="24576" SIndex="1" Name="NexECAT1" DSC="" PBit="56" PD="I" PV="H" PBO="0" BTBL="56" LEMI="4" SPId="aa269259-6920-4a7d-a08d-aec9516eb07e" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
     <Pdo PID="c72166bc-7ff2-4950-a95d-76864cd2349d" Index="24576" SIndex="2" Name="NexECAT2" DSC="" PBit="56" PD="I" PV="H" PBO="56" BTBL="56" LEMI="5" SPId="ebb2efd6-14f1-4e05-ba1a-22af954ee743" PDT="ARRAY [0..6] OF BYTE" CipType="None" />
@@ -40,10 +40,10 @@
       <SubPort PID="d0055975-0061-40af-89f5-33e07e949fa5" Name="Reserved" DSC="" Offset="4" PD="I" BTBL="12" PDT="BOOL" PV="H" />
     </Pdo>
     <Pdo PID="66455b89-6cb9-4524-b5b4-4cf16eba99d8" Index="24577" SIndex="2" Name="Q_xEmergencyOK" DSC="" PBit="8" PD="I" PV="V" PBO="736" BTBL="1" LEMI="15" SPId="00000000-0000-0000-0000-000000000000" PDT="BOOL" CipType="None" />
-    <Pdo PID="4b052bd5-1b57-4c08-9acb-1165fb94f24f" Index="24577" SIndex="3" Name="Padding" DSC="" PBit="8" PD="I" PV="H" PBO="744" BTBL="8" LEMI="0" SPId="00000000-0000-0000-0000-000000000000" PDT="ARRAY [0..0] OF BYTE" CipType="None" />
+    <Pdo PID="769d71f1-d2e0-4395-9f55-e9c546e22ed2" Index="24577" SIndex="3" Name="Q_xWaitReset" DSC="" PBit="8" PD="I" PV="V" PBO="744" BTBL="1" LEMI="16" SPId="00000000-0000-0000-0000-000000000000" PDT="BOOL" CipType="None" />
   </PdoM>
   <PdoM PMIndex="5633" PMN="RxVariables" PMIOD="O">
     <Pdo PID="0e337a80-2837-4538-bb09-540dcf88aa44" Index="28673" SIndex="1" Name="I_xReset" DSC="" PBit="8" PD="O" PV="V" PBO="720" BTBL="1" LEMI="14" SPId="00000000-0000-0000-0000-000000000000" PDT="BOOL" CipType="None" />
-    <Pdo PID="6d7b7bc1-3967-42ab-97f6-067b615d38f5" Index="28673" SIndex="2" Name="Padding" DSC="" PBit="8" PD="O" PV="H" PBO="728" BTBL="8" LEMI="0" SPId="00000000-0000-0000-0000-000000000000" PDT="ARRAY [0..0] OF BYTE" CipType="None" />
+    <Pdo PID="f55647d0-949a-4d74-9300-ade9728d206b" Index="28673" SIndex="2" Name="Padding" DSC="" PBit="8" PD="O" PV="H" PBO="728" BTBL="8" LEMI="0" SPId="00000000-0000-0000-0000-000000000000" PDT="ARRAY [0..0] OF BYTE" CipType="None" />
   </PdoM>
 </Module>

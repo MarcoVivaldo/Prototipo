@@ -172,9 +172,8 @@ _EN=Variables
 ++D=BOOL	N=N9_Input_Bit_14	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 14	G=VAR_GLOBAL
 ++D=BOOL	N=N9_Input_Bit_15	AT=ECAT://node#[50,9]/Input Bit 16 bits/Input Bit 15	G=VAR_GLOBAL
 ++D=WORD	N=N10_Output_Bit_16_bits	AT=ECAT://node#[50,10]/Output Bit 16 bits	G=VAR_GLOBAL
-++D=BOOL	N=N10_Output_Bit_00	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 00	G=VAR_GLOBAL
-++D=BOOL	N=N10_Output_Bit_01	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 01	G=VAR_GLOBAL
-++D=BOOL	N=N10_Output_Bit_02	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 02	G=VAR_GLOBAL
+++D=BOOL	N=Q_xRedLight	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 01	G=VAR_GLOBAL
+++D=BOOL	N=Q_xOrangeLight	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 02	G=VAR_GLOBAL
 ++D=BOOL	N=N10_Output_Bit_03	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 03	G=VAR_GLOBAL
 ++D=BOOL	N=N10_Output_Bit_04	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 04	G=VAR_GLOBAL
 ++D=BOOL	N=N10_Output_Bit_05	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 05	G=VAR_GLOBAL
@@ -559,3 +558,5 @@ _EN=Variables
 ++D=_sAXIS_REF	N=MC_X	AT=MC://_MC_AX[12]	RO=1	Const=1	G=VAR_GLOBAL
 ++D=_sAXIS_REF	N=MC_Y	AT=MC://_MC_AX[13]	RO=1	Const=1	G=VAR_GLOBAL
 ++D=_sAXIS_REF	N=MC_A	AT=MC://_MC_AX[14]	RO=1	Const=1	G=VAR_GLOBAL
+++D=BOOL	N=Q_xGreenLight	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 00	G=VAR_GLOBAL
+++D=BOOL	N=I_xWaitReset	AT=ECAT://node#[50,1]/Q_xWaitReset	G=VAR_GLOBAL
