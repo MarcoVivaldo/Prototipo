@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataTraceSetModel>
+    <DataTraceSetItemModel>
+      <ModelType>Symbol</ModelType>
+      <Name>MC_X.Cmd.Pos</Name>
+      <Id>6e424dd7-95f4-4b19-b70c-02d00baea85c</Id>
+      <SymbolId>entity://variables.global.0ab6cfd5-59d6-46ef-8861-27b44d428e8e/MC_X.Cmd.Pos%3ALREAL</SymbolId>
+      <NaturalDataType>LREAL</NaturalDataType>
+      <Comment></Comment>
+      <ColourA>255</ColourA>
+      <ColourR>255</ColourR>
+      <ColourG>255</ColourG>
+      <ColourB>0</ColourB>
+      <Historical>false</Historical>
+      <DataType>System.Double</DataType>
+      <Id>6e424dd7-95f4-4b19-b70c-02d00baea85c</Id>
+      <Visible>true</Visible>
+      <Offset>0</Offset>
+      <ValueOffset></ValueOffset>
+      <WriteConfirmed>true</WriteConfirmed>
+    </DataTraceSetItemModel>
+    <DataTraceSetItemModel>
+      <ModelType>Symbol</ModelType>
+      <Name>MC_X.Cmd.Vel</Name>
+      <Id>bab73f69-00ee-45e3-b850-a3d93bdafa6d</Id>
+      <SymbolId>entity://variables.global.0ab6cfd5-59d6-46ef-8861-27b44d428e8e/MC_X.Cmd.Vel%3ALREAL</SymbolId>
+      <NaturalDataType>LREAL</NaturalDataType>
+      <Comment></Comment>
+      <ColourA>255</ColourA>
+      <ColourR>0</ColourR>
+      <ColourG>255</ColourG>
+      <ColourB>255</ColourB>
+      <Historical>false</Historical>
+      <DataType>System.Double</DataType>
+      <Id>bab73f69-00ee-45e3-b850-a3d93bdafa6d</Id>
+      <Visible>true</Visible>
+      <Offset>0</Offset>
+      <ValueOffset></ValueOffset>
+      <WriteConfirmed>true</WriteConfirmed>
+    </DataTraceSetItemModel>
+  </DataTraceSetModel>
+</data>

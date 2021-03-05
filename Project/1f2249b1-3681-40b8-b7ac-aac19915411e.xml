@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<OnlineFunctionalTest FormatVersion="1.00" IsProjectModifiedAfterRunning="false">
+<OnlineFunctionalTest FormatVersion="1.00" IsProjectModifiedAfterRunning="true">
   <TestSettings IsUnavailable="false" ResetVariableName="I_xReset" ModifiedAfterRunning="false">
     <EditableInputSettings>
       <InputSetting Id="5a187729-c5a0-4d90-8625-cbc6f2599de4" ResetType="Manual" InputType="OneInput" IsTestTarget="true">
