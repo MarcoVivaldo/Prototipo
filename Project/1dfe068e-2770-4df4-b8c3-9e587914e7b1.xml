@@ -7,9 +7,7 @@
       <ExecutionConditionSiouCpuUnit CJUnitTaskNo="" />
     </ExecutionConditionCJUnit>
   </GeneralSettingsData>
-  <Programs>
-    <AssociatedProgramData ProgramName="PRG_MAIN" InstanceName="PRG_MAIN" IniFileTrackingId="fafb3afcd9d448f3aed803266399a88d" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
-  </Programs>
+  <Programs />
   <RefreshUnitIds>
     <RefreshUnitId RefreshUnitId="4dadd434-10d0-46f0-a161-3ebea3874466" />
     <RefreshUnitId RefreshUnitId="e5169bd0-b675-45ad-b570-a76c6940e776" />

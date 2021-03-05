@@ -9,7 +9,7 @@
       <Options />
     </NexAxisGroupGroupNumber>
     <NexAxisGroupGroupUse>
-      <CurrentValue>NexAxisGroupUsingGroup</CurrentValue>
+      <CurrentValue>NexAxisGroupNotUsingGroup</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexAxisGroupNotUsingGroup</DefaultValue>
@@ -20,7 +20,7 @@
     </NexAxisGroupGroupUse>
     <NexAxisGroupGroupType>
       <CurrentValue>NexAxisGroup4Axes</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexAxisGroup2Axes</DefaultValue>
       <Options>
@@ -30,14 +30,14 @@
       </Options>
     </NexAxisGroupGroupType>
     <NexAxisGroupGroupTypeNexAxisGroupAxisX>
-      <CurrentValue>4da37f1c-8458-446f-8a53-16c7725ac5bf</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </NexAxisGroupGroupTypeNexAxisGroupAxisX>
     <NexAxisGroupGroupTypeNexAxisGroupAxisY>
-      <CurrentValue>6479cd85-bb74-45b0-8c16-98b3185f851f</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -51,23 +51,33 @@
       <Options />
     </NexAxisGroupGroupTypeNexAxisGroupAxisZ>
     <NexAxisGroupGroupTypeNexAxisGroupAxisU>
-      <CurrentValue>5c957c8e-ffce-44f1-a17c-fbdfb10e45dd</CurrentValue>
+      <CurrentValue></CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
     </NexAxisGroupGroupTypeNexAxisGroupAxisU>
+    <NexAxisGroupMceTypeSelect>
+      <CurrentValue>NexAxisGroupMceType1</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>false</IsVisible>
+      <DefaultValue>NexAxisGroupMceType1</DefaultValue>
+      <Options>
+        <Option>NexAxisGroupMceType1</Option>
+        <Option>NexAxisGroupMceType2</Option>
+      </Options>
+    </NexAxisGroupMceTypeSelect>
   </NexAxisGroupGeneralSetting>
   <NexAxisGroupDriveSetting>
     <NexAxisGroupMaxVelocity>
       <CurrentValue>800000000</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>800000000</DefaultValue>
       <Options />
     </NexAxisGroupMaxVelocity>
     <NexAxisGroupMaxVelocityValue2>
-      <CurrentValue>Command unit/s</CurrentValue>
+      <CurrentValue>mm/s</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>Command unit/s</DefaultValue>
@@ -75,13 +85,13 @@
     </NexAxisGroupMaxVelocityValue2>
     <NexAxisGroupMaxAcceleration>
       <CurrentValue>0</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>0</DefaultValue>
       <Options />
     </NexAxisGroupMaxAcceleration>
     <NexAxisGroupMaxAccelerationValue2>
-      <CurrentValue>Command unit/s^2</CurrentValue>
+      <CurrentValue>mm/s^2</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>Command unit/s^2</DefaultValue>
@@ -89,13 +99,13 @@
     </NexAxisGroupMaxAccelerationValue2>
     <NexAxisGroupMaxDeceleration>
       <CurrentValue>0</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>0</DefaultValue>
       <Options />
     </NexAxisGroupMaxDeceleration>
     <NexAxisGroupMaxDecelerationValue2>
-      <CurrentValue>Command unit/s^2</CurrentValue>
+      <CurrentValue>mm/s^2</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>Command unit/s^2</DefaultValue>
@@ -103,7 +113,7 @@
     </NexAxisGroupMaxDecelerationValue2>
     <NexAxisGroupWarningVelocityLimit>
       <CurrentValue>0</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>0</DefaultValue>
       <Options />
@@ -117,7 +127,7 @@
     </NexAxisGroupWarningVelocityLimitValue2>
     <NexAxisGroupWarningAccelerationLimit>
       <CurrentValue>0</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>0</DefaultValue>
       <Options />
@@ -131,7 +141,7 @@
     </NexAxisGroupWarningAccelerationLimitValue2>
     <NexAxisGroupWarningDecelerationLimit>
       <CurrentValue>0</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>0</DefaultValue>
       <Options />
@@ -145,7 +155,7 @@
     </NexAxisGroupWarningDecelerationLimitValue2>
     <NexAxisGroupAccDecOveractive>
       <CurrentValue>NexAxisGroupBufferMode</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexAxisGroupBufferMode</DefaultValue>
       <Options>
@@ -156,7 +166,7 @@
     </NexAxisGroupAccDecOveractive>
     <NexAxisGroupStopMode>
       <CurrentValue>NexAxisGroupPromptlyStop</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexAxisGroupPromptlyStop</DefaultValue>
       <Options>
@@ -167,7 +177,7 @@
     </NexAxisGroupStopMode>
     <NexAxisGroupMoveCircularCheckMethod>
       <CurrentValue>0</CurrentValue>
-      <IsEnabled>true</IsEnabled>
+      <IsEnabled>false</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>0</DefaultValue>
       <Options />

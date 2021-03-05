@@ -1321,6 +1321,16 @@
       <DefaultValue></DefaultValue>
       <Options />
     </PDO27Indispensable>
+    <NexAxisMceTypeSelect>
+      <CurrentValue>NexAxisMceType1</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>false</IsVisible>
+      <DefaultValue>NexAxisMceType1</DefaultValue>
+      <Options>
+        <Option>NexAxisMceType1</Option>
+        <Option>NexAxisMceType2</Option>
+      </Options>
+    </NexAxisMceTypeSelect>
   </NexAxisGeneralSetting>
   <NexAxisScaling>
     <NexAxisUnitsConversion>

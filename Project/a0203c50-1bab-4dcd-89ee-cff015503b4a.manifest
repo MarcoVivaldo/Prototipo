@@ -4,7 +4,8 @@
   <Solution solutionName="PROTOTIPO" id="a0203c50-1bab-4dcd-89ee-cff015503b4a" trackingId="cd1b430e-1cc0-4e8f-b9e6-f3458ec71c9c" solutionSchemaVersion="2">
     <ApplicationFeatures>
       <ApplicationFeature name="V102Project" />
-      <ApplicationFeature name="SetUnit NJ501-1500 Ver. 1.19" />
+      <ApplicationFeature name="CNC V1.01" />
+      <ApplicationFeature name="SetUnit NY532-5400 Ver. 1.19" />
       <ApplicationFeature name="Safety" />
       <ApplicationFeature name="TransferInfoAndBuildResultsEntitiesReduced" />
     </ApplicationFeatures>
