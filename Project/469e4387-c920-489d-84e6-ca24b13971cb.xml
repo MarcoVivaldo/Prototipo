@@ -3,13 +3,14 @@
   <ControllerId>d5866277-7de0-4dd8-9e79-8318da8c45d6</ControllerId>
   <ControllerName></ControllerName>
   <MajorVersion>1</MajorVersion>
-  <MinorVersion>19</MinorVersion>
+  <MinorVersion>21</MinorVersion>
   <Revision>0</Revision>
   <Category>Controller</Category>
   <Family>Nex</Family>
-  <ModelName>NJ501</ModelName>
-  <ModelDetail>1500</ModelDetail>
+  <ModelName>NY532</ModelName>
+  <ModelDetail>5400</ModelDetail>
   <SystemErrorMessageDisplayLanguageSetting>en-US,ja-JP</SystemErrorMessageDisplayLanguageSetting>
   <IsDuplicateIdOptimized>true</IsDuplicateIdOptimized>
+  <Packages>CNC 1.01</Packages>
   <IsWithoutCommentTransfer>false</IsWithoutCommentTransfer>
 </data>

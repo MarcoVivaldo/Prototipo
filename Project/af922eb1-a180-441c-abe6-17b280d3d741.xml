@@ -57,6 +57,16 @@
       <DefaultValue></DefaultValue>
       <Options />
     </NexAxisGroupGroupTypeNexAxisGroupAxisU>
+    <NexAxisGroupMceTypeSelect>
+      <CurrentValue>NexAxisGroupMceType1</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>false</IsVisible>
+      <DefaultValue>NexAxisGroupMceType1</DefaultValue>
+      <Options>
+        <Option>NexAxisGroupMceType1</Option>
+        <Option>NexAxisGroupMceType2</Option>
+      </Options>
+    </NexAxisGroupMceTypeSelect>
   </NexAxisGroupGeneralSetting>
   <NexAxisGroupDriveSetting>
     <NexAxisGroupMaxVelocity>

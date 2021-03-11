@@ -19,4 +19,4 @@ _EN=Variables
 ++D=BOOL	N=Q_xDone	Ord=2	G=VAR_OUTPUT
 ++D=BOOL	N=Q_xError	Ord=3	G=VAR_OUTPUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
-++D=ARRAY[1..192] OF BOOL	N=_EC_PDSlavTbl	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[1..512] OF BOOL	N=_EC_PDSlavTbl	Const=1	G=VAR_EXTERNAL
