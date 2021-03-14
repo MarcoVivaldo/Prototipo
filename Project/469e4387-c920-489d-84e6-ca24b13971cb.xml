@@ -3,7 +3,7 @@
   <ControllerId>d5866277-7de0-4dd8-9e79-8318da8c45d6</ControllerId>
   <ControllerName></ControllerName>
   <MajorVersion>1</MajorVersion>
-  <MinorVersion>21</MinorVersion>
+  <MinorVersion>16</MinorVersion>
   <Revision>0</Revision>
   <Category>Controller</Category>
   <Family>Nex</Family>
@@ -11,6 +11,6 @@
   <ModelDetail>5400</ModelDetail>
   <SystemErrorMessageDisplayLanguageSetting>en-US,ja-JP</SystemErrorMessageDisplayLanguageSetting>
   <IsDuplicateIdOptimized>true</IsDuplicateIdOptimized>
-  <Packages>CNC 1.01</Packages>
+  <Packages>CNC 1.00</Packages>
   <IsWithoutCommentTransfer>false</IsWithoutCommentTransfer>
 </data>

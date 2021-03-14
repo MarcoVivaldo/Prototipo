@@ -35,15 +35,8 @@
       <DefaultValue>s</DefaultValue>
       <Options />
     </NexCpuActionRunModeDelayTimeValue2>
-    <NexCpuActionShutdownWaitTimeUserPrg>
-      <CurrentValue>5</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>5</DefaultValue>
-      <Options />
-    </NexCpuActionShutdownWaitTimeUserPrg>
     <NexCpuActionSharedFolder>
-      <CurrentValue>EnumElement1</CurrentValue>
+      <CurrentValue>EnumElement2</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>EnumElement1</DefaultValue>
@@ -52,20 +45,76 @@
         <Option>EnumElement2</Option>
       </Options>
     </NexCpuActionSharedFolder>
-    <NexCpuActionShutdownWaitTimeWindowsValue2>
-      <CurrentValue>s</CurrentValue>
+    <NexCpuActionSharedFolderComputerName>
+      <CurrentValue>Marco-PC</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
-      <DefaultValue>s</DefaultValue>
+      <DefaultValue></DefaultValue>
       <Options />
-    </NexCpuActionShutdownWaitTimeWindowsValue2>
-    <NexCpuActionShutdownWaitTimeWindows>
-      <CurrentValue>60</CurrentValue>
+    </NexCpuActionSharedFolderComputerName>
+    <NexCpuActionSharedFolderComputerNameValue2>
+      <CurrentValue>NexCpuActionEmptyUnit</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
-      <DefaultValue>60</DefaultValue>
+      <DefaultValue>NexCpuActionEmptyUnit</DefaultValue>
       <Options />
-    </NexCpuActionShutdownWaitTimeWindows>
+    </NexCpuActionSharedFolderComputerNameValue2>
+    <NexCpuActionSharedFolderIPAddress>
+      <CurrentValue>192.168.254.2</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>192.168.254.2</DefaultValue>
+      <Options />
+    </NexCpuActionSharedFolderIPAddress>
+    <NexCpuActionSharedFolderName>
+      <CurrentValue>VirtualSDCard</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>VirtualSDCard</DefaultValue>
+      <Options />
+    </NexCpuActionSharedFolderName>
+    <NexCpuActionSharedFolderNameValue2>
+      <CurrentValue>NexCpuActionEmptyUnit</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCpuActionEmptyUnit</DefaultValue>
+      <Options />
+    </NexCpuActionSharedFolderNameValue2>
+    <NexCpuActionSharedFolderUserName>
+      <CurrentValue>marco</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuActionSharedFolderUserName>
+    <NexCpuActionSharedFolderUserNameValue2>
+      <CurrentValue>NexCpuActionEmptyUnit</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCpuActionEmptyUnit</DefaultValue>
+      <Options />
+    </NexCpuActionSharedFolderUserNameValue2>
+    <NexCpuActionSharedFolderPassword>
+      <CurrentValue>Omron#2021</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuActionSharedFolderPassword>
+    <NexCpuActionSharedFolderPasswordValue2>
+      <CurrentValue>NexCpuActionEmptyUnit</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCpuActionEmptyUnit</DefaultValue>
+      <Options />
+    </NexCpuActionSharedFolderPasswordValue2>
+    <NexCpuActionShutdownWaitTimeUserPrg>
+      <CurrentValue>5</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>5</DefaultValue>
+      <Options />
+    </NexCpuActionShutdownWaitTimeUserPrg>
     <NexCpuActionShutdownWaitTimeUserPrgValue2>
       <CurrentValue>s</CurrentValue>
       <IsEnabled>true</IsEnabled>
@@ -73,6 +122,20 @@
       <DefaultValue>s</DefaultValue>
       <Options />
     </NexCpuActionShutdownWaitTimeUserPrgValue2>
+    <NexCpuActionShutdownWaitTimeWindows>
+      <CurrentValue>60</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>60</DefaultValue>
+      <Options />
+    </NexCpuActionShutdownWaitTimeWindows>
+    <NexCpuActionShutdownWaitTimeWindowsValue2>
+      <CurrentValue>s</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>s</DefaultValue>
+      <Options />
+    </NexCpuActionShutdownWaitTimeWindowsValue2>
     <NexCpuActionSetting.CommandErrorOutput>
       <CurrentValue>EnumElement1</CurrentValue>
       <IsEnabled>true</IsEnabled>
@@ -103,69 +166,6 @@
         <Option>EnumElement2</Option>
       </Options>
     </NexCpuActionProhibitSDBackup>
-    <NexCpuActionSharedFolderIPAddress>
-      <CurrentValue>192.168.254.2</CurrentValue>
-      <IsEnabled>false</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>192.168.254.2</DefaultValue>
-      <Options />
-    </NexCpuActionSharedFolderIPAddress>
-    <NexCpuActionSharedFolderComputerName>
-      <CurrentValue></CurrentValue>
-      <IsEnabled>false</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue></DefaultValue>
-      <Options />
-    </NexCpuActionSharedFolderComputerName>
-    <NexCpuActionSharedFolderComputerNameValue2>
-      <CurrentValue>NexCpuActionEmptyUnit</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>NexCpuActionEmptyUnit</DefaultValue>
-      <Options />
-    </NexCpuActionSharedFolderComputerNameValue2>
-    <NexCpuActionSharedFolderName>
-      <CurrentValue>VirtualSDCard</CurrentValue>
-      <IsEnabled>false</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>VirtualSDCard</DefaultValue>
-      <Options />
-    </NexCpuActionSharedFolderName>
-    <NexCpuActionSharedFolderNameValue2>
-      <CurrentValue>NexCpuActionEmptyUnit</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>NexCpuActionEmptyUnit</DefaultValue>
-      <Options />
-    </NexCpuActionSharedFolderNameValue2>
-    <NexCpuActionSharedFolderUserName>
-      <CurrentValue></CurrentValue>
-      <IsEnabled>false</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue></DefaultValue>
-      <Options />
-    </NexCpuActionSharedFolderUserName>
-    <NexCpuActionSharedFolderUserNameValue2>
-      <CurrentValue>NexCpuActionEmptyUnit</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>NexCpuActionEmptyUnit</DefaultValue>
-      <Options />
-    </NexCpuActionSharedFolderUserNameValue2>
-    <NexCpuActionSharedFolderPassword>
-      <CurrentValue></CurrentValue>
-      <IsEnabled>false</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue></DefaultValue>
-      <Options />
-    </NexCpuActionSharedFolderPassword>
-    <NexCpuActionSharedFolderPasswordValue2>
-      <CurrentValue>NexCpuActionEmptyUnit</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>NexCpuActionEmptyUnit</DefaultValue>
-      <Options />
-    </NexCpuActionSharedFolderPasswordValue2>
   </NexCpuActionGeneral>
   <NexCpuLevelSetting>
     <NexCpuLevelSettingTable>
