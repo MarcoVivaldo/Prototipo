@@ -165,7 +165,7 @@
   </NexCncCoordGeneralSetting>
   <NexCncCoordDynamics>
     <NexCncCoordMaximumFeedrateVelocity>
-      <CurrentValue>500</CurrentValue>
+      <CurrentValue>10000</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>0</DefaultValue>

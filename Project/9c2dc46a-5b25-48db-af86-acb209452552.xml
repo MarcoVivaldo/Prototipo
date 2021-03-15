@@ -215,8 +215,8 @@ GANTRY_MOVE_J4(&#xD;
 	);&#xD;
 JOG_CNC(&#xD;
 	Coord:=IQ_stCNC_COORD_System, &#xD;
-	PositiveEnable:=I_xJog_FW, &#xD;
-	NegativeEnable:=I_xJog_BW, &#xD;
+	PositiveEnable:=I_xJog_FW AND NOT I_xAuto, &#xD;
+	NegativeEnable:=I_xJog_BW AND NOT I_xAuto, &#xD;
 	LogicalMotorNo:=I_uiMotorSelect, &#xD;
 	Velocity:=600, &#xD;
 	Acceleration:=6000);&#xD;
@@ -320,4 +320,5 @@ THEN&#xD;
 END_IF;&#xD;
 Q_xError:=diState&lt;0 OR IQ_stCNC_COORD_System.Status.ErrorStop;&#xD;
 Q_xAuto:=diState=4 AND NOT IQ_stCNC_COORD_System.Status.ErrorStop;&#xD;
+&#xD;
 </Text></StructuredTextModel>

@@ -122,8 +122,8 @@ _EN=Variables
 ++D=BOOL	N=N6_Input_Bit_14	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 14	G=VAR_GLOBAL
 ++D=BOOL	N=N6_Input_Bit_15	AT=ECAT://node#[50,6]/Input Bit 16 bits/Input Bit 15	G=VAR_GLOBAL
 ++D=WORD	N=N7_Input_Bit_16_bits	AT=ECAT://node#[50,7]/Input Bit 16 bits	G=VAR_GLOBAL
-++D=BOOL	N=N7_Input_Bit_00	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 00	G=VAR_GLOBAL
-++D=BOOL	N=N7_Input_Bit_01	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 01	G=VAR_GLOBAL
+++D=BOOL	N=I_xPB_START	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 00	G=VAR_GLOBAL
+++D=BOOL	N=I_xPB_STOP	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 01	G=VAR_GLOBAL
 ++D=BOOL	N=I_xPB_RESET	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 02	G=VAR_GLOBAL	Com=Reset Push Button
 ++D=BOOL	N=N7_Input_Bit_04	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 04	G=VAR_GLOBAL
 ++D=BOOL	N=N7_Input_Bit_05	AT=ECAT://node#[50,7]/Input Bit 16 bits/Input Bit 05	G=VAR_GLOBAL
