@@ -1,12 +1,11 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=BOOL	N=xWindowsHalted	Ord=1	G=VAR	AOE=1
-++D=BOOL	N=xWindowsRunning	Ord=2	G=VAR	AOE=1
-++D=BOOL	N=xWindowsErrorState	Ord=3	G=VAR	AOE=1
-++D=TON	N=DELAY_SHUTDOWN	Ord=4	G=VAR	AOE=1
+++D=BOOL	N=xWindowsHalted	G=VAR
+++D=BOOL	N=xWindowsRunning	G=VAR
+++D=BOOL	N=xWindowsErrorState	G=VAR
+++D=TON	N=DELAY_SHUTDOWN	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
-++D=BOOL	N=G_xShutdowm	G=VAR_EXTERNAL
-++D=BOOL	N=I_xEmergencyOk	Ord=5	G=VAR_EXTERNAL	AOE=1
-++D=BOOL	N=I_xPB_STOP	Ord=6	G=VAR_EXTERNAL	AOE=1
-++D=BOOL	N=I_xPB_RESET	Ord=7	G=VAR_EXTERNAL	AOE=1
+++D=BOOL	N=I_xEmergencyOk	G=VAR_EXTERNAL
+++D=BOOL	N=I_xPB_STOP	G=VAR_EXTERNAL
+++D=BOOL	N=I_xPB_RESET	G=VAR_EXTERNAL
