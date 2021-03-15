@@ -4,7 +4,6 @@
   <parameter index="3001.01" value="151" />
   <parameter index="3011.03" value="0" />
   <parameter index="3011.04" value="341" />
-  <parameter index="3041.02" value="2" />
   <parameter index="3041.10" value="1" />
   <parameter index="3120.10" value="1" />
   <parameter index="3120.11" value="341" />
@@ -21,7 +20,6 @@
   <parameter index="3310.03" value="154" />
   <parameter index="3310.04" value="154" />
   <parameter index="3B80.01" value="0" />
-  <parameter index="4602.01" value="4294967295" />
   <parameter index="4630.01" value="0" />
   <parameter index="4631.01" value="0" />
   <parameter index="4632.01" value="0" />

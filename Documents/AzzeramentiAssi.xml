@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content>
+  <Header>
+    <Version>1.1</Version>
+    <EnableOffset>True</EnableOffset>
+    <Project ID="a0203c50-1bab-4dcd-89ee-cff015503b4a" Name="PROTOTIPO" Tracking="73aa8c35-73d9-4cc1-8fb1-17825415d71a">
+      <DeviceType>NJ501</DeviceType>
+      <DeviceModelFull>NJ501-1500</DeviceModelFull>
+      <UnitVersion>1.19</UnitVersion>
+    </Project>
+  </Header>
+  <Body>
+    <AbsEncorder>
+      <Item Hash="0,236,98,59,3,76,87,75,93,235,23,184,100,92,146,39,165,0,0,0,0,0,0,0">
+        <Data></Data>
+      </Item>
+      <Item Name="0">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="1">
+        <Data>186643731,774734209</Data>
+      </Item>
+      <Item Name="2">
+        <Data>-186650254,788158875</Data>
+      </Item>
+      <Item Name="3">
+        <Data>186646856,489898194</Data>
+      </Item>
+      <Item Name="4">
+        <Data>-186652252,-1770241794</Data>
+      </Item>
+      <Item Name="5">
+        <Data>722,1611589928</Data>
+      </Item>
+      <Item Name="6">
+        <Data>335546012,532740195</Data>
+      </Item>
+      <Item Name="7">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="8">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="9">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="10">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="11">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="12">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="13">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="14">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="15">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="16">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="17">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="18">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="19">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="20">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="21">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="22">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="23">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="24">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="25">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="26">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="27">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="28">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="29">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="30">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="31">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="32">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="33">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="34">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="35">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="36">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="37">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="38">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="39">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="40">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="41">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="42">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="43">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="44">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="45">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="46">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="47">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="48">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="49">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="50">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="51">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="52">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="53">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="54">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="55">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="56">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="57">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="58">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="59">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="60">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="61">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="62">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="63">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="64">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="65">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="66">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="67">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="68">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="69">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="70">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="71">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="72">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="73">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="74">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="75">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="76">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="77">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="78">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="79">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="80">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="81">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="82">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="83">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="84">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="85">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="86">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="87">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="88">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="89">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="90">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="91">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="92">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="93">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="94">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="95">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="96">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="97">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="98">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="99">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="100">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="101">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="102">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="103">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="104">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="105">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="106">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="107">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="108">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="109">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="110">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="111">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="112">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="113">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="114">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="115">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="116">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="117">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="118">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="119">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="120">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="121">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="122">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="123">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="124">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="125">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="126">
+        <Data>0,0</Data>
+      </Item>
+      <Item Name="127">
+        <Data>0,0</Data>
+      </Item>
+    </AbsEncorder>
+  </Body>
+</Content>
