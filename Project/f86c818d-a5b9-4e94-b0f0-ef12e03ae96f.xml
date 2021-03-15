@@ -6,7 +6,6 @@ _EN=Variables
 ++D=CNC_HomeWithParameter	N=SET_Y	G=VAR
 ++D=CNC_HomeWithParameter	N=SET_Z	G=VAR
 ++D=CNC_HomeWithParameter	N=SET_A	G=VAR
-++D=MC_GroupEnable	N=ENABLE_XYZ	G=VAR
 ++D=MC_SyncMoveAbsolute	N=SYNC_J1	G=VAR
 ++D=MC_SyncMoveAbsolute	N=SYNC_J2	G=VAR
 ++D=MC_SyncMoveAbsolute	N=SYNC_J3	G=VAR
@@ -20,13 +19,10 @@ _EN=Variables
 ++D=MC_Power	N=POWER_J5	G=VAR
 ++D=MC_Power	N=POWER_J6	G=VAR
 ++D=CNC_MoveJog	N=JOG_CNC	G=VAR
-++D=CNC_MoveJog	N=JOG_Y	G=VAR
-++D=CNC_MoveJog	N=JOG_Z	G=VAR
 ++D=_sCNC_HOMING_REF	N=stHP_X	IV=(HomingMode := _cncHomeSwTurnHomeSwOff, HomeInput := _cncZPhase, StartDir := _cncPositiveDirection, HomeDir := _cncPositiveDirection, PosiLmtMode := _cncErrorStop, NegaLmtMode := _cncErrorStop, Vel := 0.0, ApproachVel := 0.0, Acc := 0.0, Mask := 0.0, Offset := 0.0, PushTime := 0, Compensation := 0.0, CompensationVel := 0.0)	G=VAR
 ++D=_sCNC_HOMING_REF	N=stHP_Y	IV=(HomingMode := _cncHomePreset, HomeInput := _cncZPhase, StartDir := _cncPositiveDirection, HomeDir := _cncPositiveDirection, PosiLmtMode := _cncErrorStop, NegaLmtMode := _cncErrorStop, Vel := 0.0, ApproachVel := 0.0, Acc := 0.0, Mask := 0.0, Offset := 0.0, PushTime := 0, Compensation := 0.0, CompensationVel := 0.0)	G=VAR
 ++D=_sCNC_HOMING_REF	N=stHP_Z	IV=(HomingMode := _cncHomePreset, HomeInput := _cncZPhase, StartDir := _cncPositiveDirection, HomeDir := _cncPositiveDirection, PosiLmtMode := _cncErrorStop, NegaLmtMode := _cncErrorStop, Vel := 0.0, ApproachVel := 0.0, Acc := 0.0, Mask := 0.0, Offset := 0.0, PushTime := 0, Compensation := 0.0, CompensationVel := 0.0)	G=VAR
 ++D=_sCNC_HOMING_REF	N=stHP_A	IV=(HomingMode := _cncHomePreset, HomeInput := _cncZPhase, StartDir := _cncPositiveDirection, HomeDir := _cncPositiveDirection, PosiLmtMode := _cncErrorStop, NegaLmtMode := _cncErrorStop, Vel := 0.0, ApproachVel := 0.0, Acc := 0.0, Mask := 0.0, Offset := 0.0, PushTime := 0, Compensation := 0.0, CompensationVel := 0.0)	G=VAR
-++D=MC_GroupDisable	N=DISABLE_XY	G=VAR
 ++D=MC_Stop	N=DISABLE_J1	G=VAR
 ++D=MC_Stop	N=DISABLE_J2	G=VAR
 ++D=MC_Stop	N=DISABLE_J3	G=VAR
@@ -37,6 +33,7 @@ _EN=Variables
 ++D=MC_MoveAbsolute	N=GANTRY_MOVE_J4	G=VAR
 ++D=INT	N=i	G=VAR
 ++D=ARRAY[0..2] OF LREAL	N=alrCNC_DECELERATION	G=VAR
+++D=CNC_CoordControl	N=IFB_CNC_COORD_CONTROL	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=_sAXIS_REF	N=IQ_stJ1	Ord=0	Const=1	G=VAR_IN_OUT	Com=Asse Spalla Master
 ++D=_sAXIS_REF	N=IQ_stJ2	Ord=1	Const=1	G=VAR_IN_OUT	Com=Asse  Gomito Master
@@ -45,23 +42,25 @@ _EN=Variables
 ++D=_sAXIS_REF	N=IQ_stJ5	Ord=4	Const=1	G=VAR_IN_OUT	Com=Asse Slitta
 ++D=_sAXIS_REF	N=IQ_stJ6	Ord=5	Const=1	G=VAR_IN_OUT	Com=Asse Polso
 ++D=_sCNC_COORD_REF	N=IQ_stCNC_COORD_System	Ord=6	Const=1	G=VAR_IN_OUT
-++D=BOOL	N=I_xEnable	Ord=7	G=VAR_INPUT
-++D=BOOL	N=I_xAuto	Ord=8	G=VAR_INPUT
-++D=BOOL	N=I_xJogJoints	Ord=9	G=VAR_INPUT
-++D=UINT	N=I_uiMotorSelect	Ord=10	G=VAR_INPUT
-++D=BOOL	N=I_xJog_FW	Ord=11	G=VAR_INPUT
-++D=BOOL	N=I_xJog_BW	Ord=12	G=VAR_INPUT
-++D=LREAL	N=I_lrL1	Ord=13	G=VAR_INPUT
-++D=LREAL	N=I_lrL2	Ord=14	G=VAR_INPUT
-++D=BOOL	N=Q_xActive	Ord=15	G=VAR_OUTPUT
-++D=BOOL	N=Q_xError	Ord=16	G=VAR_OUTPUT
-++D=BOOL	N=Q_xAuto	Ord=17	G=VAR_OUTPUT
-++D=STRING[80]	N=Q_sResult	Ord=18	G=VAR_OUTPUT
-++D=LREAL	N=Q_lrX	Ord=19	G=VAR_OUTPUT
-++D=LREAL	N=Q_lrY	Ord=20	G=VAR_OUTPUT
-++D=LREAL	N=Q_lrZ	Ord=21	G=VAR_OUTPUT
-++D=LREAL	N=Q_lrA	Ord=22	G=VAR_OUTPUT
-++D=LREAL	N=Q_lrJ1	Ord=23	G=VAR_OUTPUT
-++D=LREAL	N=Q_lrJ2	Ord=24	G=VAR_OUTPUT
-++D=LREAL	N=Q_lrJ6	Ord=25	G=VAR_OUTPUT
+++D=_sCNC_CTR_INPUTS_REF	N=IQ_CNC_ControlInput	Ord=7	G=VAR_IN_OUT
+++D=_sCNC_CTR_OUTPUTS_REF	N=IQ_CNC_ControlOutput	Ord=8	G=VAR_IN_OUT
+++D=BOOL	N=I_xEnable	Ord=9	G=VAR_INPUT
+++D=BOOL	N=I_xAuto	Ord=10	G=VAR_INPUT
+++D=BOOL	N=I_xJogJoints	Ord=11	G=VAR_INPUT
+++D=UINT	N=I_uiMotorSelect	Ord=12	G=VAR_INPUT
+++D=BOOL	N=I_xJog_FW	Ord=13	G=VAR_INPUT
+++D=BOOL	N=I_xJog_BW	Ord=14	G=VAR_INPUT
+++D=LREAL	N=I_lrL1	Ord=15	G=VAR_INPUT
+++D=LREAL	N=I_lrL2	Ord=16	G=VAR_INPUT
+++D=BOOL	N=Q_xActive	Ord=17	G=VAR_OUTPUT
+++D=BOOL	N=Q_xError	Ord=18	G=VAR_OUTPUT
+++D=BOOL	N=Q_xAuto	Ord=19	G=VAR_OUTPUT
+++D=STRING[80]	N=Q_sResult	Ord=20	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrX	Ord=21	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrY	Ord=22	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrZ	Ord=23	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrA	Ord=24	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrJ1	Ord=25	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrJ2	Ord=26	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrJ6	Ord=27	G=VAR_OUTPUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

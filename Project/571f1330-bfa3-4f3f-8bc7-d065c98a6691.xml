@@ -1,0 +1,6 @@
+<NcProgramModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.NcProgram.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><NcProgramNumber>100</NcProgramNumber><NcProgramType>Main</NcProgramType><Text>N001 G90 //lAVORO IN ASSOLUTO&#xD;
+N002 G17 //LAVORO PIANO XY&#xD;
+N003 G01 X200.0 Y200.0 Z10.0 A0.0 F200.0&#xD;
+N004 G01 X220.0 Y200.0 Z10.0 A0.0 F200.0&#xD;
+N005 G01 X200.0 Y200.0 Z10.0 A0.0 F200.0&#xD;
+ </Text></NcProgramModel>
