@@ -10,6 +10,7 @@ _EN=Variables
 ++D=MC_SyncMoveAbsolute	N=SYNC_J2	G=VAR
 ++D=MC_SyncMoveAbsolute	N=SYNC_J3	G=VAR
 ++D=MC_SyncMoveAbsolute	N=SYNC_J4	G=VAR
+++D=MC_SyncMoveAbsolute	N=SYNC_J5	G=VAR
 ++D=MC_SyncMoveAbsolute	N=SYNC_J6	G=VAR
 ++D=ARRAY[0..3] OF CNC_Power	N=POWER_CNC	G=VAR
 ++D=MC_Power	N=POWER_J1	G=VAR
@@ -62,5 +63,6 @@ _EN=Variables
 ++D=LREAL	N=Q_lrA	Ord=24	G=VAR_OUTPUT
 ++D=LREAL	N=Q_lrJ1	Ord=25	G=VAR_OUTPUT
 ++D=LREAL	N=Q_lrJ2	Ord=26	G=VAR_OUTPUT
-++D=LREAL	N=Q_lrJ6	Ord=27	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrJ5	Ord=27	G=VAR_OUTPUT
+++D=LREAL	N=Q_lrJ6	Ord=28	G=VAR_OUTPUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
