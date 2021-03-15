@@ -156,7 +156,7 @@
       <Options />
     </NexCncCoordPosAxisP7>
     <NexCncCoordCoordTypeNexCncCoordSpindleMotor>
-      <CurrentValue></CurrentValue>
+      <CurrentValue>d6072250-106a-4571-9cc6-c037346b6e8f</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
@@ -294,7 +294,7 @@
       <Options />
     </NexCncCoordSpindleOrientationVelocityValue2>
     <NexCncCoordSpindleOrientationAcceleration>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue>100</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>0</DefaultValue>
