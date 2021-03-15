@@ -8,7 +8,7 @@
     </ExecutionConditionCJUnit>
   </GeneralSettingsData>
   <Programs>
-    <AssociatedProgramData ProgramName="PRG_MAIN" InstanceName="PRG_MAIN" IniFileTrackingId="fafb3afcd9d448f3aed803266399a88d" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="PRG_MAIN_CNC" InstanceName="PRG_MAIN_CNC" IniFileTrackingId="6b9f44d8034b49db80d1b8cb8171a3aa" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
   </Programs>
   <RefreshUnitIds>
     <RefreshUnitId RefreshUnitId="4dadd434-10d0-46f0-a161-3ebea3874466" />

@@ -1,0 +1,3556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <NexCncCoordGeneralSetting>
+    <NexCncCoordCoordNumber>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordCoordNumber>
+    <NexCncCoordCoordUse>
+      <CurrentValue>NexCncCoordUsingCoord</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCncCoordUsingCoord</DefaultValue>
+      <Options>
+        <Option>NexCncCoordNotUsingCoord</Option>
+        <Option>NexCncCoordUsingCoord</Option>
+      </Options>
+    </NexCncCoordCoordUse>
+    <NexCncCoordAxisCommand>
+      <CurrentValue>NexCncCoordMetric</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCncCoordMetric</DefaultValue>
+      <Options>
+        <Option>NexCncCoordMetric</Option>
+        <Option>NexCncCoordInch</Option>
+      </Options>
+    </NexCncCoordAxisCommand>
+    <NexCncCoordCoordType>
+      <CurrentValue>NexCncCoord4Motor</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCncCoord3Motor</DefaultValue>
+      <Options>
+        <Option>NexCncCoord2Motor</Option>
+        <Option>NexCncCoord3Motor</Option>
+        <Option>NexCncCoord4Motor</Option>
+        <Option>NexCncCoord5Motor</Option>
+        <Option>NexCncCoord6Motor</Option>
+        <Option>NexCncCoord7Motor</Option>
+        <Option>NexCncCoord8Motor</Option>
+      </Options>
+    </NexCncCoordCoordType>
+    <NexCncCoordCoordTypeNexCncCoordMotorP0>
+      <CurrentValue>61b926d4-d59c-4f7e-af4d-00c82a53de11</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordCoordTypeNexCncCoordMotorP0>
+    <NexCncCoordPosAxisP0>
+      <CurrentValue>NexCncCoordPosAxisX</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCncCoordPosAxisX</DefaultValue>
+      <Options />
+    </NexCncCoordPosAxisP0>
+    <NexCncCoordCoordTypeNexCncCoordMotorP1>
+      <CurrentValue>37c761cf-366c-4000-a139-fffc3fd593ae</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordCoordTypeNexCncCoordMotorP1>
+    <NexCncCoordPosAxisP1>
+      <CurrentValue>NexCncCoordPosAxisY</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCncCoordPosAxisY</DefaultValue>
+      <Options />
+    </NexCncCoordPosAxisP1>
+    <NexCncCoordCoordTypeNexCncCoordMotorP2>
+      <CurrentValue>4402648d-1556-4e5e-b055-8e3f24a48329</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordCoordTypeNexCncCoordMotorP2>
+    <NexCncCoordPosAxisP2>
+      <CurrentValue>NexCncCoordPosAxisZ</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCncCoordPosAxisZ</DefaultValue>
+      <Options />
+    </NexCncCoordPosAxisP2>
+    <NexCncCoordCoordTypeNexCncCoordMotorP3>
+      <CurrentValue>04495e40-273d-4db9-bdd3-c7f04888df93</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordCoordTypeNexCncCoordMotorP3>
+    <NexCncCoordPosAxisP3>
+      <CurrentValue>NexCncCoordPosAxisC</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordPosAxisP3>
+    <NexCncCoordCoordTypeNexCncCoordMotorP4>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordCoordTypeNexCncCoordMotorP4>
+    <NexCncCoordPosAxisP4>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordPosAxisP4>
+    <NexCncCoordCoordTypeNexCncCoordMotorP5>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordCoordTypeNexCncCoordMotorP5>
+    <NexCncCoordPosAxisP5>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordPosAxisP5>
+    <NexCncCoordCoordTypeNexCncCoordMotorP6>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordCoordTypeNexCncCoordMotorP6>
+    <NexCncCoordPosAxisP6>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordPosAxisP6>
+    <NexCncCoordCoordTypeNexCncCoordMotorP7>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordCoordTypeNexCncCoordMotorP7>
+    <NexCncCoordPosAxisP7>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordPosAxisP7>
+    <NexCncCoordCoordTypeNexCncCoordSpindleMotor>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordCoordTypeNexCncCoordSpindleMotor>
+  </NexCncCoordGeneralSetting>
+  <NexCncCoordDynamics>
+    <NexCncCoordMaximumFeedrateVelocity>
+      <CurrentValue>500</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordMaximumFeedrateVelocity>
+    <NexCncCoordMaximumFeedrateVelocityValue2>
+      <CurrentValue>mm/min</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>mm/s</DefaultValue>
+      <Options />
+    </NexCncCoordMaximumFeedrateVelocityValue2>
+    <NexCncCoordRotationalAxisSpeed>
+      <CurrentValue>2160</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>2160</DefaultValue>
+      <Options />
+    </NexCncCoordRotationalAxisSpeed>
+    <NexCncCoordRotationalAxisSpeedValue2>
+      <CurrentValue>degree/min</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>degree/min</DefaultValue>
+      <Options />
+    </NexCncCoordRotationalAxisSpeedValue2>
+    <NexCncCoordDryRunSpeed>
+      <CurrentValue>300</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>3000</DefaultValue>
+      <Options />
+    </NexCncCoordDryRunSpeed>
+    <NexCncCoordDryRunSpeedValue2>
+      <CurrentValue>Command unit/min</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>mm/min</DefaultValue>
+      <Options />
+    </NexCncCoordDryRunSpeedValue2>
+    <NexCncCoordImmediateStopInputStopMethod>
+      <CurrentValue>NexCncCoordImmediateStop</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCncCoordImmediateStop</DefaultValue>
+      <Options>
+        <Option>NexCncCoordImmediateStop</Option>
+        <Option>NexCncCoordImmediateStopAndErrorReset</Option>
+        <Option>NexCncCoordImmediateStopAndServoOFF</Option>
+      </Options>
+    </NexCncCoordImmediateStopInputStopMethod>
+    <NexCncCoordLimitInputStopMethod>
+      <CurrentValue>NexCncCoordImmediateStop</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCncCoordImmediateStop</DefaultValue>
+      <Options>
+        <Option>NexCncCoordImmediateStop</Option>
+        <Option>NexCncCoordImmediateStopAndServoOFF</Option>
+      </Options>
+    </NexCncCoordLimitInputStopMethod>
+    <NexCncCoordFeedholdAccelerationDecelerationTime>
+      <CurrentValue>1000</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>1000</DefaultValue>
+      <Options />
+    </NexCncCoordFeedholdAccelerationDecelerationTime>
+    <NexCncCoordFeedholdAccelerationDecelerationTimeValue2>
+      <CurrentValue>ms</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>ms</DefaultValue>
+      <Options />
+    </NexCncCoordFeedholdAccelerationDecelerationTimeValue2>
+    <NexCncCoordInPositionCheckTime>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordInPositionCheckTime>
+    <NexCncCoordInPositionCheckTimeValue2>
+      <CurrentValue>ms</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>ms</DefaultValue>
+      <Options />
+    </NexCncCoordInPositionCheckTimeValue2>
+    <NexCncCoordSoftwareOvertravelLimitOperationControl>
+      <CurrentValue>NexCncCoordMinorFaultStop</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCncCoordMinorFaultStop</DefaultValue>
+      <Options>
+        <Option>NexCncCoordMinorFaultStop</Option>
+        <Option>NexCncCoordPositionIsLimited</Option>
+      </Options>
+    </NexCncCoordSoftwareOvertravelLimitOperationControl>
+    <NexCncCoordSpindleOrientationPosition>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordSpindleOrientationPosition>
+    <NexCncCoordSpindleOrientationPositionValue2>
+      <CurrentValue>rev</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>rev</DefaultValue>
+      <Options />
+    </NexCncCoordSpindleOrientationPositionValue2>
+    <NexCncCoordSpindleOrientationVelocity>
+      <CurrentValue>600.0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>600.0</DefaultValue>
+      <Options />
+    </NexCncCoordSpindleOrientationVelocity>
+    <NexCncCoordSpindleOrientationVelocityValue2>
+      <CurrentValue>rev/min</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>rev/min</DefaultValue>
+      <Options />
+    </NexCncCoordSpindleOrientationVelocityValue2>
+    <NexCncCoordSpindleOrientationAcceleration>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordSpindleOrientationAcceleration>
+    <NexCncCoordSpindleOrientationAccelerationValue2>
+      <CurrentValue>rev/s^2</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>rev/s^2</DefaultValue>
+      <Options />
+    </NexCncCoordSpindleOrientationAccelerationValue2>
+  </NexCncCoordDynamics>
+  <NexCncCoordNcProgramSettings>
+    <NexCncCoordNcAcceleration>
+      <CurrentValue>100</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>100</DefaultValue>
+      <Options />
+    </NexCncCoordNcAcceleration>
+    <NexCncCoordNcAccelerationValue2>
+      <CurrentValue>ms</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>ms</DefaultValue>
+      <Options />
+    </NexCncCoordNcAccelerationValue2>
+    <NexCncCoordNcDeceleration>
+      <CurrentValue>100</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>100</DefaultValue>
+      <Options />
+    </NexCncCoordNcDeceleration>
+    <NexCncCoordNcDecelerationValue2>
+      <CurrentValue>ms</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>ms</DefaultValue>
+      <Options />
+    </NexCncCoordNcDecelerationValue2>
+    <NexCncCoordNcJerk>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordNcJerk>
+    <NexCncCoordNcJerkValue2>
+      <CurrentValue>ms</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>ms</DefaultValue>
+      <Options />
+    </NexCncCoordNcJerkValue2>
+  </NexCncCoordNcProgramSettings>
+  <NexCncCoordToolCompensationSettings>
+    <NexCncCoord2DCompensationToolRadius>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoord2DCompensationToolRadius>
+    <NexCncCoord2DCompensationToolRadiusValue2>
+      <CurrentValue>mm</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>mm</DefaultValue>
+      <Options />
+    </NexCncCoord2DCompensationToolRadiusValue2>
+    <NexCncCoordCompensationToolLength>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordCompensationToolLength>
+    <NexCncCoordCompensationToolLengthValue2>
+      <CurrentValue>mm</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>mm</DefaultValue>
+      <Options />
+    </NexCncCoordCompensationToolLengthValue2>
+    <NexCncCoordOvercutMode>
+      <CurrentValue>NexCncCoordOvercutModeOvercuttingError</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCncCoordOvercutModeOvercuttingError</DefaultValue>
+      <Options>
+        <Option>NexCncCoordOvercutModeOvercuttingError</Option>
+        <Option>NexCncCoordOvercutModeOvercuttingAvoidance</Option>
+        <Option>NexCncCoordOvercutModeOvercuttingIgnorance</Option>
+        <Option>NexCncCoordOvercutModeOvercuttingTestAvoidance</Option>
+      </Options>
+    </NexCncCoordOvercutMode>
+    <NexCncCoordArcFeedrateMode>
+      <CurrentValue>NexCncCoordArcFeedrateModeFalse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCncCoordArcFeedrateModeFalse</DefaultValue>
+      <Options>
+        <Option>NexCncCoordArcFeedrateModeFalse</Option>
+        <Option>NexCncCoordArcFeedrateModeTrue</Option>
+      </Options>
+    </NexCncCoordArcFeedrateMode>
+  </NexCncCoordToolCompensationSettings>
+  <NexCncCoordWorkOffsetSetting>
+    <NexCncCoordTableField>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField>
+    <NexCncCoordTableField1AxisX>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField1AxisX>
+    <NexCncCoordTableField1AxisY>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField1AxisY>
+    <NexCncCoordTableField1AxisZ>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField1AxisZ>
+    <NexCncCoordTableField1AxisA>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField1AxisA>
+    <NexCncCoordTableField1AxisB>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField1AxisB>
+    <NexCncCoordTableField1AxisC>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField1AxisC>
+    <NexCncCoordTableField2AxisX>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField2AxisX>
+    <NexCncCoordTableField2AxisY>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField2AxisY>
+    <NexCncCoordTableField2AxisZ>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField2AxisZ>
+    <NexCncCoordTableField2AxisA>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField2AxisA>
+    <NexCncCoordTableField2AxisB>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField2AxisB>
+    <NexCncCoordTableField2AxisC>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField2AxisC>
+    <NexCncCoordTableField3AxisX>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField3AxisX>
+    <NexCncCoordTableField3AxisY>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField3AxisY>
+    <NexCncCoordTableField3AxisZ>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField3AxisZ>
+    <NexCncCoordTableField3AxisA>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField3AxisA>
+    <NexCncCoordTableField3AxisB>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField3AxisB>
+    <NexCncCoordTableField3AxisC>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField3AxisC>
+    <NexCncCoordTableField4AxisX>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField4AxisX>
+    <NexCncCoordTableField4AxisY>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField4AxisY>
+    <NexCncCoordTableField4AxisZ>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField4AxisZ>
+    <NexCncCoordTableField4AxisA>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField4AxisA>
+    <NexCncCoordTableField4AxisB>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField4AxisB>
+    <NexCncCoordTableField4AxisC>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField4AxisC>
+    <NexCncCoordTableField5AxisX>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField5AxisX>
+    <NexCncCoordTableField5AxisY>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField5AxisY>
+    <NexCncCoordTableField5AxisZ>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField5AxisZ>
+    <NexCncCoordTableField5AxisA>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField5AxisA>
+    <NexCncCoordTableField5AxisB>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField5AxisB>
+    <NexCncCoordTableField5AxisC>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField5AxisC>
+    <NexCncCoordTableField6AxisX>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField6AxisX>
+    <NexCncCoordTableField6AxisY>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField6AxisY>
+    <NexCncCoordTableField6AxisZ>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField6AxisZ>
+    <NexCncCoordTableField6AxisA>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField6AxisA>
+    <NexCncCoordTableField6AxisB>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField6AxisB>
+    <NexCncCoordTableField6AxisC>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField6AxisC>
+    <NexCncCoordLinearCommandUnit>
+      <CurrentValue>mm</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>X(Command)</DefaultValue>
+      <Options />
+    </NexCncCoordLinearCommandUnit>
+  </NexCncCoordWorkOffsetSetting>
+  <NexCncCoordReferencePointSetting>
+    <NexCncCoordTableField>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField>
+    <NexCncCoordTableField1AxisX>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField1AxisX>
+    <NexCncCoordTableField1AxisY>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField1AxisY>
+    <NexCncCoordTableField1AxisZ>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField1AxisZ>
+    <NexCncCoordTableField1AxisA>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField1AxisA>
+    <NexCncCoordTableField1AxisB>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField1AxisB>
+    <NexCncCoordTableField1AxisC>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField1AxisC>
+    <NexCncCoordTableField2AxisX>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField2AxisX>
+    <NexCncCoordTableField2AxisY>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField2AxisY>
+    <NexCncCoordTableField2AxisZ>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField2AxisZ>
+    <NexCncCoordTableField2AxisA>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField2AxisA>
+    <NexCncCoordTableField2AxisB>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField2AxisB>
+    <NexCncCoordTableField2AxisC>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField2AxisC>
+    <NexCncCoordTableField3AxisX>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField3AxisX>
+    <NexCncCoordTableField3AxisY>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField3AxisY>
+    <NexCncCoordTableField3AxisZ>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField3AxisZ>
+    <NexCncCoordTableField3AxisA>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField3AxisA>
+    <NexCncCoordTableField3AxisB>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField3AxisB>
+    <NexCncCoordTableField3AxisC>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField3AxisC>
+    <NexCncCoordTableField4AxisX>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField4AxisX>
+    <NexCncCoordTableField4AxisY>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField4AxisY>
+    <NexCncCoordTableField4AxisZ>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField4AxisZ>
+    <NexCncCoordTableField4AxisA>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField4AxisA>
+    <NexCncCoordTableField4AxisB>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField4AxisB>
+    <NexCncCoordTableField4AxisC>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordTableField4AxisC>
+    <NexCncCoordLinearCommandUnit>
+      <CurrentValue>mm</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>X(Command)</DefaultValue>
+      <Options />
+    </NexCncCoordLinearCommandUnit>
+  </NexCncCoordReferencePointSetting>
+  <NexCncCoordAuxiliaryFunctionOutputSettings>
+    <NexCncCoordAuxiliaryFunctionField>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField>
+    <NexCncCoordAuxiliaryFunctionField0>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField0>
+    <NexCncCoordAuxiliaryFunctionField1>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField1>
+    <NexCncCoordAuxiliaryFunctionField2>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField2>
+    <NexCncCoordAuxiliaryFunctionField3>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField3>
+    <NexCncCoordAuxiliaryFunctionField4>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField4>
+    <NexCncCoordAuxiliaryFunctionField5>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField5>
+    <NexCncCoordAuxiliaryFunctionField6>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField6>
+    <NexCncCoordAuxiliaryFunctionField7>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField7>
+    <NexCncCoordAuxiliaryFunctionField8>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField8>
+    <NexCncCoordAuxiliaryFunctionField9>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField9>
+    <NexCncCoordAuxiliaryFunctionField10>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField10>
+    <NexCncCoordAuxiliaryFunctionField11>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField11>
+    <NexCncCoordAuxiliaryFunctionField12>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField12>
+    <NexCncCoordAuxiliaryFunctionField13>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField13>
+    <NexCncCoordAuxiliaryFunctionField14>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField14>
+    <NexCncCoordAuxiliaryFunctionField15>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField15>
+    <NexCncCoordAuxiliaryFunctionField16>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField16>
+    <NexCncCoordAuxiliaryFunctionField17>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField17>
+    <NexCncCoordAuxiliaryFunctionField18>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField18>
+    <NexCncCoordAuxiliaryFunctionField19>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField19>
+    <NexCncCoordAuxiliaryFunctionField20>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField20>
+    <NexCncCoordAuxiliaryFunctionField21>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField21>
+    <NexCncCoordAuxiliaryFunctionField22>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField22>
+    <NexCncCoordAuxiliaryFunctionField23>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField23>
+    <NexCncCoordAuxiliaryFunctionField24>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField24>
+    <NexCncCoordAuxiliaryFunctionField25>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField25>
+    <NexCncCoordAuxiliaryFunctionField26>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField26>
+    <NexCncCoordAuxiliaryFunctionField27>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField27>
+    <NexCncCoordAuxiliaryFunctionField28>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField28>
+    <NexCncCoordAuxiliaryFunctionField29>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField29>
+    <NexCncCoordAuxiliaryFunctionField30>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField30>
+    <NexCncCoordAuxiliaryFunctionField31>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField31>
+    <NexCncCoordAuxiliaryFunctionField32>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField32>
+    <NexCncCoordAuxiliaryFunctionField33>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField33>
+    <NexCncCoordAuxiliaryFunctionField34>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField34>
+    <NexCncCoordAuxiliaryFunctionField35>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField35>
+    <NexCncCoordAuxiliaryFunctionField36>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField36>
+    <NexCncCoordAuxiliaryFunctionField37>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField37>
+    <NexCncCoordAuxiliaryFunctionField38>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField38>
+    <NexCncCoordAuxiliaryFunctionField39>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField39>
+    <NexCncCoordAuxiliaryFunctionField40>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField40>
+    <NexCncCoordAuxiliaryFunctionField41>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField41>
+    <NexCncCoordAuxiliaryFunctionField42>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField42>
+    <NexCncCoordAuxiliaryFunctionField43>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField43>
+    <NexCncCoordAuxiliaryFunctionField44>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField44>
+    <NexCncCoordAuxiliaryFunctionField45>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField45>
+    <NexCncCoordAuxiliaryFunctionField46>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField46>
+    <NexCncCoordAuxiliaryFunctionField47>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField47>
+    <NexCncCoordAuxiliaryFunctionField48>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField48>
+    <NexCncCoordAuxiliaryFunctionField49>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField49>
+    <NexCncCoordAuxiliaryFunctionField50>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField50>
+    <NexCncCoordAuxiliaryFunctionField51>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField51>
+    <NexCncCoordAuxiliaryFunctionField52>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField52>
+    <NexCncCoordAuxiliaryFunctionField53>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField53>
+    <NexCncCoordAuxiliaryFunctionField54>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField54>
+    <NexCncCoordAuxiliaryFunctionField55>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField55>
+    <NexCncCoordAuxiliaryFunctionField56>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField56>
+    <NexCncCoordAuxiliaryFunctionField57>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField57>
+    <NexCncCoordAuxiliaryFunctionField58>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField58>
+    <NexCncCoordAuxiliaryFunctionField59>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField59>
+    <NexCncCoordAuxiliaryFunctionField60>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField60>
+    <NexCncCoordAuxiliaryFunctionField61>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField61>
+    <NexCncCoordAuxiliaryFunctionField62>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField62>
+    <NexCncCoordAuxiliaryFunctionField63>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField63>
+    <NexCncCoordAuxiliaryFunctionField64>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField64>
+    <NexCncCoordAuxiliaryFunctionField65>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField65>
+    <NexCncCoordAuxiliaryFunctionField66>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField66>
+    <NexCncCoordAuxiliaryFunctionField67>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField67>
+    <NexCncCoordAuxiliaryFunctionField68>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField68>
+    <NexCncCoordAuxiliaryFunctionField69>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField69>
+    <NexCncCoordAuxiliaryFunctionField70>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField70>
+    <NexCncCoordAuxiliaryFunctionField71>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField71>
+    <NexCncCoordAuxiliaryFunctionField72>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField72>
+    <NexCncCoordAuxiliaryFunctionField73>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField73>
+    <NexCncCoordAuxiliaryFunctionField74>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField74>
+    <NexCncCoordAuxiliaryFunctionField75>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField75>
+    <NexCncCoordAuxiliaryFunctionField76>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField76>
+    <NexCncCoordAuxiliaryFunctionField77>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField77>
+    <NexCncCoordAuxiliaryFunctionField78>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField78>
+    <NexCncCoordAuxiliaryFunctionField79>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField79>
+    <NexCncCoordAuxiliaryFunctionField80>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField80>
+    <NexCncCoordAuxiliaryFunctionField81>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField81>
+    <NexCncCoordAuxiliaryFunctionField82>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField82>
+    <NexCncCoordAuxiliaryFunctionField83>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField83>
+    <NexCncCoordAuxiliaryFunctionField84>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField84>
+    <NexCncCoordAuxiliaryFunctionField85>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField85>
+    <NexCncCoordAuxiliaryFunctionField86>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField86>
+    <NexCncCoordAuxiliaryFunctionField87>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField87>
+    <NexCncCoordAuxiliaryFunctionField88>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField88>
+    <NexCncCoordAuxiliaryFunctionField89>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField89>
+    <NexCncCoordAuxiliaryFunctionField90>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField90>
+    <NexCncCoordAuxiliaryFunctionField91>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField91>
+    <NexCncCoordAuxiliaryFunctionField92>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField92>
+    <NexCncCoordAuxiliaryFunctionField93>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField93>
+    <NexCncCoordAuxiliaryFunctionField94>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField94>
+    <NexCncCoordAuxiliaryFunctionField95>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField95>
+    <NexCncCoordAuxiliaryFunctionField96>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField96>
+    <NexCncCoordAuxiliaryFunctionField97>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField97>
+    <NexCncCoordAuxiliaryFunctionField98>
+      <CurrentValue>-</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>-</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField98>
+    <NexCncCoordAuxiliaryFunctionField99>
+      <CurrentValue>-</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>-</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField99>
+    <NexCncCoordAuxiliaryFunctionField100>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField100>
+    <NexCncCoordAuxiliaryFunctionField101>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField101>
+    <NexCncCoordAuxiliaryFunctionField102>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField102>
+    <NexCncCoordAuxiliaryFunctionField103>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField103>
+    <NexCncCoordAuxiliaryFunctionField104>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField104>
+    <NexCncCoordAuxiliaryFunctionField105>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField105>
+    <NexCncCoordAuxiliaryFunctionField106>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField106>
+    <NexCncCoordAuxiliaryFunctionField107>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField107>
+    <NexCncCoordAuxiliaryFunctionField108>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField108>
+    <NexCncCoordAuxiliaryFunctionField109>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField109>
+    <NexCncCoordAuxiliaryFunctionField110>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField110>
+    <NexCncCoordAuxiliaryFunctionField111>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField111>
+    <NexCncCoordAuxiliaryFunctionField112>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField112>
+    <NexCncCoordAuxiliaryFunctionField113>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField113>
+    <NexCncCoordAuxiliaryFunctionField114>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField114>
+    <NexCncCoordAuxiliaryFunctionField115>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField115>
+    <NexCncCoordAuxiliaryFunctionField116>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField116>
+    <NexCncCoordAuxiliaryFunctionField117>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField117>
+    <NexCncCoordAuxiliaryFunctionField118>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField118>
+    <NexCncCoordAuxiliaryFunctionField119>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField119>
+    <NexCncCoordAuxiliaryFunctionField120>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField120>
+    <NexCncCoordAuxiliaryFunctionField121>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField121>
+    <NexCncCoordAuxiliaryFunctionField122>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField122>
+    <NexCncCoordAuxiliaryFunctionField123>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField123>
+    <NexCncCoordAuxiliaryFunctionField124>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField124>
+    <NexCncCoordAuxiliaryFunctionField125>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField125>
+    <NexCncCoordAuxiliaryFunctionField126>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField126>
+    <NexCncCoordAuxiliaryFunctionField127>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField127>
+    <NexCncCoordAuxiliaryFunctionField128>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField128>
+    <NexCncCoordAuxiliaryFunctionField129>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField129>
+    <NexCncCoordAuxiliaryFunctionField130>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField130>
+    <NexCncCoordAuxiliaryFunctionField131>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField131>
+    <NexCncCoordAuxiliaryFunctionField132>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField132>
+    <NexCncCoordAuxiliaryFunctionField133>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField133>
+    <NexCncCoordAuxiliaryFunctionField134>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField134>
+    <NexCncCoordAuxiliaryFunctionField135>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField135>
+    <NexCncCoordAuxiliaryFunctionField136>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField136>
+    <NexCncCoordAuxiliaryFunctionField137>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField137>
+    <NexCncCoordAuxiliaryFunctionField138>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField138>
+    <NexCncCoordAuxiliaryFunctionField139>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField139>
+    <NexCncCoordAuxiliaryFunctionField140>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField140>
+    <NexCncCoordAuxiliaryFunctionField141>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField141>
+    <NexCncCoordAuxiliaryFunctionField142>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField142>
+    <NexCncCoordAuxiliaryFunctionField143>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField143>
+    <NexCncCoordAuxiliaryFunctionField144>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField144>
+    <NexCncCoordAuxiliaryFunctionField145>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField145>
+    <NexCncCoordAuxiliaryFunctionField146>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField146>
+    <NexCncCoordAuxiliaryFunctionField147>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField147>
+    <NexCncCoordAuxiliaryFunctionField148>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField148>
+    <NexCncCoordAuxiliaryFunctionField149>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField149>
+    <NexCncCoordAuxiliaryFunctionField150>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField150>
+    <NexCncCoordAuxiliaryFunctionField151>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField151>
+    <NexCncCoordAuxiliaryFunctionField152>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField152>
+    <NexCncCoordAuxiliaryFunctionField153>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField153>
+    <NexCncCoordAuxiliaryFunctionField154>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField154>
+    <NexCncCoordAuxiliaryFunctionField155>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField155>
+    <NexCncCoordAuxiliaryFunctionField156>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField156>
+    <NexCncCoordAuxiliaryFunctionField157>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField157>
+    <NexCncCoordAuxiliaryFunctionField158>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField158>
+    <NexCncCoordAuxiliaryFunctionField159>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField159>
+    <NexCncCoordAuxiliaryFunctionField160>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField160>
+    <NexCncCoordAuxiliaryFunctionField161>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField161>
+    <NexCncCoordAuxiliaryFunctionField162>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField162>
+    <NexCncCoordAuxiliaryFunctionField163>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField163>
+    <NexCncCoordAuxiliaryFunctionField164>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField164>
+    <NexCncCoordAuxiliaryFunctionField165>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField165>
+    <NexCncCoordAuxiliaryFunctionField166>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField166>
+    <NexCncCoordAuxiliaryFunctionField167>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField167>
+    <NexCncCoordAuxiliaryFunctionField168>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField168>
+    <NexCncCoordAuxiliaryFunctionField169>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField169>
+    <NexCncCoordAuxiliaryFunctionField170>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField170>
+    <NexCncCoordAuxiliaryFunctionField171>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField171>
+    <NexCncCoordAuxiliaryFunctionField172>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField172>
+    <NexCncCoordAuxiliaryFunctionField173>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField173>
+    <NexCncCoordAuxiliaryFunctionField174>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField174>
+    <NexCncCoordAuxiliaryFunctionField175>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField175>
+    <NexCncCoordAuxiliaryFunctionField176>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField176>
+    <NexCncCoordAuxiliaryFunctionField177>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField177>
+    <NexCncCoordAuxiliaryFunctionField178>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField178>
+    <NexCncCoordAuxiliaryFunctionField179>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField179>
+    <NexCncCoordAuxiliaryFunctionField180>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField180>
+    <NexCncCoordAuxiliaryFunctionField181>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField181>
+    <NexCncCoordAuxiliaryFunctionField182>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField182>
+    <NexCncCoordAuxiliaryFunctionField183>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField183>
+    <NexCncCoordAuxiliaryFunctionField184>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField184>
+    <NexCncCoordAuxiliaryFunctionField185>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField185>
+    <NexCncCoordAuxiliaryFunctionField186>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField186>
+    <NexCncCoordAuxiliaryFunctionField187>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField187>
+    <NexCncCoordAuxiliaryFunctionField188>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField188>
+    <NexCncCoordAuxiliaryFunctionField189>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField189>
+    <NexCncCoordAuxiliaryFunctionField190>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField190>
+    <NexCncCoordAuxiliaryFunctionField191>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionField191>
+    <NexCncCoordAuxiliaryFunctionCommentField0>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField0>
+    <NexCncCoordAuxiliaryFunctionCommentField1>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField1>
+    <NexCncCoordAuxiliaryFunctionCommentField2>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField2>
+    <NexCncCoordAuxiliaryFunctionCommentField3>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField3>
+    <NexCncCoordAuxiliaryFunctionCommentField4>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField4>
+    <NexCncCoordAuxiliaryFunctionCommentField5>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField5>
+    <NexCncCoordAuxiliaryFunctionCommentField6>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField6>
+    <NexCncCoordAuxiliaryFunctionCommentField7>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField7>
+    <NexCncCoordAuxiliaryFunctionCommentField8>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField8>
+    <NexCncCoordAuxiliaryFunctionCommentField9>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField9>
+    <NexCncCoordAuxiliaryFunctionCommentField10>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField10>
+    <NexCncCoordAuxiliaryFunctionCommentField11>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField11>
+    <NexCncCoordAuxiliaryFunctionCommentField12>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField12>
+    <NexCncCoordAuxiliaryFunctionCommentField13>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField13>
+    <NexCncCoordAuxiliaryFunctionCommentField14>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField14>
+    <NexCncCoordAuxiliaryFunctionCommentField15>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField15>
+    <NexCncCoordAuxiliaryFunctionCommentField16>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField16>
+    <NexCncCoordAuxiliaryFunctionCommentField17>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField17>
+    <NexCncCoordAuxiliaryFunctionCommentField18>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField18>
+    <NexCncCoordAuxiliaryFunctionCommentField19>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField19>
+    <NexCncCoordAuxiliaryFunctionCommentField20>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField20>
+    <NexCncCoordAuxiliaryFunctionCommentField21>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField21>
+    <NexCncCoordAuxiliaryFunctionCommentField22>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField22>
+    <NexCncCoordAuxiliaryFunctionCommentField23>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField23>
+    <NexCncCoordAuxiliaryFunctionCommentField24>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField24>
+    <NexCncCoordAuxiliaryFunctionCommentField25>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField25>
+    <NexCncCoordAuxiliaryFunctionCommentField26>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField26>
+    <NexCncCoordAuxiliaryFunctionCommentField27>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField27>
+    <NexCncCoordAuxiliaryFunctionCommentField28>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField28>
+    <NexCncCoordAuxiliaryFunctionCommentField29>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField29>
+    <NexCncCoordAuxiliaryFunctionCommentField30>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField30>
+    <NexCncCoordAuxiliaryFunctionCommentField31>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField31>
+    <NexCncCoordAuxiliaryFunctionCommentField32>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField32>
+    <NexCncCoordAuxiliaryFunctionCommentField33>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField33>
+    <NexCncCoordAuxiliaryFunctionCommentField34>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField34>
+    <NexCncCoordAuxiliaryFunctionCommentField35>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField35>
+    <NexCncCoordAuxiliaryFunctionCommentField36>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField36>
+    <NexCncCoordAuxiliaryFunctionCommentField37>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField37>
+    <NexCncCoordAuxiliaryFunctionCommentField38>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField38>
+    <NexCncCoordAuxiliaryFunctionCommentField39>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField39>
+    <NexCncCoordAuxiliaryFunctionCommentField40>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField40>
+    <NexCncCoordAuxiliaryFunctionCommentField41>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField41>
+    <NexCncCoordAuxiliaryFunctionCommentField42>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField42>
+    <NexCncCoordAuxiliaryFunctionCommentField43>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField43>
+    <NexCncCoordAuxiliaryFunctionCommentField44>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField44>
+    <NexCncCoordAuxiliaryFunctionCommentField45>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField45>
+    <NexCncCoordAuxiliaryFunctionCommentField46>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField46>
+    <NexCncCoordAuxiliaryFunctionCommentField47>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField47>
+    <NexCncCoordAuxiliaryFunctionCommentField48>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField48>
+    <NexCncCoordAuxiliaryFunctionCommentField49>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField49>
+    <NexCncCoordAuxiliaryFunctionCommentField50>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField50>
+    <NexCncCoordAuxiliaryFunctionCommentField51>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField51>
+    <NexCncCoordAuxiliaryFunctionCommentField52>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField52>
+    <NexCncCoordAuxiliaryFunctionCommentField53>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField53>
+    <NexCncCoordAuxiliaryFunctionCommentField54>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField54>
+    <NexCncCoordAuxiliaryFunctionCommentField55>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField55>
+    <NexCncCoordAuxiliaryFunctionCommentField56>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField56>
+    <NexCncCoordAuxiliaryFunctionCommentField57>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField57>
+    <NexCncCoordAuxiliaryFunctionCommentField58>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField58>
+    <NexCncCoordAuxiliaryFunctionCommentField59>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField59>
+    <NexCncCoordAuxiliaryFunctionCommentField60>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField60>
+    <NexCncCoordAuxiliaryFunctionCommentField61>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField61>
+    <NexCncCoordAuxiliaryFunctionCommentField62>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField62>
+    <NexCncCoordAuxiliaryFunctionCommentField63>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField63>
+    <NexCncCoordAuxiliaryFunctionCommentField64>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField64>
+    <NexCncCoordAuxiliaryFunctionCommentField65>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField65>
+    <NexCncCoordAuxiliaryFunctionCommentField66>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField66>
+    <NexCncCoordAuxiliaryFunctionCommentField67>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField67>
+    <NexCncCoordAuxiliaryFunctionCommentField68>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField68>
+    <NexCncCoordAuxiliaryFunctionCommentField69>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField69>
+    <NexCncCoordAuxiliaryFunctionCommentField70>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField70>
+    <NexCncCoordAuxiliaryFunctionCommentField71>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField71>
+    <NexCncCoordAuxiliaryFunctionCommentField72>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField72>
+    <NexCncCoordAuxiliaryFunctionCommentField73>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField73>
+    <NexCncCoordAuxiliaryFunctionCommentField74>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField74>
+    <NexCncCoordAuxiliaryFunctionCommentField75>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField75>
+    <NexCncCoordAuxiliaryFunctionCommentField76>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField76>
+    <NexCncCoordAuxiliaryFunctionCommentField77>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField77>
+    <NexCncCoordAuxiliaryFunctionCommentField78>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField78>
+    <NexCncCoordAuxiliaryFunctionCommentField79>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField79>
+    <NexCncCoordAuxiliaryFunctionCommentField80>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField80>
+    <NexCncCoordAuxiliaryFunctionCommentField81>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField81>
+    <NexCncCoordAuxiliaryFunctionCommentField82>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField82>
+    <NexCncCoordAuxiliaryFunctionCommentField83>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField83>
+    <NexCncCoordAuxiliaryFunctionCommentField84>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField84>
+    <NexCncCoordAuxiliaryFunctionCommentField85>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField85>
+    <NexCncCoordAuxiliaryFunctionCommentField86>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField86>
+    <NexCncCoordAuxiliaryFunctionCommentField87>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField87>
+    <NexCncCoordAuxiliaryFunctionCommentField88>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField88>
+    <NexCncCoordAuxiliaryFunctionCommentField89>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField89>
+    <NexCncCoordAuxiliaryFunctionCommentField90>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField90>
+    <NexCncCoordAuxiliaryFunctionCommentField91>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField91>
+    <NexCncCoordAuxiliaryFunctionCommentField92>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField92>
+    <NexCncCoordAuxiliaryFunctionCommentField93>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField93>
+    <NexCncCoordAuxiliaryFunctionCommentField94>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField94>
+    <NexCncCoordAuxiliaryFunctionCommentField95>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField95>
+    <NexCncCoordAuxiliaryFunctionCommentField96>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField96>
+    <NexCncCoordAuxiliaryFunctionCommentField97>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField97>
+    <NexCncCoordAuxiliaryFunctionCommentField98>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField98>
+    <NexCncCoordAuxiliaryFunctionCommentField99>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField99>
+    <NexCncCoordAuxiliaryFunctionCommentField100>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField100>
+    <NexCncCoordAuxiliaryFunctionCommentField101>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField101>
+    <NexCncCoordAuxiliaryFunctionCommentField102>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField102>
+    <NexCncCoordAuxiliaryFunctionCommentField103>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField103>
+    <NexCncCoordAuxiliaryFunctionCommentField104>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField104>
+    <NexCncCoordAuxiliaryFunctionCommentField105>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField105>
+    <NexCncCoordAuxiliaryFunctionCommentField106>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField106>
+    <NexCncCoordAuxiliaryFunctionCommentField107>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField107>
+    <NexCncCoordAuxiliaryFunctionCommentField108>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField108>
+    <NexCncCoordAuxiliaryFunctionCommentField109>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField109>
+    <NexCncCoordAuxiliaryFunctionCommentField110>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField110>
+    <NexCncCoordAuxiliaryFunctionCommentField111>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField111>
+    <NexCncCoordAuxiliaryFunctionCommentField112>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField112>
+    <NexCncCoordAuxiliaryFunctionCommentField113>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField113>
+    <NexCncCoordAuxiliaryFunctionCommentField114>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField114>
+    <NexCncCoordAuxiliaryFunctionCommentField115>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField115>
+    <NexCncCoordAuxiliaryFunctionCommentField116>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField116>
+    <NexCncCoordAuxiliaryFunctionCommentField117>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField117>
+    <NexCncCoordAuxiliaryFunctionCommentField118>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField118>
+    <NexCncCoordAuxiliaryFunctionCommentField119>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField119>
+    <NexCncCoordAuxiliaryFunctionCommentField120>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField120>
+    <NexCncCoordAuxiliaryFunctionCommentField121>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField121>
+    <NexCncCoordAuxiliaryFunctionCommentField122>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField122>
+    <NexCncCoordAuxiliaryFunctionCommentField123>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField123>
+    <NexCncCoordAuxiliaryFunctionCommentField124>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField124>
+    <NexCncCoordAuxiliaryFunctionCommentField125>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField125>
+    <NexCncCoordAuxiliaryFunctionCommentField126>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField126>
+    <NexCncCoordAuxiliaryFunctionCommentField127>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField127>
+    <NexCncCoordAuxiliaryFunctionCommentField128>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField128>
+    <NexCncCoordAuxiliaryFunctionCommentField129>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField129>
+    <NexCncCoordAuxiliaryFunctionCommentField130>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField130>
+    <NexCncCoordAuxiliaryFunctionCommentField131>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField131>
+    <NexCncCoordAuxiliaryFunctionCommentField132>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField132>
+    <NexCncCoordAuxiliaryFunctionCommentField133>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField133>
+    <NexCncCoordAuxiliaryFunctionCommentField134>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField134>
+    <NexCncCoordAuxiliaryFunctionCommentField135>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField135>
+    <NexCncCoordAuxiliaryFunctionCommentField136>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField136>
+    <NexCncCoordAuxiliaryFunctionCommentField137>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField137>
+    <NexCncCoordAuxiliaryFunctionCommentField138>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField138>
+    <NexCncCoordAuxiliaryFunctionCommentField139>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField139>
+    <NexCncCoordAuxiliaryFunctionCommentField140>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField140>
+    <NexCncCoordAuxiliaryFunctionCommentField141>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField141>
+    <NexCncCoordAuxiliaryFunctionCommentField142>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField142>
+    <NexCncCoordAuxiliaryFunctionCommentField143>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField143>
+    <NexCncCoordAuxiliaryFunctionCommentField144>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField144>
+    <NexCncCoordAuxiliaryFunctionCommentField145>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField145>
+    <NexCncCoordAuxiliaryFunctionCommentField146>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField146>
+    <NexCncCoordAuxiliaryFunctionCommentField147>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField147>
+    <NexCncCoordAuxiliaryFunctionCommentField148>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField148>
+    <NexCncCoordAuxiliaryFunctionCommentField149>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField149>
+    <NexCncCoordAuxiliaryFunctionCommentField150>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField150>
+    <NexCncCoordAuxiliaryFunctionCommentField151>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField151>
+    <NexCncCoordAuxiliaryFunctionCommentField152>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField152>
+    <NexCncCoordAuxiliaryFunctionCommentField153>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField153>
+    <NexCncCoordAuxiliaryFunctionCommentField154>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField154>
+    <NexCncCoordAuxiliaryFunctionCommentField155>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField155>
+    <NexCncCoordAuxiliaryFunctionCommentField156>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField156>
+    <NexCncCoordAuxiliaryFunctionCommentField157>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField157>
+    <NexCncCoordAuxiliaryFunctionCommentField158>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField158>
+    <NexCncCoordAuxiliaryFunctionCommentField159>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField159>
+    <NexCncCoordAuxiliaryFunctionCommentField160>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField160>
+    <NexCncCoordAuxiliaryFunctionCommentField161>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField161>
+    <NexCncCoordAuxiliaryFunctionCommentField162>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField162>
+    <NexCncCoordAuxiliaryFunctionCommentField163>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField163>
+    <NexCncCoordAuxiliaryFunctionCommentField164>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField164>
+    <NexCncCoordAuxiliaryFunctionCommentField165>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField165>
+    <NexCncCoordAuxiliaryFunctionCommentField166>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField166>
+    <NexCncCoordAuxiliaryFunctionCommentField167>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField167>
+    <NexCncCoordAuxiliaryFunctionCommentField168>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField168>
+    <NexCncCoordAuxiliaryFunctionCommentField169>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField169>
+    <NexCncCoordAuxiliaryFunctionCommentField170>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField170>
+    <NexCncCoordAuxiliaryFunctionCommentField171>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField171>
+    <NexCncCoordAuxiliaryFunctionCommentField172>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField172>
+    <NexCncCoordAuxiliaryFunctionCommentField173>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField173>
+    <NexCncCoordAuxiliaryFunctionCommentField174>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField174>
+    <NexCncCoordAuxiliaryFunctionCommentField175>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField175>
+    <NexCncCoordAuxiliaryFunctionCommentField176>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField176>
+    <NexCncCoordAuxiliaryFunctionCommentField177>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField177>
+    <NexCncCoordAuxiliaryFunctionCommentField178>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField178>
+    <NexCncCoordAuxiliaryFunctionCommentField179>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField179>
+    <NexCncCoordAuxiliaryFunctionCommentField180>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField180>
+    <NexCncCoordAuxiliaryFunctionCommentField181>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField181>
+    <NexCncCoordAuxiliaryFunctionCommentField182>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField182>
+    <NexCncCoordAuxiliaryFunctionCommentField183>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField183>
+    <NexCncCoordAuxiliaryFunctionCommentField184>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField184>
+    <NexCncCoordAuxiliaryFunctionCommentField185>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField185>
+    <NexCncCoordAuxiliaryFunctionCommentField186>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField186>
+    <NexCncCoordAuxiliaryFunctionCommentField187>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField187>
+    <NexCncCoordAuxiliaryFunctionCommentField188>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField188>
+    <NexCncCoordAuxiliaryFunctionCommentField189>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField189>
+    <NexCncCoordAuxiliaryFunctionCommentField190>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField190>
+    <NexCncCoordAuxiliaryFunctionCommentField191>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCncCoordAuxiliaryFunctionCommentField191>
+  </NexCncCoordAuxiliaryFunctionOutputSettings>
+</data>
