@@ -45,6 +45,34 @@
         <Option>EnumElement2</Option>
       </Options>
     </NexCpuActionMemoryCardCheckAtPowerOn>
+    <NexCpuActionSystemServiceExecutionInterval>
+      <CurrentValue>10</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>10</DefaultValue>
+      <Options />
+    </NexCpuActionSystemServiceExecutionInterval>
+    <NexCpuActionSystemServiceExecutionIntervalValue2>
+      <CurrentValue>ms</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>ms</DefaultValue>
+      <Options />
+    </NexCpuActionSystemServiceExecutionIntervalValue2>
+    <NexCpuActionSystemServiceExecutionTimeRate>
+      <CurrentValue>10</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>10</DefaultValue>
+      <Options />
+    </NexCpuActionSystemServiceExecutionTimeRate>
+    <NexCpuActionSystemServiceExecutionTimeRateValue2>
+      <CurrentValue>%</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>%</DefaultValue>
+      <Options />
+    </NexCpuActionSystemServiceExecutionTimeRateValue2>
     <NexCpuActionSDCardProgramTransferEnable>
       <CurrentValue>EnumElement1</CurrentValue>
       <IsEnabled>true</IsEnabled>
@@ -123,34 +151,6 @@
         <Option>EnumElement2</Option>
       </Options>
     </NexCpuActionProhibitSDBackup>
-    <NexCpuActionSystemServiceExecutionInterval>
-      <CurrentValue>10</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>10</DefaultValue>
-      <Options />
-    </NexCpuActionSystemServiceExecutionInterval>
-    <NexCpuActionSystemServiceExecutionIntervalValue2>
-      <CurrentValue>ms</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>ms</DefaultValue>
-      <Options />
-    </NexCpuActionSystemServiceExecutionIntervalValue2>
-    <NexCpuActionSystemServiceExecutionTimeRate>
-      <CurrentValue>10</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>10</DefaultValue>
-      <Options />
-    </NexCpuActionSystemServiceExecutionTimeRate>
-    <NexCpuActionSystemServiceExecutionTimeRateValue2>
-      <CurrentValue>%</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>%</DefaultValue>
-      <Options />
-    </NexCpuActionSystemServiceExecutionTimeRateValue2>
   </NexCpuActionGeneral>
   <NexCpuEipFINSSetting>
     <NexCpuEipFINSRoutingTable>
