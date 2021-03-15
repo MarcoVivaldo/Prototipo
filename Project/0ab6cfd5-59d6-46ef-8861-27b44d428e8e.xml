@@ -560,3 +560,4 @@ _EN=Variables
 ++D=_sAXIS_REF	N=MC_A	AT=MC://_MC_AX[14]	RO=1	Const=1	G=VAR_GLOBAL
 ++D=BOOL	N=Q_xGreenLight	AT=ECAT://node#[50,10]/Output Bit 16 bits/Output Bit 00	G=VAR_GLOBAL
 ++D=BOOL	N=I_xWaitReset	AT=ECAT://node#[50,1]/Q_xWaitReset	G=VAR_GLOBAL
+++D=BOOL	N=G_xShutdowm	G=VAR_GLOBAL

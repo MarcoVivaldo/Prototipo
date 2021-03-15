@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <GeneralSettingsData TaskExecutionCondition="100000" ExecutionPriority="17" CycleTimeOverDetection="Warning" TimeOutValue="500000" VariableAccessTimeRatio="3">
+    <ExecutionConditionVariable VariableName="" Condition="" Constant="" />
+    <ExecutionConditionCJUnit ExternalInputUnit="">
+      <ExecutionConditionInterruptionUnit UnitNumber="" InputContact="" EdgeDetection="" />
+      <ExecutionConditionSiouCpuUnit CJUnitTaskNo="" />
+    </ExecutionConditionCJUnit>
+  </GeneralSettingsData>
+  <Programs>
+    <AssociatedProgramData ProgramName="PRG_IPC_MANAGER" InstanceName="PRG_IPC_MANAGER" IniFileTrackingId="9c0918e81e194ff298dabb7cda056b00" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
+  </Programs>
+  <RefreshUnitIds />
+  <TaskInterfaceVariables version="1" />
+</data>
