@@ -28,6 +28,8 @@
       <DataType Name="LogicalMotorNo" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="DecelerationAtStop" BaseType="ARRAY[0..1] OF LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="[Reserved]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="JerkAtStop" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="[Reserved]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="HomeMode" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="0: Home, 1: CalcOffset, 2: AlignOffset, 3: WriteOffset, 4: ReadOffset" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="OffsetValue" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
     <DataType Name="sCMD_JOG" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="38" OffsetType="NJ">
       <DataType Name="PositiveEnable" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -110,6 +112,7 @@
     </DataType>
     <DataType Name="sSTA_HOME" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="24" OffsetType="NJ">
       <DataType Name="Sta" BaseType="CNC_FUNC\sFUNC_STATUS" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="OffsetValue" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
     <DataType Name="sSTA_JOG" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="23" OffsetType="NJ">
       <DataType Name="Sta" BaseType="CNC_FUNC\sFUNC_STATUS" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />

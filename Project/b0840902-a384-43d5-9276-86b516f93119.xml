@@ -93,7 +93,7 @@
       <Options />
     </NexCncCoordCoordTypeNexCncCoordMotorP3>
     <NexCncCoordPosAxisP3>
-      <CurrentValue>NexCncCoordPosAxisC</CurrentValue>
+      <CurrentValue>NexCncCoordPosAxisA</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
