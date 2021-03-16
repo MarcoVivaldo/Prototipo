@@ -1,0 +1,33 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=j	G=VAR
+++D=BOOL	N=wExecuting_ChangeMode	G=VAR
+++D=BOOL	N=wExecuting_Connect	G=VAR
+++D=BOOL	N=wExecuting_Disconnect	G=VAR
+++D=UINT	N=wChangeModeNo	G=VAR
+++D=AccumulationTimer	N=Inst_AccumulationTimer1	G=VAR
+++D=AccumulationTimer	N=Inst_AccumulationTimer2	G=VAR
+++D=BOOL	N=wInvHeartbeatSig	G=VAR
+++D=BOOL	N=wHeartbeatSig	G=VAR
+++D=BOOL	N=DisableEMS	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=ARRAY[0..7] OF CNC_CS\sCMD	N=CncCsCmd	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCMD_STA	N=CncCsCmdSta	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sSTATUS	N=CncCsStatus	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCNFG	N=CncCsCnfg	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF _sCNC_COORD_REF	N=_CNC_Coord	Const=1	G=VAR_EXTERNAL
+++D=UINT	N=cAuto	Const=1	G=VAR_EXTERNAL
+++D=UINT	N=cMDI	Const=1	G=VAR_EXTERNAL
+++D=UINT	N=cHome	Const=1	G=VAR_EXTERNAL
+++D=UINT	N=cJog	Const=1	G=VAR_EXTERNAL
+++D=UINT	N=cMpg	Const=1	G=VAR_EXTERNAL
+++D=BOOL	N=Di_PowerOn	G=VAR_EXTERNAL
+++D=BOOL	N=Di_PowerOff	G=VAR_EXTERNAL
+++D=BOOL	N=Di_ErrorReset	G=VAR_EXTERNAL
+++D=BOOL	N=Di_EMS_1	G=VAR_EXTERNAL
+++D=BOOL	N=Di_EMS_2	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sHARDWARE_SWITCH	N=CncCsHwSw	G=VAR_EXTERNAL
+++D=UINT	N=cEdit	Const=1	G=VAR_EXTERNAL
+++D=BOOL	N=MPG_Di_EMS	G=VAR_EXTERNAL
+++D=ARRAY[0..5] OF UINT	N=PositioningMotorNo	G=VAR_EXTERNAL

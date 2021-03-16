@@ -561,3 +561,28 @@ _EN=Variables
 ++D=_sCNC_MOTOR_REF	N=CNC_ROBOT1_Y	AT=CNC://_CNC_Motor[1]	RO=1	Const=1	G=VAR_GLOBAL
 ++D=_sCNC_MOTOR_REF	N=CNC_ROBOT1_Z	AT=CNC://_CNC_Motor[2]	RO=1	Const=1	G=VAR_GLOBAL
 ++D=_sCNC_MOTOR_REF	N=CNC_ROBOT_A	AT=CNC://_CNC_Motor[3]	RO=1	Const=1	G=VAR_GLOBAL
+++D=ARRAY[0..7] OF CNC_CS\sSTATUS	N=CncCsStatus	NTP=PublicationOnly	G=VAR_GLOBAL	Com=[ReadOnly]HMI
+++D=ARRAY[0..7] OF CNC_CS\sCNFG	N=CncCsCnfg	NTP=PublicationOnly	G=VAR_GLOBAL	Com=[ReadOnly]HMI
+++D=ARRAY[0..7] OF CNC_CS\sWORK_OFFSET_DATA	N=CncCsWorkOffset	NTP=PublicationOnly	G=VAR_GLOBAL	Com=[ReadOnly]HMI
+++D=ARRAY[0..7] OF CNC_CS\sTOOL_MNG_DATA	N=CncCsToolMng	R=1	NTP=PublicationOnly	G=VAR_GLOBAL	Com=[ReadOnly]HMI
+++D=ARRAY[0..7] OF CNC_CS\sCMD	N=CncCsCmd	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=ARRAY[0..7] OF CNC_CS\sCMD_STA	N=CncCsCmdSta	NTP=PublicationOnly	G=VAR_GLOBAL	Com=[ReadOnly]HMI
+++D=ARRAY[0..7] OF CNC_CS\sHARDWARE_SWITCH_STA	N=CncCsHwSwSta	NTP=PublicationOnly	G=VAR_GLOBAL	Com=[ReadOnly]HMI
+++D=ARRAY[0..7,0..2] OF CNC_CS\sPITCH_COMP_DATA	N=CncCsPitchComp	R=1	NTP=PublicationOnly	G=VAR_GLOBAL	Com=[ReadOnly]HMI
+++D=ARRAY[0..7] OF CNC_CS\sPROG_QUEUE	N=CncCsProgQueue	NTP=PublicationOnly	G=VAR_GLOBAL	Com=[ReadOnly]HMI
+++D=CNC\sCONTROLLER_CMD	N=CncCtrlCmd	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=CNC\sCONTROLLER_STA	N=CncCtrlSta	NTP=PublicationOnly	G=VAR_GLOBAL	Com=[ReadOnly]HMI
+++D=BOOL	N=Di_PowerOn	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=BOOL	N=Di_PowerOff	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=BOOL	N=Di_ErrorReset	NTP=PublicationOnly	G=VAR_GLOBAL
+++D=UINT	N=cAuto	IV=UINT#0	Const=1	G=VAR_GLOBAL
+++D=UINT	N=cMDI	IV=UINT#1	Const=1	G=VAR_GLOBAL
+++D=UINT	N=cHome	IV=UINT#4	Const=1	G=VAR_GLOBAL
+++D=UINT	N=cJog	IV=UINT#2	Const=1	G=VAR_GLOBAL
+++D=UINT	N=cMpg	IV=UINT#3	Const=1	G=VAR_GLOBAL
+++D=BOOL	N=Di_EMS_1	G=VAR_GLOBAL	Com=Normally Open
+++D=BOOL	N=Di_EMS_2	G=VAR_GLOBAL	Com=Normally Close
+++D=ARRAY[0..7] OF CNC_CS\sHARDWARE_SWITCH	N=CncCsHwSw	G=VAR_GLOBAL
+++D=UINT	N=cEdit	IV=UINT#5	Const=1	G=VAR_GLOBAL
+++D=BOOL	N=MPG_Di_EMS	G=VAR_GLOBAL
+++D=ARRAY[0..5] OF UINT	N=PositioningMotorNo	IV=[6(65535)]	G=VAR_GLOBAL

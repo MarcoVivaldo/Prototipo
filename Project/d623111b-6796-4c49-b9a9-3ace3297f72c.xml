@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataType Name="" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+    <DataType Name="sCONTROLLER_CMD" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="48" OffsetType="NJ">
+      <DataType Name="ExeResetAllError" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Execute ResetAllError" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sCONTROLLER_STA" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="47" OffsetType="NJ">
+      <DataType Name="Sta" BaseType="CNC_FUNC\sFUNC_STATUS" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Status of function modules" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Sta_ResetAllError" BaseType="CNC_FUNC\sFUNC_STATUS" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Result of ResetAllError" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PFaultLvl" BaseType="_sCNC_REF_EVENT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Same as _CNC_COM.PFaultLvl" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MFaultLvl" BaseType="_sCNC_REF_EVENT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Same as _CNC_COM.MFaultLvl" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Obsr" BaseType="_sCNC_REF_EVENT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Same as _CNC_COM.Obsr" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Sta_Err" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+  </DataType>
+</data>

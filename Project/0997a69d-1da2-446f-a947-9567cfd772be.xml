@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataType Name="" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+    <DataType Name="sSTATUS" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="57" OffsetType="NJ">
+      <DataType Name="Connect" BaseType="CNC_CS\sCONNECT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="HMI Connection Status of CS" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Mode" BaseType="CNC_CS\sMODE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Mode of CS" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Sta" BaseType="CNC_CS\sSTA" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Status of CS" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="AxesInfo" BaseType="CNC_CS\sAXES_INFO" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Info of Axes" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sCNFG" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="56" OffsetType="NJ">
+      <DataType Name="ExistAxes" BaseType="ARRAY[0..7] OF BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Generated values at First_Run" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ExistSpindle" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Generated values at First_Run" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DecelerationForCsStop" BaseType="ARRAY[0..2] OF LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="[Reserved]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="JerkForCsStop" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="[Reserved]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sWORK_OFFSET_DATA" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="4" OffsetType="NJ">
+      <DataType Name="WorkOffset" BaseType="ARRAY[1..6] OF _sCNC_COORD_AX_DATA" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Reflected WorkOffset Data" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sTOOL_MNG_DATA" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="55" OffsetType="NJ">
+      <DataType Name="CurrentToolNo" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Current Tool No" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ToolData" BaseType="ARRAY[0..31] OF CNC_CS\sTOOL_DATA" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="ToolData" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sCMD" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Command to each function of Sample Program" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="54" OffsetType="NJ">
+      <DataType Name="Connect" BaseType="CNC_FUNC\sCMD_CONNECT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ChangeMode" BaseType="CNC_FUNC\sCMD_CHANGE_MODE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Spindle" BaseType="CNC_FUNC\sCMD_SPINDLE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Home" BaseType="CNC_FUNC\sCMD_HOME" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Jog" BaseType="CNC_FUNC\sCMD_JOG" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Mpg" BaseType="CNC_FUNC\sCMD_MPG" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CmdOverride" BaseType="CNC_FUNC\sCMD_OVERRIDE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="NCProgLoad" BaseType="CNC_FUNC\sCMD_NC_PROG_LOAD" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="NCProgExe" BaseType="CNC_FUNC\sCMD_NC_PROG_EXE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ToolMng" BaseType="CNC_FUNC\sCMD_TOOL_MNG" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="WorkOffset" BaseType="CNC_FUNC\sCMD_WORK_OFFSET" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PitchComp" BaseType="CNC_FUNC\sCMD_PITCH_COMP" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Reset" BaseType="CNC_FUNC\sCMD_RESET" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SaveHome" BaseType="CNC_FUNC\sCMD_SAVE_HOME" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Demo_Spindle" BaseType="CNC_FUNC\sCMD_SPINDLE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SpindleOutputs" BaseType="CNC_FUNC\sCMD_SPINDLE_OUT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sCMD_STA" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Result of each function of Sample Program" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="53" OffsetType="NJ">
+      <DataType Name="Connect" BaseType="CNC_FUNC\sSTA_CONNECT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ChangeMode" BaseType="CNC_FUNC\sSTA_CHANGE_MODE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Spindle" BaseType="CNC_FUNC\sSTA_SPINDLE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Home" BaseType="CNC_FUNC\sSTA_HOME" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Jog" BaseType="CNC_FUNC\sSTA_JOG" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Mpg" BaseType="CNC_FUNC\sSTA_MPG" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CmdOverride" BaseType="CNC_FUNC\sSTA_OVERRIDE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="NCProgLoad" BaseType="CNC_FUNC\sSTA_NC_PROG_LOAD" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="NCProgExe" BaseType="CNC_FUNC\sSTA_NC_PROG_EXE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ToolMng" BaseType="CNC_FUNC\sSTA_TOOL_MNG" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="WorkOffset" BaseType="CNC_FUNC\sSTA_WORK_OFFSET" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PitchComp" BaseType="CNC_FUNC\sSTA_PITCH_COMP" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Reset" BaseType="CNC_FUNC\sSTA_RESET" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SaveHome" BaseType="CNC_FUNC\sSTA_SAVE_HOME" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Demo_Spindle" BaseType="CNC_FUNC\sSTA_SPINDLE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SpindleOutputs" BaseType="CNC_FUNC\sSTA_SPINDLE_OUT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sHARDWARE_SWITCH_STA" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="52" OffsetType="NJ">
+      <DataType Name="AxesPower" BaseType="CNC_FUNC\sSTA_POWER" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Power Status of Positioning Axes" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SpindlePower" BaseType="CNC_FUNC\sSTA_POWER" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Power Status of Spindle Axis" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sPITCH_COMP_DATA" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="51" OffsetType="NJ">
+      <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Enable of Pitch compensation function" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PointSpanNum" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Compensation table point span number" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="StartingPosition" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Source compensation starting position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SectionDistance" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Source compenation section distance" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="FileName" BaseType="STRING[66]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="FileName of Pitch compensation file" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sPROG_QUEUE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="50" OffsetType="NJ">
+      <DataType Name="Queued" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="NC programs queued" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="QueuedNum" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Number of queued  NC programs " OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="QueuedProgramNo" BaseType="ARRAY[0..15] OF UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="List of queued NC program No" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sCONNECT" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="46" OffsetType="NJ">
+      <DataType Name="Ctrled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Controled by HMI" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="HmiIPAdr" BaseType="ARRAY[0..3] OF BYTE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="IP address of HMI" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="HmiName" BaseType="STRING[31]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="HMI Name" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sMODE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="45" OffsetType="NJ">
+      <DataType Name="CurrentMode" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="CurrentModeNo 0: Auto, 1: MDI, 2: Manual_JOG, 3: Manual_MPG, 4: Manual_HOME, 5: Edit" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CurrentModeBits" BaseType="ARRAY[0..15] OF BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="0: Auto, 1: MDI, 2: Manual_JOG, 3: Manual_MPG, 4: Manual_HOME, 5: Edit, 6-15: Reserved" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="AutoMode" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Auto, MDI" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ManualMode" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Manual_JOG, Manual_MPG, Manual_HOME" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sSTA" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="44" OffsetType="NJ">
+      <DataType Name="CsStatus" BaseType="_sCNC_COORD_STA" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Same as _CNC_Coord[n].Status" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MFaultLvl" BaseType="_sCNC_REF_EVENT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Same as _CNC_Coord[n].MFaultLvl" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Obsr" BaseType="_sCNC_REF_EVENT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Same as _CNC_Coord[n].Obsr" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CsCtrlOutputs" BaseType="_sCNC_CTR_OUTPUTS_REF" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Output value of CNC_CoordControl Instruction" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="AxesRunning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="AxesRunning" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SpindleAxisRunning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="SpindleAxisRunning" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PositioningAxesRunning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="PositioningAxesRunning" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Busy_Manual" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Under busy status at Manual_JOG, Manual_MPG, Manual_HOME" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Busy_Auto" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Under busy status at Auto, MDI" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Busy_Edit" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Under busy status at Edit" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ElapsedTime1" BaseType="TIME" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Elapsed Time since NC program was cycle started, including feed hold state" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ElapsedTime2" BaseType="TIME" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Elapsed Time since NC program was cycle started,not including feed hold state" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sAXES_INFO" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="43" OffsetType="NJ">
+      <DataType Name="ProgPos" BaseType="_sCNC_COORD_AX_DATA" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Programmed Target Position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CmdPos" BaseType="_sCNC_COORD_AX_DATA" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Commanded Current Position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ActPos" BaseType="_sCNC_COORD_AX_DATA" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Actual Current Position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="RelPos" BaseType="_sCNC_COORD_AX_DATA" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Relative Position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DistanceToGo" BaseType="_sCNC_COORD_AX_DATA" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Distance To Go" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="FollowingError" BaseType="_sCNC_COORD_AX_DATA" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Following Error" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="HomePos" BaseType="_sCNC_COORD_AX_DATA" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Reference position of relative coordinate system" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Feedrate" BaseType="CNC_CS\sAXIS_VEL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Velocity and Feedrate of X Y Z Axes" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Spindle" BaseType="CNC_CS\sAXIS_VEL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Velocity and Override of Spindle Axis" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Motor" BaseType="CNC_CS\sMOTOR_DATA" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Motor Data" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sTOOL_DATA" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="5" OffsetType="NJ">
+      <DataType Name="Shape" BaseType="_sCNC_TOOL_SHAPE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Shape of Tool" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Lifecycle" BaseType="CNC_CS\sTOOL_LIFECYCLE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Lifecycle data of Tool" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sAXIS_VEL" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="8" OffsetType="NJ">
+      <DataType Name="CmdVel" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Commanded Current Velocity" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ActVel" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Actual Current Velocity" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="RatioOverride" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ratio of Override" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sMOTOR_DATA" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="7" OffsetType="NJ">
+      <DataType Name="TrqAxes" BaseType="ARRAY[0..7] OF LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Torque of Positioning Axes" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="TrqSpindle" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Torque of Spindle Axis" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ServoOnAxes" BaseType="ARRAY[0..7] OF BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="ServoOn" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ServoOnSpindle" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="HomedAxes" BaseType="ARRAY[0..7] OF BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Homed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="HomedSpindle" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sTOOL_LIFECYCLE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="1" OffsetType="NJ">
+      <DataType Name="UsageCount" BaseType="UDINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Usage Count" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="OperationTime" BaseType="TIME" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Operation Time" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="LengthWear" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Tool Length Wear" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="RadiusWear" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Tool Radius Wear" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sHARDWARE_SWITCH" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="49" OffsetType="NJ">
+      <DataType Name="PowerOn" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="PowerOn of all axes" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PowerOff" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="PowerOff of all axes" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ErrorReset" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="ErrorReset" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="EMS" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Emergency stop" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+  </DataType>
+</data>

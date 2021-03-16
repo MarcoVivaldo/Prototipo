@@ -4608,7 +4608,7 @@
   </NexCpuEipLinkSetting>
   <NexCpuEipFTP>
     <NexCpuEipFTPUseSetting>
-      <CurrentValue>EnumElement1</CurrentValue>
+      <CurrentValue>EnumElement2</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>EnumElement1</DefaultValue>
@@ -4619,7 +4619,7 @@
     </NexCpuEipFTPUseSetting>
     <NexCpuEipFTPPortSetting>
       <CurrentValue>21</CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>21</DefaultValue>
       <Options />
@@ -4632,8 +4632,8 @@
       <Options />
     </NexCpuEipFTPPortSettingValue2>
     <NexCpuEipFTPLoninName>
-      <CurrentValue></CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <CurrentValue>Marco</CurrentValue>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />
@@ -4646,8 +4646,8 @@
       <Options />
     </NexCpuEipFTPLoninNameValue2>
     <NexCpuEipFTPPassword>
-      <CurrentValue></CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <CurrentValue>Omron2021</CurrentValue>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue></DefaultValue>
       <Options />

@@ -1,0 +1,5 @@
+﻿{"CLs":[{"__type":"LD","Var":"P_On"},{"__type":"ST","Ix":1,"S":true,"Var":"DisableEMS","X":1}],"CMT":"Disable EMS Functions","LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Var":"Di_PowerOn"},{"__type":"ST","Ix":1,"Var":"CncCsHwSw[0].PowerOn","X":1}],"CMT":"Input","LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Var":"Di_PowerOff"},{"__type":"ST","Ix":1,"Var":"CncCsHwSw[0].PowerOff","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Var":"Di_ErrorReset"},{"__type":"ST","Ix":1,"Var":"CncCsHwSw[0].ErrorReset","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Not":true,"Var":"Di_EMS_1"},{"__type":"LD","Ix":1,"Not":true,"Var":"Di_EMS_2","Y":1},{"__type":"LD","Ix":2,"Not":true,"Var":"MPG_Di_EMS","Y":2},{"__type":"LD","Ix":3,"Not":true,"Var":"DisableEMS","X":1},{"__type":"ST","Ix":4,"Var":"CncCsHwSw[0].EMS","X":2}],"LRI":5,"RRI":6,"VLs":[{"Ix":7,"X":1},{"Ix":7,"X":1,"Y":1}]}
