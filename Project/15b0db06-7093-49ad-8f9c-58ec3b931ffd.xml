@@ -1,6 +1,7 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
+++D=TON	N=DelayBobinatura	Ord=1	G=VAR	AOE=1
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=I_xExecute	Ord=0	G=VAR_INPUT
 ++D=BOOL	N=Q_xDone	Ord=1	G=VAR_OUTPUT

@@ -1,2 +1,6 @@
 <StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>//TODO Scrivo Ciclo Bobinatura&#xD;
-;</Text></StructuredTextModel>
+DelayBobinatura(&#xD;
+	In:=I_xExecute, &#xD;
+	PT:=T#3s, &#xD;
+	Q=&gt;Q_xDone&#xD;
+	);</Text></StructuredTextModel>
