@@ -8,7 +8,19 @@
     </ExecutionConditionCJUnit>
   </GeneralSettingsData>
   <Programs>
-    <AssociatedProgramData ProgramName="PRG_MAIN_CNC" InstanceName="PRG_MAIN_CNC" IniFileTrackingId="6b9f44d8034b49db80d1b8cb8171a3aa" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="SystemCtrl" InstanceName="SystemCtrl" IniFileTrackingId="96c6b9ecb9364632a6739dbd44cd1f31" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="HmiMonitor" InstanceName="HmiMonitor" IniFileTrackingId="a2b133e4f63547fa935f0ccce767e326" StartupSetting="TRUE" SequenceNumber="11" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="NCProgExe" InstanceName="NCProgExe" IniFileTrackingId="c320e1bb33e847d9bc0c87780b13d145" StartupSetting="TRUE" SequenceNumber="2" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="CncPower" InstanceName="CncPower" IniFileTrackingId="204e79f9bb6647258deef623d47f8de4" StartupSetting="TRUE" SequenceNumber="3" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Spindle" InstanceName="Spindle" IniFileTrackingId="b7175f2594754f4f91712bd12324ad15" StartupSetting="TRUE" SequenceNumber="4" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Home" InstanceName="Home" IniFileTrackingId="762c632a6845469c8a129606e3c73613" StartupSetting="TRUE" SequenceNumber="5" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Jog" InstanceName="Jog" IniFileTrackingId="c58be747076b4356bb0ae3aaab5e1c7e" StartupSetting="TRUE" SequenceNumber="6" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="MPG" InstanceName="MPG" IniFileTrackingId="1b1a1027a94f425693d25d641771d6a0" StartupSetting="TRUE" SequenceNumber="7" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="ToolManagement" InstanceName="ToolManagement" IniFileTrackingId="92e12c371a174fbc9fb13142e98afba0" StartupSetting="TRUE" SequenceNumber="8" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="WorkOffset" InstanceName="WorkOffset" IniFileTrackingId="dca7aadc049e4ff39e9db2ffd6ad1c38" StartupSetting="TRUE" SequenceNumber="9" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="PitchComp" InstanceName="PitchComp" IniFileTrackingId="e3e7b82c65274452ac64eeddd2343f6c" StartupSetting="TRUE" SequenceNumber="10" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="ErrorCtrl" InstanceName="ErrorCtrl" IniFileTrackingId="b767c6ee129746909c074f478b068ac5" StartupSetting="TRUE" SequenceNumber="13" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Demonstration" InstanceName="Demonstration" IniFileTrackingId="4d663e48aaf747cf9b6892776ed60da1" StartupSetting="TRUE" SequenceNumber="12" IsDebugProgram="false" />
   </Programs>
   <RefreshUnitIds>
     <RefreshUnitId RefreshUnitId="4dadd434-10d0-46f0-a161-3ebea3874466" />

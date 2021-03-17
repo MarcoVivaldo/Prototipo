@@ -1,0 +1,7 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=wExecuting_Go	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=ARRAY[0..7] OF CNC_CS\sCMD	N=CncCsCmd	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCMD_STA	N=CncCsCmdSta	G=VAR_EXTERNAL

@@ -1,0 +1,62 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=BusyState	IV=False	G=VAR
+++D=BOOL	N=CAState	IV=False	G=VAR
+++D=LINT	N=cRelativePositionValMax	IV=2147483647	Const=1	G=VAR
+++D=LINT	N=cRelativePositionValMin	IV=-2147483648	Const=1	G=VAR
+++D=LREAL	N=cTravelDistancePer100PulseMax	IV=10000	Const=1	G=VAR
+++D=BOOL	N=DoneState	IV=False	G=VAR
+++D=BOOL	N=ErrorState	IV=False	G=VAR
+++D=CNC_CoordHalt	N=Inst_CNC_CoordHalt	G=VAR
+++D=CNC_SyncMoveAbsolute	N=Inst_CNC_SyncMoveAbsolute	G=VAR
+++D=CNC_FUNC\MpgState	N=MpgState	G=VAR
+++D=BOOL	N=NotStartedState	IV=False	G=VAR
+++D=DINT	N=PreviousPositionVal	IV=0	G=VAR
+++D=LREAL	N=ReferenceCmdPosVal	IV=0	G=VAR
+++D=DINT	N=ReferencePositionVal	IV=0	G=VAR
+++D=LINT	N=RelativePositionVal	IV=0	G=VAR
+++D=BOOL	N=RelativePositionValError	IV=False	G=VAR
+++D=BOOL	N=StoppingState	IV=False	G=VAR
+++D=UINT	N=TargetLogicalMotorNo	IV=0	G=VAR
+++D=UINT	N=TargetMotorNo	IV=0	G=VAR
+++D=BOOL	N=TravelDistancePer100PulseChanged	IV=False	G=VAR
+++D=BOOL	N=TravelDistancePer100PulseOvermuchError	IV=False	G=VAR
+++D=LREAL	N=TravelDistancePer100PulseSet	IV=0.0	G=VAR
+++D=BOOL	N=TravelDistancePer100PulseZeroError	IV=False	G=VAR
+++D=BOOL	N=wOut_CoordHalt_Busy	IV=False	G=VAR
+++D=BOOL	N=wOut_CoordHalt_CA	IV=False	G=VAR
+++D=BOOL	N=wOut_CoordHalt_Done	IV=False	G=VAR
+++D=BOOL	N=wOut_CoordHalt_Error	IV=False	G=VAR
+++D=WORD	N=wOut_CoordHalt_ErrorID	IV=16#0000	G=VAR
+++D=BOOL	N=wOut_SyncMoveAbs_Busy	IV=False	G=VAR
+++D=BOOL	N=wOut_SyncMoveAbs_CA	IV=False	G=VAR
+++D=BOOL	N=wOut_SyncMoveAbs_InPosition	IV=False	G=VAR
+++D=BOOL	N=wOut_SyncMoveAbs_Error	IV=False	G=VAR
+++D=WORD	N=wOut_SyncMoveAbs_ErrorID	IV=16#0000	G=VAR
+++D=DWORD	N=cRelativePositionValErrorID	IV=16#10010000	Const=1	G=VAR
+++D=DWORD	N=cTravelDistancePer100PulseZeroErrorID	IV=16#10020000	Const=1	G=VAR
+++D=DWORD	N=cTravelDistancePer100PulseOvermuchErrorID	IV=16#10030000	Const=1	G=VAR
+++D=LINT	N=PositionValChange	IV=0	G=VAR
+++D=LREAL	N=TargetPositionVal	IV=0.0	G=VAR
+++D=SINT	N=PositionOverFlowCounter	IV=0	G=VAR
+++D=ULINT	N=cUDINT_MAX	IV=4294967295	G=VAR
+++D=DWORD	N=cTravelDistancePer100PulseMinusErrorID	IV=16#10040000	G=VAR
+++D=BOOL	N=TravelDistancePer100PulseMinusError	IV=False	G=VAR
+++D=BOOL	N=TotalError	IV=False	G=VAR
+++D=WORD	N=cCommonErrorID	IV=16#3CF0	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=_sCNC_COORD_REF	N=Coord	Ord=0	Const=1	G=VAR_IN_OUT
+++D=BOOL	N=Enable	IV=False	Ord=1	G=VAR_INPUT
+++D=DINT	N=PositionVal	IV=0	Ord=2	G=VAR_INPUT
+++D=UINT	N=LogicalMotorNo	IV=0	Ord=3	G=VAR_INPUT
+++D=LREAL	N=TravelDistancePer100Pulse	IV=0.0	Ord=4	G=VAR_INPUT
+++D=BOOL	N=InPosition	Ord=5	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=6	G=VAR_OUTPUT
+++D=BOOL	N=Done	Ord=7	G=VAR_OUTPUT
+++D=BOOL	N=CommandAborted	Ord=8	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=9	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=10	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=11	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=ARRAY[0..31] OF _sCNC_MOTOR_REF	N=_CNC_Motor	Const=1	G=VAR_EXTERNAL

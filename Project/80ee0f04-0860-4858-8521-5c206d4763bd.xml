@@ -1,0 +1,2 @@
+﻿{"CLs":[{"__type":"LD","Id":"b03be8c0-4504-4d4d-8f36-07e300000002","Up":true,"Var":"CncCsCmd[0].Demo_Spindle.ExeGo"},{"__type":"LD","Ix":1,"Var":"wExecuting_Go","Y":1},{"__type":"LD","Ix":2,"Not":true,"Var":"CncCsCmd[0].Demo_Spindle.ExeGoStop","X":1,"Y":1},{"__type":"HL","X":1},{"__type":"ST","Ix":3,"Var":"wExecuting_Go","X":2}],"LRI":4,"RRI":5,"VLs":[{"Ix":6,"X":2}]}
+{"CLs":[{"__type":"LD","Var":"wExecuting_Go"},{"__type":"ST","Ix":1,"Var":"CncCsCmdSta[0].Demo_Spindle.Sta.Busy","X":1}],"LRI":2,"RRI":3,"VLs":[]}

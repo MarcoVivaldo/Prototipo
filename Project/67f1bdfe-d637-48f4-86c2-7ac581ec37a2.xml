@@ -176,5 +176,13 @@
       <DataType Name="MachineLock" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="OptionalInputs" BaseType="ARRAY[0..31] OF BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
+    <DataType Name="MpgState" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+      <DataType Name="cncFunc_NotStarted" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="cncFunc_Busy" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="cncFunc_Stopping" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="cncFunc_Done" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="cncFunc_CommandAborted" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="4" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="cncFunc_ErrorStopped" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="5" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
   </DataType>
 </data>

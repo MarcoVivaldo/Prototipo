@@ -275,7 +275,7 @@ IFB_CNC_COORD_CONTROL(&#xD;
 	Coord:=IQ_stCNC_COORD_System, &#xD;
 	ControlInputs:=IQ_CNC_ControlInput, &#xD;
 	ControlOutputs:=IQ_CNC_ControlOutput, &#xD;
-	Enable:=diState=4 AND I_xAuto&#xD;
+	Enable:=diState=4&#xD;
 	); &#xD;
 STOP_CNC(&#xD;
 	Coord:=IQ_stCNC_COORD_System, &#xD;

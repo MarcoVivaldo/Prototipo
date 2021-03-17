@@ -1,0 +1,26 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=CNC_CoordHalt	N=Inst_CoordHalt	G=VAR
+++D=CNC_MoveJog	N=Inst_MoveJog	G=VAR
+++D=CNC_Move	N=Inst_Move	G=VAR
+++D=BOOL	N=wPositive	G=VAR
+++D=BOOL	N=wNegative	G=VAR
+++D=BOOL	N=wExecuting_Move	G=VAR
+++D=BOOL	N=wExecuting_Halt	G=VAR
+++D=UINT	N=wMotorNo_Move	G=VAR
+++D=LREAL	N=wPosition	G=VAR
+++D=LREAL	N=wVelocity	G=VAR
+++D=LREAL	N=wAcceleration	G=VAR
+++D=LREAL	N=wJerk	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_Jog	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_Move	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_Halt	G=VAR
+++D=ARRAY[0..1] OF LREAL	N=wDeceleration	G=VAR
+++D=LREAL	N=wJerkAtStop	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=ARRAY[0..7] OF CNC_CS\sCMD	N=CncCsCmd	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF _sCNC_COORD_REF	N=_CNC_Coord	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCMD_STA	N=CncCsCmdSta	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sSTATUS	N=CncCsStatus	G=VAR_EXTERNAL
+++D=UINT	N=cJog	Const=1	G=VAR_EXTERNAL

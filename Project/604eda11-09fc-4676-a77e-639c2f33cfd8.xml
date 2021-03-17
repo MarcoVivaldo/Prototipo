@@ -11,6 +11,7 @@ _EN=Variables
 ++D=BOOL	N=wInvHeartbeatSig	G=VAR
 ++D=BOOL	N=wHeartbeatSig	G=VAR
 ++D=BOOL	N=DisableEMS	G=VAR
+++D=ARRAY[0..5] OF UINT	N=cAxesArrayInit	IV=[6(65535)]	Const=1	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=ARRAY[0..7] OF CNC_CS\sCMD	N=CncCsCmd	G=VAR_EXTERNAL
 ++D=ARRAY[0..7] OF CNC_CS\sCMD_STA	N=CncCsCmdSta	G=VAR_EXTERNAL
@@ -31,3 +32,4 @@ _EN=Variables
 ++D=UINT	N=cEdit	Const=1	G=VAR_EXTERNAL
 ++D=BOOL	N=MPG_Di_EMS	G=VAR_EXTERNAL
 ++D=ARRAY[0..5] OF UINT	N=PositioningMotorNo	G=VAR_EXTERNAL
+++D=ARRAY[0..5] OF UINT	N=GantrySlaveMotorNo	G=VAR_EXTERNAL

@@ -1,0 +1,24 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=CNC_CoordCatchMCode	N=Inst_CatchMCode	G=VAR
+++D=CNC_CoordResetMCode	N=Inst_ResetMCode	G=VAR
+++D=CNC_Write	N=Inst_Write	G=VAR
+++D=_sMCODE_REF	N=wMCodePara	G=VAR
+++D=BOOL	N=wEnabled_Catch_M06	G=VAR
+++D=BOOL	N=wExecuting_Reset	G=VAR
+++D=BOOL	N=wExecuting_Write	G=VAR
+++D=_sCNC_TOOL_SHAPE	N=wCompToolData	G=VAR
+++D=UINT	N=wToolNo	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_Catch_M06	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_Reset	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_Write	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_Update	G=VAR
+++D=UINT	N=i	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=ARRAY[0..7] OF _sCNC_COORD_REF	N=_CNC_Coord	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sSTATUS	N=CncCsStatus	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCMD	N=CncCsCmd	G=VAR_EXTERNAL
+++D=UINT	N=cEdit	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sTOOL_MNG_DATA	N=CncCsToolMng	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCMD_STA	N=CncCsCmdSta	G=VAR_EXTERNAL

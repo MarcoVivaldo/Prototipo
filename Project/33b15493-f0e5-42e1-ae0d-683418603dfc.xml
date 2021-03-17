@@ -1,0 +1,25 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=CNC_CoordControl	N=Inst_CoordControl	G=VAR
+++D=CNC_LoadProgramFile	N=Inst_LoadProgramFile	G=VAR
+++D=BOOL	N=wExecuting_LoadFile	G=VAR
+++D=STRING[66]	N=wFileName	G=VAR
+++D=UINT	N=wProgNo	G=VAR
+++D=BOOL	N=wExecuting_Queue	G=VAR
+++D=UINT	N=wNextProgNo	G=VAR
+++D=_eCNC_DELETE_PRG	N=wDeletePrg	G=VAR
+++D=BOOL	N=wRetainQueue	G=VAR
+++D=BOOL	N=wEndOfQueue	G=VAR
+++D=AccumulationTimer	N=Inst_AccumulationTimer1	G=VAR
+++D=AccumulationTimer	N=Inst_AccumulationTimer2	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_CsCtrl	G=VAR
+++D=BOOL	N=wReset	G=VAR
+++D=UINT	N=cFirstSubProgramNo	IV=1000	Const=1	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=ARRAY[0..7] OF CNC_CS\sSTATUS	N=CncCsStatus	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCMD	N=CncCsCmd	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCMD_STA	N=CncCsCmdSta	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sPROG_QUEUE	N=CncCsProgQueue	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF _sCNC_CTR_INPUTS_REF	N=CncCsInputRef	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF _sCNC_COORD_REF	N=_CNC_Coord	Const=1	G=VAR_EXTERNAL

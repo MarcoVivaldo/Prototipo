@@ -1,0 +1,30 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=R_TRIG	N=Inst_R_TRIG	G=VAR
+++D=BOOL	N=wExecuting	G=VAR
+++D=FileOpen	N=Inst_FileOpen	G=VAR
+++D=BOOL	N=wExeOpen	G=VAR
+++D=FileClose	N=Inst_FileClose	G=VAR
+++D=BOOL	N=wExeClose	G=VAR
+++D=FilePuts	N=Inst_FilePuts	G=VAR
+++D=BOOL	N=wExePuts	G=VAR
+++D=STRING[1986]	N=wStr	G=VAR
+++D=WORD	N=wErrorID	G=VAR
+++D=DWORD	N=wFileID	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOutput_Open	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOutput_Close	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOutput_Puts	G=VAR
+++D=UINT	N=wStateNo	G=VAR
+++D=ARRAY[0..2,0..9] OF BOOL	N=cOutVal	IV=[5(False), True, 5(False), 4(True), 14(False), True]	Const=1	G=VAR	IVAL=[0..2,0..9]
+++D=STRING[66]	N=wFileName	G=VAR
+++D=UINT	N=wIdx	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=ARRAY[0..99] OF REAL	N=CompTable	Ord=0	G=VAR_IN_OUT
+++D=STRING[66]	N=FileName	Ord=1	G=VAR_IN_OUT
+++D=BOOL	N=Execute	Ord=2	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=3	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=5	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=6	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

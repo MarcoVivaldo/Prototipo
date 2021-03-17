@@ -1,0 +1,48 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=wExecuting_PitchComp	G=VAR
+++D=CNC\CNC_ReadPitchCompFile	N=Inst_CNC_ReadPitchCompFile_X	G=VAR
+++D=CNC\CNC_ReadPitchCompFile	N=Inst_CNC_ReadPitchCompFile_Y	G=VAR
+++D=CNC\CNC_ReadPitchCompFile	N=Inst_CNC_ReadPitchCompFile_Z	G=VAR
+++D=ARRAY[0..2] OF STRING[66]	N=wFileName_Read	G=VAR
+++D=ARRAY[0..2] OF STRING[66]	N=wFileName_Write	IV=['CONTROLLER_SAVED_CNC_Comp_Table000.csv', 'CONTROLLER_SAVED_CNC_Comp_Table001.csv', 'CONTROLLER_SAVED_CNC_Comp_Table002.csv']	G=VAR
+++D=ARRAY[0..2] OF BOOL	N=wEnabled	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_PitchComp_X	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_PitchComp_Y	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_PitchComp_Z	G=VAR
+++D=UINT	N=wAxisType	G=VAR
+++D=CNC\CNC_WritePitchCompFile	N=Inst_CNC_WritePitchCompFile_X	G=VAR
+++D=CNC\CNC_WritePitchCompFile	N=Inst_CNC_WritePitchCompFile_Y	G=VAR
+++D=CNC\CNC_WritePitchCompFile	N=Inst_CNC_WritePitchCompFile_Z	G=VAR
+++D=ARRAY[0..2] OF CNC_FUNC\sFUNC_STATUS	N=wOut_WritePitch	G=VAR
+++D=FileOpen	N=Inst_FileOpen_X	G=VAR
+++D=ARRAY[0..2] OF BOOL	N=wOut_Open_Busy	G=VAR
+++D=ARRAY[0..2] OF BOOL	N=wOut_Open_Error	G=VAR
+++D=ARRAY[0..2] OF WORD	N=wOut_Open_ErrorID	G=VAR
+++D=ARRAY[0..2] OF DWORD	N=wOut_Open_FileID	G=VAR
+++D=FileClose	N=Inst_FileClose_X	G=VAR
+++D=ARRAY[0..2] OF BOOL	N=wOut_Close_Done	G=VAR
+++D=ARRAY[0..2] OF BOOL	N=wOut_Close_Busy	G=VAR
+++D=ARRAY[0..2] OF WORD	N=wOut_Close_ErrorID	G=VAR
+++D=ARRAY[0..2] OF BOOL	N=wOut_Close_Error	G=VAR
+++D=FileOpen	N=Inst_FileOpen_Y	G=VAR
+++D=FileOpen	N=Inst_FileOpen_Z	G=VAR
+++D=FileClose	N=Inst_FileClose_Y	G=VAR
+++D=FileClose	N=Inst_FileClose_Z	G=VAR
+++D=ARRAY[0..2] OF BOOL	N=wNoPitchCompFile	G=VAR
+++D=UDINT	N=wPowerOnCount	R=1	G=VAR
+++D=BOOL	N=wSynchronized	G=VAR
+++D=BOOL	N=wPoweredOn	G=VAR
+++D=ARRAY[0..2] OF BOOL	N=wFileOpenError	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=UINT	N=cEdit	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sSTATUS	N=CncCsStatus	G=VAR_EXTERNAL
+++D=ARRAY[0..7,0..2] OF CNC_CS\sPITCH_COMP_DATA	N=CncCsPitchComp	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCMD	N=CncCsCmd	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCMD_STA	N=CncCsCmdSta	G=VAR_EXTERNAL
+++D=ARRAY[0..99] OF REAL	N=CNC_Comp_Table000	G=VAR_EXTERNAL
+++D=ARRAY[0..99] OF REAL	N=CNC_Comp_Table001	G=VAR_EXTERNAL
+++D=ARRAY[0..99] OF REAL	N=CNC_Comp_Table002	G=VAR_EXTERNAL
+++D=UDINT	N=_PowerOnCount	G=VAR_EXTERNAL
+++D=BOOL	N=_Card1Ready	Const=1	G=VAR_EXTERNAL

@@ -1,0 +1,14 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=CNC_Power	N=Inst_CNC_Power	G=VAR
+++D=CNC\CNC_Axes_Power	N=Inst_CNC_Axes_Power	G=VAR
+++D=BOOL	N=wEnablePower	G=VAR
+++D=ARRAY[0..7] OF BOOL	N=wDisablePositioningPower0	G=VAR
+++D=BOOL	N=wDisableSpindlePower0	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=ARRAY[0..7] OF CNC_CS\sHARDWARE_SWITCH	N=CncCsHwSw	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sHARDWARE_SWITCH_STA	N=CncCsHwSwSta	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF _sCNC_COORD_REF	N=_CNC_Coord	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCNFG	N=CncCsCnfg	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sSTATUS	N=CncCsStatus	G=VAR_EXTERNAL

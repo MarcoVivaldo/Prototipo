@@ -1,0 +1,28 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=wExecuting_Home	G=VAR
+++D=BOOL	N=wExecuting_Halt	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_Home	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_Halt	G=VAR
+++D=CNC_Home	N=Inst_Home	G=VAR
+++D=CNC_CoordHalt	N=Inst_CoordHalt	G=VAR
+++D=UINT	N=wMotorNo	G=VAR
+++D=ARRAY[0..1] OF LREAL	N=wDeceleration	G=VAR
+++D=LREAL	N=wJerk	G=VAR
+++D=UINT	N=cAlignOffset	IV=2	Const=1	G=VAR
+++D=UINT	N=cCalcOffset	IV=1	Const=1	G=VAR
+++D=UINT	N=cHoming	IV=0	Const=1	G=VAR
+++D=UINT	N=cReadOffset	IV=4	Const=1	G=VAR
+++D=UINT	N=cWriteOffset	IV=3	Const=1	G=VAR
+++D=BOOL	N=wExecuting_GantrySkewControl	G=VAR
+++D=BOOL	N=wExeHome	G=VAR
+++D=BOOL	N=wHomeBusy	G=VAR
+++D=LREAL	N=wOffsetValue	IV=0.0	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_GantrySkewControl	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=ARRAY[0..7] OF _sCNC_COORD_REF	N=_CNC_Coord	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCMD	N=CncCsCmd	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCMD_STA	N=CncCsCmdSta	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sSTATUS	N=CncCsStatus	G=VAR_EXTERNAL
+++D=UINT	N=cHome	Const=1	G=VAR_EXTERNAL

@@ -8,9 +8,7 @@
     </ExecutionConditionCJUnit>
   </GeneralSettingsData>
   <Programs>
-    <AssociatedProgramData ProgramName="PRG_IPC_MANAGER" InstanceName="PRG_IPC_MANAGER" IniFileTrackingId="9c0918e81e194ff298dabb7cda056b00" StartupSetting="TRUE" SequenceNumber="2" IsDebugProgram="false" />
-    <AssociatedProgramData ProgramName="SystemCtrl" InstanceName="SystemCtrl" IniFileTrackingId="96c6b9ecb9364632a6739dbd44cd1f31" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
-    <AssociatedProgramData ProgramName="HmiMonitor" InstanceName="HmiMonitor" IniFileTrackingId="a2b133e4f63547fa935f0ccce767e326" StartupSetting="TRUE" SequenceNumber="3" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="PRG_IPC_MANAGER" InstanceName="PRG_IPC_MANAGER" IniFileTrackingId="9c0918e81e194ff298dabb7cda056b00" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
   </Programs>
   <RefreshUnitIds />
   <TaskInterfaceVariables version="1" />

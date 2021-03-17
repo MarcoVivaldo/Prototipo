@@ -1,0 +1,38 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=ARRAY[0..7] OF CNC_CoordImmediateStop	N=Inst_CNC_CoordImmediateStop	G=VAR
+++D=ARRAY[0..3] OF BOOL	N=wErrorFuncModule	G=VAR
+++D=ARRAY[0..3] OF DWORD	N=wErrCodeFuncModule	G=VAR
+++D=ARRAY[0..3] OF UINT	N=wErrLv	G=VAR
+++D=ARRAY[0..7] OF CNC_CoordStop	N=Inst_CNC_CoordStop	G=VAR
+++D=UINT	N=wCode	G=VAR
+++D=UINT	N=wDummy	IV=0	G=VAR
+++D=ARRAY[0..7] OF CNC_FUNC\sFUNC_STATUS	N=wOut_CoordStop	G=VAR
+++D=ARRAY[0..7] OF CNC_FUNC\sFUNC_STATUS	N=wOut_ImmediateStop	G=VAR
+++D=ARRAY[0..7] OF CNC_CoordReset	N=Inst_CNC_CoordReset	G=VAR
+++D=ARRAY[0..7] OF BOOL	N=wExecuting_CoordReset	G=VAR
+++D=ResetCNCError	N=Inst_ResetCNCError	G=VAR
+++D=ResetPLCError	N=Inst_ResetPLCError	G=VAR
+++D=ResetECError	N=Inst_ResetECError	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_ResetCNCError	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_ResetPLCError	G=VAR
+++D=CNC_FUNC\sFUNC_STATUS	N=wOut_ResetECError	G=VAR
+++D=BOOL	N=wExecuting_ResetAllError	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=ARRAY[0..7] OF CNC_CS\sHARDWARE_SWITCH	N=CncCsHwSw	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF _sCNC_COORD_REF	N=_CNC_Coord	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCMD	N=CncCsCmd	G=VAR_EXTERNAL
+++D=CNC\sCONTROLLER_STA	N=CncCtrlSta	G=VAR_EXTERNAL
+++D=CNC\sCONTROLLER_CMD	N=CncCtrlCmd	G=VAR_EXTERNAL
+++D=_sCNC_COM_REF	N=_CNC_COM	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sSTATUS	N=CncCsStatus	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCMD_STA	N=CncCsCmdSta	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sHARDWARE_SWITCH_STA	N=CncCsHwSwSta	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF CNC_CS\sCNFG	N=CncCsCnfg	G=VAR_EXTERNAL
+++D=WORD	N=_PLC_ErrSta	Const=1	G=VAR_EXTERNAL
+++D=WORD	N=_AlarmFlag	Const=1	G=VAR_EXTERNAL
+++D=WORD	N=_MC_ErrSta	Const=1	G=VAR_EXTERNAL
+++D=WORD	N=_CNC_ErrSta	Const=1	G=VAR_EXTERNAL
+++D=WORD	N=_EC_ErrSta	Const=1	G=VAR_EXTERNAL
+++D=WORD	N=_EIP_ErrSta	Const=1	G=VAR_EXTERNAL

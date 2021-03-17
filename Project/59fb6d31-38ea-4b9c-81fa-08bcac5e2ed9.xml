@@ -1,0 +1,23 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=ARRAY[1..6] OF CNC_Write	N=Inst_CNC_Write	G=VAR
+++D=ARRAY[1..6] OF R_TRIG	N=Inst_R_Trig	G=VAR
+++D=ARRAY[1..6] OF UINT	N=cParaNo	IV=[UINT#20, UINT#21, UINT#22, UINT#23, UINT#24, UINT#25]	Const=1	G=VAR
+++D=_eCNC_PARAMETER_NUMBER	N=wEnumParaNo	G=VAR
+++D=ARRAY[1..6] OF BOOL	N=wDone	G=VAR
+++D=ARRAY[1..6] OF BOOL	N=wBusy	G=VAR
+++D=ARRAY[1..6] OF BOOL	N=wCA	G=VAR
+++D=ARRAY[1..6] OF BOOL	N=wError	G=VAR
+++D=ARRAY[1..6] OF WORD	N=wErrorID	G=VAR
+++D=UINT	N=j	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=_sCNC_COORD_REF	N=Coord	Ord=0	Const=1	G=VAR_IN_OUT
+++D=CNC_CS\sWORK_OFFSET_DATA	N=WorkOffsetData	Ord=1	G=VAR_IN_OUT
+++D=BOOL	N=Execute	Ord=2	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=3	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=CommandAborted	Ord=5	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=6	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=7	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
