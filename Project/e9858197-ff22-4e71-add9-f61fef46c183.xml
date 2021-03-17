@@ -1,0 +1,9 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=CNC_CoordCatchMCode	N=READ_MCODE_M100	G=VAR
+++D=CNC_CoordResetMCode	N=RESET_MCODE	G=VAR
+++D=_sMCODE_REF	N=sMCODE	G=VAR
+++D=TON	N=DELAT_M100	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=ARRAY[0..7] OF _sCNC_COORD_REF	N=_CNC_Coord	Const=1	G=VAR_EXTERNAL

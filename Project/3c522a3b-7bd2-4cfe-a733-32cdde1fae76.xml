@@ -1,0 +1,14 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>READ_MCODE_M100(&#xD;
+	Coord:=_CNC_Coord[0], &#xD;
+	MCode:=sMCODE, &#xD;
+	Enable:=TRUE, &#xD;
+	MCodeNo:=100);&#xD;
+DELAT_M100(&#xD;
+	In:=READ_MCODE_M100.Strobe, &#xD;
+	PT:=T#3s);&#xD;
+RESET_MCODE(&#xD;
+	Coord:=_CNC_Coord[0], &#xD;
+	Execute:=DELAT_M100.Q &#xD;
+	);&#xD;
+&#xD;
+</Text></StructuredTextModel>

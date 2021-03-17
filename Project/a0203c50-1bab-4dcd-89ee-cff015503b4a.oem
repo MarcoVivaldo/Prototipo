@@ -31,7 +31,7 @@
         <AccessInfos />
         <ChildEntities />
       </Entity>
-      <Entity type="Device" subtype="NJ501" id="469e4387-c920-489d-84e6-ca24b13971cb" name="PLC" version="0" dateCreated="05/18/2020 08:44:39" dateLastModified="03/14/2021 23:19:42" trackingId="73aa8c35-73d9-4cc1-8fb1-17825415d71a" DN="PLC" hash="869249172b89d61a475b32e2154bd025" DHS="b92c7cc31eee9997b78c78e613d47af3" TH="1dc55241217fa8fd9b9abd03649a4b6a">
+      <Entity type="Device" subtype="NJ501" id="469e4387-c920-489d-84e6-ca24b13971cb" name="PLC" version="0" dateCreated="05/18/2020 08:44:39" dateLastModified="03/14/2021 23:19:42" trackingId="73aa8c35-73d9-4cc1-8fb1-17825415d71a" DN="PLC" hash="869249172b89d61a475b32e2154bd025" DHS="f0e43f7b86e6a5e5803fb60c66c2c13a" TH="77afe9990157de28f8309cfed4c6eabb">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="696a3666-c584-4fa2-8bb7-222cb86dec75" name="Watch" version="0" dateCreated="05/18/2020 08:44:39" trackingId="90f54806-6a48-420c-a389-594a2f989214">
@@ -1965,7 +1965,7 @@
             <AccessInfos />
             <ChildEntities />
           </Entity>
-          <Entity type="SourceCompareId" subtype="Configuration" id="5f80b3e1-23e3-4b54-8b8b-46d392cd3fea" name="Comparison ID for Configurations and Setup" version="0" dateCreated="05/18/2020 08:44:39" dateLastModified="03/17/2021 17:49:48" trackingId="95ded266-321c-4ee2-8ac7-4000e1a215f7" SDName="Comparison ID for Configurations and Setup" hash="42f44920ea9bad9968b5ca7bede9c908">
+          <Entity type="SourceCompareId" subtype="Configuration" id="5f80b3e1-23e3-4b54-8b8b-46d392cd3fea" name="Comparison ID for Configurations and Setup" version="0" dateCreated="05/18/2020 08:44:39" dateLastModified="03/17/2021 18:26:24" trackingId="95ded266-321c-4ee2-8ac7-4000e1a215f7" SDName="Comparison ID for Configurations and Setup" hash="37032afc1b2ed5e6c83e73bb3c1d5868">
             <AccessInfos />
             <ChildEntities />
           </Entity>
@@ -2165,7 +2165,7 @@
             <AccessInfos />
             <ChildEntities />
           </Entity>
-          <Entity type="TaskConfiguration" subtype="" id="64c43e09-4511-41e2-a519-116cb75ed767" name="Task Settings" version="0" dateCreated="05/18/2020 08:44:40" dateLastModified="03/17/2021 17:49:48" trackingId="1f2085b9-9e99-4e0d-84e9-bd169e7cc794" DN="Task Settings">
+          <Entity type="TaskConfiguration" subtype="" id="64c43e09-4511-41e2-a519-116cb75ed767" name="Task Settings" version="0" dateCreated="05/18/2020 08:44:40" dateLastModified="03/17/2021 18:26:24" trackingId="1f2085b9-9e99-4e0d-84e9-bd169e7cc794" DN="Task Settings">
             <AccessInfos />
             <ChildEntities>
               <Entity type="CncTaskConfiguration" subtype="" id="8401d72a-7b3d-4612-ba10-5189a80759bb" name="CncTaskConfiguration0" version="0" dateCreated="03/11/2021 11:07:34" dateLastModified="03/11/2021 11:07:55" trackingId="832805b0-4ac2-4e9c-8e26-1811dcd8184c" hash="d0cbde9ece88104ff05b55dbcf59f96c">
@@ -2311,6 +2311,37 @@
                             <ChildEntities />
                           </Entity>
                           <Entity type="PouBodySourceHolder" subtype="" id="a0ba4846-c9e5-42a6-b5ab-e7eea4e849c2" name="PouBodySourceHolder" version="0" dateCreated="03/02/2021 17:15:51" trackingId="897db14f-5eef-46b5-9b5e-f664ded60105">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="Program" subtype="StructuredText" id="5ed2e568-1c81-4bc5-a90a-8317064dc3f3" name="PRG_CUSTOM_MCODE" version="0" dateCreated="03/17/2021 18:19:24" dateLastModified="03/17/2021 18:26:24" author="Marco Vivaldo" trackingId="4193ce11-d6a9-4529-9840-45ecf616266e" DN="PRG_CUSTOM_MCODE">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="DebugProgramSetting" subtype="" id="d9432ecc-3318-414d-ab9f-455254f9ff50" name="DebugProgramSetting0,00" version="0" dateCreated="03/17/2021 18:19:24" dateLastModified="03/17/2021 18:26:24" trackingId="be1ab4eb-3ad0-4d46-8d7c-97c0233e35e8" hash="1ba7c2b4868fa6051083bbf3011b231b">
+                        <AccessInfos />
+                        <ChildEntities />
+                      </Entity>
+                      <Entity type="Variables" subtype="StructuredText" id="e9858197-ff22-4e71-add9-f61fef46c183" name="Variables" version="0" dateCreated="03/17/2021 18:19:24" dateLastModified="03/17/2021 18:26:24" trackingId="17db22c3-c786-4d87-a0e5-344993a7c9e9" hash="397e927dfb8033ea7ec2d5a9df73a7a8">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="416d17d0-bcd7-44d1-af0e-2d5247623834" name="Source" version="0" dateCreated="03/17/2021 18:19:24" trackingId="9d88cd1f-f849-4a8a-b462-b47d99ca6fb1">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="StructuredText" id="3c522a3b-7bd2-4cfe-a733-32cdde1fae76" name="Program Body" version="0.2" dateCreated="03/17/2021 18:19:24" dateLastModified="03/17/2021 18:26:24" trackingId="16dd0057-4df0-447a-a2f1-7b87f0426808" hash="3a1a4adaf3e91fe5e1da2bedddf93b93">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="d086a02c-d152-4d96-aea3-47dfc189f30d" name="Source" version="0" dateCreated="03/17/2021 18:19:24" trackingId="c94fac56-f8ef-4d39-9090-12582be9d0a3">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="f0327e1c-b07a-4ffd-b04c-0130f1f645df" name="PouBodySourceHolder" version="0" dateCreated="03/17/2021 18:19:24" trackingId="e1115269-a102-4573-8437-00dc5039dfc8">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
@@ -3794,9 +3825,13 @@
           <Entity type="Group" subtype="NexIecTasks" id="99ab5863-d42e-478f-90cb-5e916b62f533" name="Tasks" version="0" dateCreated="05/18/2020 08:44:40" dateLastModified="03/14/2021 23:30:22" trackingId="21b303c1-6b75-441c-b552-552a0086c19b" DN="Tasks">
             <AccessInfos />
             <ChildEntities>
-              <Entity type="NexTask" subtype="Base" id="1dfe068e-2770-4df4-b8c3-9e587914e7b1" name="PrimaryTask" version="0" dateCreated="05/18/2020 08:44:40" dateLastModified="03/17/2021 17:49:48" trackingId="f4f769e1-1b43-4130-83e9-91e2bf525c8f" DN="PrimaryTask" hash="9e1edc5b45ac71c9d452915b5fcf69dd">
+              <Entity type="NexTask" subtype="Base" id="1dfe068e-2770-4df4-b8c3-9e587914e7b1" name="PrimaryTask" version="0" dateCreated="05/18/2020 08:44:40" dateLastModified="03/17/2021 18:26:24" trackingId="f4f769e1-1b43-4130-83e9-91e2bf525c8f" DN="PrimaryTask" hash="48aa8b144399354a8087d91e8490adf5">
                 <AccessInfos />
                 <ChildEntities>
+                  <Entity type="NexAssociatedProgram" subtype="StructuredText" id="27d0902c-5583-4bf8-a714-12e6d8d8df03" name="PRG_CUSTOM_MCODE" version="0" dateCreated="03/17/2021 18:25:28" dateLastModified="03/17/2021 18:26:24" trackingId="64492f37-d570-4721-9ba9-852d8b80066c" DN="PRG_CUSTOM_MCODE" hash="ea8b772b6f88008ec3ed3f6f7fbdee81">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
                   <Entity type="NexAssociatedProgram" subtype="MultipartLadder" id="e7270d69-1d9b-454e-8495-5e10c0e33415" name="SystemCtrl" version="0" dateCreated="03/16/2021 16:38:53" dateLastModified="03/16/2021 17:03:55" trackingId="162492a8-875c-4081-8d61-a82fce2d5e3f" DN="SystemCtrl" hash="9f14df932d6d5ff713ec63dcd45fb722">
                     <AccessInfos />
                     <ChildEntities />
