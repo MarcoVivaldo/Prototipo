@@ -3,7 +3,8 @@ _EN=Variables
 +GN=VAR	GVT=DefaultGroup
 ++D=TON	N=DelayBobinatura	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
-++D=BOOL	N=I_xExecute	Ord=0	G=VAR_INPUT
-++D=BOOL	N=Q_xDone	Ord=1	G=VAR_OUTPUT
-++D=BOOL	N=Q_xError	Ord=2	G=VAR_OUTPUT
+++D=_sAXIS_REF	N=IQ_Axis	Ord=0	Const=1	G=VAR_IN_OUT
+++D=BOOL	N=I_xExecute	Ord=1	G=VAR_INPUT
+++D=BOOL	N=Q_xDone	Ord=2	G=VAR_OUTPUT
+++D=BOOL	N=Q_xError	Ord=3	G=VAR_OUTPUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
