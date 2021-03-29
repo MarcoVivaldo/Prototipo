@@ -1,0 +1,516 @@
+Sub btCalcola_Click(Key, x, y)
+
+   '********  Selezione del tipo di chiusura Winding  ******
+    Select (PCVN6)
+
+
+       '********   Metodo Libero *******
+        Case (0)
+           'Posizione Inizio Bobinatura
+            PCVQ4 = 0
+           'Quota Mandrino per Cambio Passo
+            PCVQ5 = 0
+           'Nuovo passo per spalmatura Spire per FrontBack
+            PCVQ6 = 0
+
+
+           'P
+           '********   Metodo Front (fine sul fine della traversa) *******
+        Case (1)
+
+            If PCVN13 == 1
+                LunghezzaRampa = PCVQ14
+                VelocitaFineRampa = PCVQ15 / 100
+                TriangoloRampa = ((LunghezzaRampa - (LunghezzaRampa * VelocitaFineRampa)) * LunghezzaRampa) / 2
+                RettangoloRampa = LunghezzaRampa * (LunghezzaRampa * VelocitaFineRampa)
+                FattoreRampa = TriangoloRampa + RettangoloRampa
+                QuadratoRampa = LunghezzaRampa * LunghezzaRampa
+                PerditeRampa = ((1 - (FattoreRampa / QuadratoRampa)) * LunghezzaRampa)
+                CorsaTataleX = PCVQ1 * PCVQ9
+                PerditeX = ((PCVQ9 * 2)) * PerditeRampa)
+                Strati = (CorsaTataleX - PerditeX) / PCVQ1
+            Else
+               'Numero Strati Reali
+                Strati = PCVQ9
+            EndIf
+
+
+           'Spire per strato
+            SpirePerStrato = PCVQ8
+
+           'Numero di strati approssimati per difetto
+            StratiInt = Int(Strati)
+
+
+           'Strati di resto per fine Front
+            DifferenzaStrati = (Strati - StratiInt)
+
+           'Differenza Spire
+            DifferenzaSpire = SpirePerStrato * DifferenzaStrati
+
+           ' Determinazione se il numero di strati e pari o dispari per il calcolo Front
+            StratiIntMezzi = Int(StratiInt / 2)
+
+           'PariDispari = 0 pari =1 dispari
+            PariDispari = StratiInt - (StratiIntMezzi * 2)
+
+           'Calcolo Front se gli strati sono minore di 2
+            If (Strati < 2)
+               'Strati Minore di 2 con Resto
+                If (DifferenzaStrati > 0)
+                   '**** Calcolo Quota Cambio Passo ****
+
+                   'QuotaCambioPasso = Traversa/PassoSpire
+                    PCVQ5 = PCVQ1 / PCVQ3
+
+                   'Calcolo Nuovo passo per fine Front
+                   'NuovoPassoBobinatura=(Traversa*2)/(NumeroSpiretotali-QuotaMandrinoCambioPasso)
+                    PCVQ6 = (PCVQ1 * 2) / (PCVQ2 - (PCVQ5))
+
+
+                Else
+                   'Strati minore di 2 senza resto
+
+                   'Quota Mandrino per Cambio Passo
+                    PCVQ5 = 0
+
+                   'Nuovo passo per spalmatura Spire per FrontBack
+                    PCVQ6 = 0
+
+                EndIf
+
+            Else
+               'Calcolo Front se gli strati sono uguali o maggiore di 2 con Strati di numero Pari
+                If (PariDispari == 0)
+                   'Numero di Strati Pari Senza Resto
+                    If (DifferenzaStrati == 0)
+
+                       'Strato al quale cambiare passo con strati maggiore o uguale a 2 senza Resto di Spire
+                        StratiPrimadiCambioPasso = (StratiInt - 1)
+
+                       'Quota Mandrino per Cambio Passo
+                        PCVQ5 = (StratiPrimadiCambioPasso * SpirePerStrato)
+
+                       'Nuovo passo per spalmatura Spire per FrontBack
+                        PCVQ6 = (PCVQ3 * 2)
+
+
+
+                    EndIf
+
+                   'Numero di Strati Pari ConResto Resto
+                    If (DifferenzaStrati > 0)
+
+                       'Strato al quale cambiare passo con strati maggiore o uguale a 2 senza Resto di Spire
+                        StratiPrimadiCambioPasso = (StratiInt - 1)
+
+                       'Quota Mandrino per Cambio Passo
+                        PCVQ5 = (StratiPrimadiCambioPasso * SpirePerStrato)
+
+                       'Nuovo passo per spalmatura Spire per FrontBack
+                        PCVQ6 = (PCVQ1 * 2) / ((1 + DifferenzaStrati) * SpirePerStrato)
+
+
+                       'p
+                    EndIf
+                   'p
+
+                Else
+                   'Calcolo Front se gli strati sono uguali o maggiore di 2 con Strati di numero Pari
+
+                   'Numero di Strati Dispari Con Resto
+                    If (DifferenzaStrati > 0)
+
+                       'Strato al quale cambiare passo con strati maggiore o uguale a 2 senza Resto di Spire
+                       'StratiPrimadiCambioPasso = (StratiInt)
+                       'Prova Per Gianni spalmare uno strato prima
+                        StratiPrimadiCambioPasso = (StratiInt - 1)
+
+                       'Quota Mandrino per Cambio Passo
+                        PCVQ5 = (StratiPrimadiCambioPasso * SpirePerStrato)
+
+                       'Nuovo passo per spalmatura Spire per FrontBack
+                       'PCVQ6 = (PCVQ1 * 2) / DifferenzaSpire
+
+                       'Prova Per Gianni spalmare uno strato prima
+                        PCVQ6 = (PCVQ1 * 3) / (DifferenzaSpire + SpirePerStrato))
+
+
+
+                    EndIf
+
+                   'Numero di Strati Dispari Senza Resto
+                    If (DifferenzaStrati == 0)
+
+                       'Quota Mandrino per Cambio Passo
+                        PCVQ5 = 0
+
+                       'Nuovo passo per spalmatura Spire per FrontBack
+                        PCVQ6 = 0
+
+                    EndIf
+                EndIf
+            EndIf
+
+
+
+
+           '********   Metodo Back (fine sul fine della traversa) *******
+        Case (2)
+
+            If PCVN13 == 1
+                LunghezzaRampa = PCVQ14
+                VelocitaFineRampa = PCVQ15 / 100
+                TriangoloRampa = ((LunghezzaRampa - (LunghezzaRampa * VelocitaFineRampa)) * LunghezzaRampa) / 2
+                RettangoloRampa = LunghezzaRampa * (LunghezzaRampa * VelocitaFineRampa)
+                FattoreRampa = TriangoloRampa + RettangoloRampa
+                QuadratoRampa = LunghezzaRampa * LunghezzaRampa
+                PerditeRampa = ((1 - (FattoreRampa / QuadratoRampa)) * LunghezzaRampa)
+                CorsaTataleX = PCVQ1 * PCVQ9
+                PerditeX = ((PCVQ9 * 2)) * PerditeRampa)
+                Strati = (CorsaTataleX - PerditeX) / PCVQ1
+            Else
+               'Numero Strati Reali
+                Strati = PCVQ9
+            EndIf
+
+
+           'Spire per strato
+            SpirePerStrato = PCVQ8
+
+           'Numero di strati approssimati per difetto
+            StratiInt = Int(Strati)
+
+           'Strati di resto per fine Back
+            DifferenzaStrati = (Strati - StratiInt)
+
+           'Differenza Spire
+            DifferenzaSpire = SpirePerStrato * DifferenzaStrati
+
+           ' Determinazione se il numero di strati e pari o dispari per il calcolo Back
+            StratiIntMezzi = Int(StratiInt / 2)
+
+           'PariDispari = 0 pari =1 dispari
+            PariDispari = StratiInt - (StratiIntMezzi * 2)
+
+           'Calcolo Back se gli strati sono minore di 2
+            If (Strati < 2)
+               'Strati Minore di 2 con Resto
+                If (DifferenzaStrati > 0)
+
+                   'Strati minore di 2 senza resto
+
+                   'Quota Mandrino per Cambio Passo
+                    PCVQ5 = 0
+
+                   'Nuovo passo per spalmatura Spire per FrontBack
+                    PCVQ6 = 0
+
+                Else
+                   '**** Calcolo Quota Cambio Passo ****
+
+                   'QuotaCambioPasso = Traversa/PassoSpire
+                    PCVQ5 = PCVQ1 / PCVQ3
+
+                   'Calcolo Nuovo passo per fine Front
+                   'NuovoPassoBobinatura=(Traversa*2)/(NumeroSpiretotali-QuotaMandrinoCambioPasso)
+                    If (PCVQ9 > 1)
+                        PCVQ6 = (PCVQ1 * 2) / (PCVQ2 - (PCVQ5))
+                    EndIf
+                EndIf
+
+            Else
+               'Calcolo Back se gli strati sono uguali o maggiore di 2 con Strati di numero Pari
+                If (PariDispari == 0)
+
+                   'Numero di Strati Pari Senza Resto
+                    If (DifferenzaStrati == 0)
+
+                       'Quota Mandrino per Cambio Passo
+                        PCVQ5 = 0
+
+                       'Nuovo passo per spalmatura Spire per FrontBack
+                        PCVQ6 = 0
+
+                    EndIf
+
+                   'Numero di Strati Pari ConResto Resto
+                    If (DifferenzaStrati > 0)
+
+                       'Strato al quale cambiare passo con strati maggiore o uguale a 2 senza Resto di Spire
+                       'StratiPrimadiCambioPasso = (StratiInt)
+                       'Prova Per Gianni spalmare uno strato prima
+                        StratiPrimadiCambioPasso = (StratiInt - 1)
+
+                       'Quota Mandrino per Cambio Passo
+                        PCVQ5 = (StratiPrimadiCambioPasso * SpirePerStrato)
+
+                       'Nuovo passo per spalmatura Spire per FrontBack
+                       ' PCVQ6 = (PCVQ1 * 2) / DifferenzaSpire
+                       'Prova Per Gianni spalmare uno strato prima
+                        PCVQ6 = (PCVQ1 * 3) / (DifferenzaSpire + SpirePerStrato))
+                       'p
+
+
+                    EndIf
+                   'p
+
+                Else
+                   'Calcolo Back se gli strati sono uguali o maggiore di 2 con Strati di numero Pari
+
+                   'Numero di Strati Dispari Con Resto
+                    If (DifferenzaStrati > 0)
+
+                       'Strato al quale cambiare passo con strati maggiore o uguale a 2 senza Resto di Spire
+                        StratiPrimadiCambioPasso = (StratiInt - 1)
+
+                       'Quota Mandrino per Cambio Passo
+                        PCVQ5 = (StratiPrimadiCambioPasso * SpirePerStrato)
+
+                       'Nuovo passo per spalmatura Spire per FrontBack
+                        PCVQ6 = (PCVQ1 * 2) / ((1 + DifferenzaStrati) * SpirePerStrato)
+                       'p
+
+
+
+                    EndIf
+
+                   'Numero di Strati Dispari Senza Resto
+                    If (DifferenzaStrati == 0)
+
+                       'Strato al quale cambiare passo con strati maggiore o uguale a 2 senza Resto di Spire
+                        StratiPrimadiCambioPasso = (StratiInt - 1)
+
+                       'Quota Mandrino per Cambio Passo
+                        PCVQ5 = (StratiPrimadiCambioPasso * SpirePerStrato)
+
+                       'Nuovo passo per spalmatura Spire per FrontBack
+                        PCVQ6 = (PCVQ3 * 2)
+
+
+
+                    EndIf
+                EndIf
+            EndIf
+
+    EndSelect
+
+   'Impossibile eseguire il calcolo con numero di strati minore di 1
+    If (PCVQ9 < 1)
+
+       'Quota Mandrino per Cambio Passo
+        PCVQ5 = 0
+
+       'Nuovo passo per spalmatura Spire per FrontBack
+        PCVQ6 = 0
+        MessageBox(GetDBText("564"), 48)
+
+    EndIf
+
+   ' SetProperty("53", "Visible", 0)
+
+    Refresh()
+   'p
+
+   'Quota Inizio Bobinatura sempre a zero
+    PCVQ4 = 0
+   'Flag d'inversione sempre a zero
+   ' PCVB5 = 0
+
+
+EndSub
+
+Sub btMaxAccVel2_Click(Key, x, y)
+
+   'Selezione della Massima velocita e accelerazione
+    If (PCVN3 == 1)
+
+       'Velocita Mandrino in RPM
+        PCVQ10 = 20
+
+       ' Accellerazione %
+        PCVN5 = 100
+    EndIf
+
+   'P
+EndSub
+
+Sub Wiring_Load(Key)
+
+   'Inizializzazione dei parametri di Winding
+
+
+   '********** Traverse Rocchetto  *********
+    If (PCVQ1 == 0)
+        PCVQ1 = 1
+    EndIf
+
+   '********** Numero Spire **********
+    If (PCVQ2 == 0)
+        PCVQ2 = 1
+    EndIf
+
+   '********** Passo Bobinatura **********
+    If (PCVQ3 == 0)
+        PCVQ3 = 1
+    EndIf
+
+
+   '********** Passo Bobinatura **********
+    If (PCVQ8 == 0)
+        PCVQ8 = 1
+    EndIf
+
+   '********** Passo Bobinatura **********
+    If (PCVQ9 == 0)
+        PCVQ9 = 1
+    EndIf
+
+   '********** Distanza soglia Inversione Con Rampa **********
+    If (PCVQ14 == 0)
+        PCVQ14 = 1
+    EndIf
+
+   '********** Velocita Minima Per Inversione Con Rampa **********
+    If (PCVQ15 == 0)
+        PCVQ15 = 0.05
+    EndIf
+
+
+
+
+
+
+   'Velocità Mandrino
+    If (PCVQ10 == 0)
+        PCVQ10 = 1
+    EndIf
+
+   'Accellerazione
+    If (PCVN5 == 0)
+        PCVN5 = 1
+    EndIf
+
+EndSub
+
+Sub Wiring_Read(Key)
+
+
+
+   '**  Conversione della velocita da RPM impostata dall'operatore a % per CN **
+
+    VelocitaRPM = PCVQ10
+    VelocitaRPMMax = 20000.0
+    VelocitaPercentuale = (PCVQ10 / VelocitaRPMMax) * (100000.0)
+    PCVQ11 = VelocitaPercentuale
+
+   '****************************************************************************
+
+
+   '************  Switch della selezione del metodo di costruzione *************
+   '******* Viene abilitato il focus sul parametro che l'operatore puo *********
+   '****************** impostare secondo il motodo di calcolo ******************
+
+    Select (PCVN07)
+
+        Case (0)
+           'Calcolo Rispetto a passo Spire
+            SetProperty("20", "BackColor", &H00FFFF80)
+            SetProperty("17", "BackColor", &H00CFCFCF)
+            SetProperty("29", "BackColor", &H00CFCFCF)
+            SetProperty("20", "Focus", 1)
+            SetProperty("17", "Focus", 0)
+            SetProperty("29", "Focus", 0)
+
+        Case (1)
+           'Calcolo rispetto a Spire Per Strato
+            SetProperty("17", "BackColor", &H00FFFF80)
+            SetProperty("20", "BackColor", &H00CFCFCF)
+            SetProperty("29", "BackColor", &H00CFCFCF)
+            SetProperty("20", "Focus", 0)
+            SetProperty("17", "Focus", 1)
+            SetProperty("29", "Focus", 0)
+
+        Case (2)
+           'Calcolo rispetto a Numero Strati
+            SetProperty("29", "BackColor", &H00FFFF80)
+            SetProperty("17", "BackColor", &H00CFCFCF)
+            SetProperty("20", "BackColor", &H00CFCFCF)
+            SetProperty("20", "Focus", 0)
+            SetProperty("17", "Focus", 0)
+            SetProperty("29", "Focus", 1)
+
+    EndSelect
+
+   '********************************************************************************
+
+    Select (PCVN07)
+
+       '******** Calcolo Rispetto a passo Spire *******
+        Case (0)
+           'Spire per Strato
+            PCVQ8 = PCVQ1 / PCVQ3
+           'Numero Strati
+            PCVQ9 = PCVQ2 / PCVQ8
+
+           '******** Calcolo Rispetto a Spire per strato *******
+        Case (1)
+           'Calcolo rispetto a Spire Per Strato
+
+           'Numero Strati
+            PCVQ9 = PCVQ2 / PCVQ8
+
+           'Passo Spire
+            PCVQ3 = PCVQ1 / PCVQ8
+
+           '******** Calcolo Rispetto a Numero Strati *******
+        Case (2)
+           'Calcolo rispetto a Numero Strati
+
+           'Spire per Strato
+            PCVQ8 = PCVQ2 / PCVQ9
+           'Passo Spire
+            PCVQ3 = PCVQ1 / PCVQ8
+
+    EndSelect
+
+   'Selezione Modalità Con Rampa
+    If (PCVN13 == 1)
+
+        PCVQ13 = 1
+    Else
+        PCVQ13 = 0
+    EndIf
+
+    SetProperty("53", "Visible", 0)
+
+   'Passo Spire per Bobinatura
+   'Genera Anomalia Per Passo Spire Troppo Grande
+    If (PCVQ3 => 2)
+        SetProperty("20", "BackColor", &H000000FF)
+        SetProperty("53", "Visible", 1)
+    EndIf
+
+   'Nuovo passo per spalmatura Spire per FrontBack
+   'Genera Anomalia Per Passo Spalmatura Troppo Grande
+    If (PCVQ6 => 2)
+        SetProperty("44", "BackColor", &H000000FF)
+        SetProperty("53", "Visible", 1)
+    Else
+        SetProperty("44", "BackColor", &H0080FFFF)
+    EndIf
+
+   'Numero Strati < 2 Impossibile Calcolare Front Back
+    If (PCVN6 > 0)
+        If (PCVQ9 < 2)
+            SetProperty("29", "BackColor", &H000000FF)
+            SetProperty("53", "Visible", 1)
+        EndIf
+    EndIf
+
+    Refresh()
+
+   ' SetProperty("53", "Visible", 0)
+
+EndSub
+

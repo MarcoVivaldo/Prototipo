@@ -44,6 +44,6 @@
   </PdoM>
   <PdoM PMIndex="5633" PMN="RxVariables" PMIOD="O">
     <Pdo PID="0e337a80-2837-4538-bb09-540dcf88aa44" Index="28673" SIndex="1" Name="I_xReset" DSC="" PBit="8" PD="O" PV="V" PBO="720" BTBL="1" LEMI="14" SPId="00000000-0000-0000-0000-000000000000" PDT="BOOL" CipType="None" />
-    <Pdo PID="f55647d0-949a-4d74-9300-ade9728d206b" Index="28673" SIndex="2" Name="Padding" DSC="" PBit="8" PD="O" PV="H" PBO="728" BTBL="8" LEMI="0" SPId="00000000-0000-0000-0000-000000000000" PDT="ARRAY [0..0] OF BYTE" CipType="None" />
+    <Pdo PID="86efceeb-45bb-4b17-9dbc-f373e9a5d06f" Index="28673" SIndex="2" Name="Padding" DSC="" PBit="8" PD="O" PV="H" PBO="728" BTBL="8" LEMI="0" SPId="00000000-0000-0000-0000-000000000000" PDT="ARRAY [0..0] OF BYTE" CipType="None" />
   </PdoM>
 </Module>

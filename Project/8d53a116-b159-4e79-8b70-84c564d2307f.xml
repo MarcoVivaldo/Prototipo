@@ -1756,7 +1756,7 @@
   </NexAxisStopOptions>
   <NexAxisLimits>
     <NexAxisSoftwareLimitMode>
-      <CurrentValue>NexAxisInvalid</CurrentValue>
+      <CurrentValue>NexAxisValidForSpecifiedValueImmediateStop</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>NexAxisInvalid</DefaultValue>
@@ -1769,8 +1769,8 @@
       </Options>
     </NexAxisSoftwareLimitMode>
     <NexAxisPositiveSoftwareLimit>
-      <CurrentValue>2147483647</CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <CurrentValue>91</CurrentValue>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>2147483647</DefaultValue>
       <Options />
@@ -1783,8 +1783,8 @@
       <Options />
     </NexAxisPositiveSoftwareLimitValue2>
     <NexAxisNegativeSoftwareLimit>
-      <CurrentValue>-2147483648</CurrentValue>
-      <IsEnabled>false</IsEnabled>
+      <CurrentValue>-23</CurrentValue>
+      <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>-2147483648</DefaultValue>
       <Options />

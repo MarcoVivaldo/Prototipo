@@ -15,8 +15,8 @@
       <Enabled>true</Enabled>
       <SymbolId>entity://nextask.base.1dfe068e-2770-4df4-b8c3-9e587914e7b1/PRG_CUSTOM_MCODE/diStato%3ADINT</SymbolId>
       <SymbolName>PRG_CUSTOM_MCODE.diStato</SymbolName>
-      <Condition>GreaterThen</Condition>
-      <Value>3</Value>
+      <Condition>EqualTo</Condition>
+      <Value>41</Value>
     </NexDataTraceTriggerModel>
   </NexDataTraceConfigModel>
 </data>

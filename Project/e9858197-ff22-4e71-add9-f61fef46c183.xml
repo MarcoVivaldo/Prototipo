@@ -26,6 +26,8 @@ _EN=Variables
 ++D=MC_Stop	N=STOP_MANDRINO	Ord=1	G=VAR	AOE=1
 ++D=LREAL	N=lrStartPosX	Ord=2	G=VAR	AOE=1
 ++D=LREAL	N=lrEndPosX	Ord=3	G=VAR	AOE=1
+++D=LREAL	N=lrEncPos	Ord=4	G=VAR	AOE=1
+++D=LREAL	N=lrStartEncPos	Ord=5	G=VAR	AOE=1
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=ARRAY[0..7] OF _sCNC_COORD_REF	N=_CNC_Coord	Const=1	G=VAR_EXTERNAL
 ++D=ARRAY[0..7] OF _sCNC_CTR_INPUTS_REF	N=CncCsInputRef	G=VAR_EXTERNAL
