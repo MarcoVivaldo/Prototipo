@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <NexDataTraceConfigModel>
+    <TaskName>BaseControl</TaskName>
+    <TraceId>0</TraceId>
+    <SampleTimingType>cyclic</SampleTimingType>
+    <SamplingInterval>1</SamplingInterval>
+    <SamplingTime>1</SamplingTime>
+    <PostTriggerDataRatio>50</PostTriggerDataRatio>
+    <StartOnRun>False</StartOnRun>
+    <EnableRealTimeDisplay>False</EnableRealTimeDisplay>
+    <BehaviorWhenMax>Stop</BehaviorWhenMax>
+    <NumSamplingRecords>10000</NumSamplingRecords>
+    <NexDataTraceTriggerModel>
+      <Enabled>true</Enabled>
+      <SymbolId>entity://nextask.base.1dfe068e-2770-4df4-b8c3-9e587914e7b1/PRG_CUSTOM_MCODE/diStato%3ADINT</SymbolId>
+      <SymbolName>PRG_CUSTOM_MCODE.diStato</SymbolName>
+      <Condition>GreaterThen</Condition>
+      <Value>3</Value>
+    </NexDataTraceTriggerModel>
+  </NexDataTraceConfigModel>
+</data>

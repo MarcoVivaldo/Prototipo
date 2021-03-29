@@ -1,6 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter index="2200.00" value="1" />
+  <parameter index="3001.01" value="59" />
+  <parameter index="3011.03" value="0" />
+  <parameter index="3011.04" value="536" />
+  <parameter index="3041.10" value="1" />
+  <parameter index="3213.01" value="116" />
+  <parameter index="3214.01" value="116" />
+  <parameter index="3223.01" value="536" />
+  <parameter index="3223.02" value="126" />
+  <parameter index="3224.01" value="536" />
+  <parameter index="3224.02" value="126" />
+  <parameter index="3233.02" value="3752" />
+  <parameter index="3234.02" value="3752" />
+  <parameter index="3310.01" value="3307" />
+  <parameter index="3310.02" value="141" />
+  <parameter index="3310.03" value="134" />
+  <parameter index="3310.04" value="134" />
+  <parameter index="3B80.01" value="0" />
   <parameter index="4630.01" value="0" />
   <parameter index="4631.01" value="0" />
   <parameter index="4632.01" value="0" />
