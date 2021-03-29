@@ -1372,7 +1372,7 @@
       </Options>
     </NexAxisReducerUse>
     <NexAxisUnitsDenominator>
-      <CurrentValue>360</CurrentValue>
+      <CurrentValue>1</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>10000</DefaultValue>
@@ -1430,7 +1430,7 @@
   </NexAxisScaling>
   <NexAxisDynamics>
     <NexAxisMaxVelocity>
-      <CurrentValue>36000</CurrentValue>
+      <CurrentValue>100</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>400000000</DefaultValue>
@@ -1472,7 +1472,7 @@
       <Options />
     </NexAxisStartVelocityValue2>
     <NexAxisMaxJogVelocity>
-      <CurrentValue>10000</CurrentValue>
+      <CurrentValue>50</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>1000000</DefaultValue>
